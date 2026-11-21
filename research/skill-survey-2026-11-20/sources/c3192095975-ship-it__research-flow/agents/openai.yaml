@@ -1,6 +1,0 @@
-interface:
-  display_name: "Research Flow"
-  short_description: "Discover skills and orchestrate research phases"
-  default_prompt: "Use $research-flow to discover installed research skills, apply any user overrides and dependency preflight, build a capability map, lock one route and phase, and activate only the required primary skill."
-policy:
-  allow_implicit_invocation: true

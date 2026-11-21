@@ -1,7 +1,0 @@
-interface:
-  display_name: "MIL Paper Advisor"
-  short_description: "MIL-style paper story architect, polisher, ablation planner, and figure prompt designer."
-  default_prompt: "Use $mil-paper-advisor to diagnose this paper draft's story chain, Level-2 subsection flow, experiments, and figures."
-
-policy:
-  allow_implicit_invocation: true

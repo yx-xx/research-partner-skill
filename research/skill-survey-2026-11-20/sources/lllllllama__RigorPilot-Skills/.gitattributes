@@ -1,2 +1,0 @@
-# Preserve byte-level provenance of published evidence and upstream snapshots.
-benchmark_outputs/** -text -whitespace
