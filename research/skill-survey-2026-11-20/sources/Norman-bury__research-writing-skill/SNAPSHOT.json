@@ -1,0 +1,401 @@
+{
+  "repository": "Norman-bury/research-writing-skill",
+  "branch": "main",
+  "commit": "6f7959554b4614d879d79cb4ece9ed04a7c8a88c",
+  "commit_date_utc": "2026-06-10T04:06:19Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-03-04T03:09:32Z",
+  "pushed_at_utc": "2026-06-10T04:06:29Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 23724,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "status": "downloaded",
+  "source_url": "https://github.com/Norman-bury/research-writing-skill",
+  "archive_url": "https://codeload.github.com/Norman-bury/research-writing-skill/tar.gz/6f7959554b46",
+  "archive_sha256": "9c16c41bb85f6aecc3981765bdf1341a9274d4c7a54b4c6664a1896b9468d45b",
+  "archive_bytes": 147860,
+  "selection_policy": "Text/source files up to 2 MiB each; non-regular files, binaries, and dependency caches omitted. Snapshot is for reading, not installed.",
+  "retained_files": 66,
+  "retained_bytes": 364803,
+  "skill_entry_files": [
+    "SKILL.md",
+    "skills/brainstorming-research/SKILL.md",
+    "skills/environment-setup/SKILL.md",
+    "skills/evidence-driven-writing/SKILL.md",
+    "skills/experiment-results-planning/SKILL.md",
+    "skills/figures-diagram/SKILL.md",
+    "skills/figures-python/SKILL.md",
+    "skills/latex-output/SKILL.md",
+    "skills/literature-review/SKILL.md",
+    "skills/paper-orchestration/SKILL.md",
+    "skills/peer-review/SKILL.md",
+    "skills/prompts-collection/SKILL.md",
+    "skills/statistical-analysis/SKILL.md",
+    "skills/using-research-writing/SKILL.md",
+    "skills/verification/SKILL.md",
+    "skills/writing-chapters/SKILL.md",
+    "skills/writing-core/SKILL.md",
+    "skills/writing-humanities/SKILL.md",
+    "skills/writing-law/SKILL.md",
+    "skills/writing-medical/SKILL.md"
+  ],
+  "skipped_files": [
+    {
+      "path": "hooks/run-hook.cmd",
+      "bytes": 796
+    },
+    {
+      "path": "hooks/session-start",
+      "bytes": 1481
+    },
+    {
+      "path": "scripts/check_skill_integrity.ps1",
+      "bytes": 6049
+    },
+    {
+      "path": "scripts/init_plan.ps1",
+      "bytes": 997
+    },
+    {
+      "path": "scripts/research_quality_gate.ps1",
+      "bytes": 11770
+    },
+    {
+      "path": "scripts/style_check.ps1",
+      "bytes": 2693
+    }
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 731,
+      "sha256": "412d2fd5d74051dccbb888709e1d68a91a1e24c22235b4e974bba7664fc4a0bf"
+    },
+    {
+      "path": ".codex/INSTALL.md",
+      "bytes": 1545,
+      "sha256": "550adae03d4fdaeacdf51401c8ae2c4267279e9e4f622a58f852dc01d8f55e66"
+    },
+    {
+      "path": ".cursor-plugin/plugin.json",
+      "bytes": 738,
+      "sha256": "63729e6e2a9d5f320e24b31b54688b7ec9979b8887d00541f14422d0ac55f0bd"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 83,
+      "sha256": "b76a359544afff50aca2f26a047a072826433c52392786d16579a870310d3e29"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 203,
+      "sha256": "8aa87904b86ad5bb9955f6227dfde9289c7ae9699fb81f20a1b83b95c09ccf18"
+    },
+    {
+      "path": ".opencode/INSTALL.md",
+      "bytes": 1692,
+      "sha256": "94eb748b1ce8d26ca7e097ecdc7f2d04cb6f28cba4eb8078316629a8c9928d14"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1868,
+      "sha256": "d1751b5abc2fc4c72821f5bb04598d72ced5ae29470c3d736d97a7e3f8892e4b"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 4106,
+      "sha256": "d155980625802ee1c116e93ef1539f582f169c121ecdd7bd6cf800ce39950ce1"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 5115,
+      "sha256": "232f1f5f0ab08d11d180a43f9f70fff1e971ead3e5cb31807827a149014cf76f"
+    },
+    {
+      "path": "GEMINI.md",
+      "bytes": 42,
+      "sha256": "f7fa2b94b52ca9c6d5aa4e0c96277f1303afc1aa5f9fc23c574164b8d672ebf7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "de78a5afd0f9088bfaa894035267c01c3df8874b3213657504ff8835afd03be1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11311,
+      "sha256": "6747b4640417324e4a4ea284b35c6a6d388d5465bb49ef8bdb10c02bdf2b4c16"
+    },
+    {
+      "path": "README_EN.md",
+      "bytes": 13006,
+      "sha256": "3ba68bd4833d2dad7dfe7bcbdde011e3a5ef6c54351c3041ba85beb371455238"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8130,
+      "sha256": "53e605e10c06dff2df87be260d5642d7de1c8e833403b6e0312ff864a7997586"
+    },
+    {
+      "path": "hooks/hooks-cursor.json",
+      "bytes": 124,
+      "sha256": "7ea8854c2b2b1ab21ede07575c4d8a624e877f4880cdeab13b66bcf8ac5653d9"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "bytes": 305,
+      "sha256": "01616c57b96cc234cc984e77d2fc241dfd0e0bfacda54fe54589cd669a0d998e"
+    },
+    {
+      "path": "latex-templates/README.md",
+      "bytes": 1661,
+      "sha256": "08adca0eb985b46d5ad258935906903fa694d9867bb532fd2d170122c47b2ee2"
+    },
+    {
+      "path": "modules/environment-setup.md",
+      "bytes": 4410,
+      "sha256": "3bed19003d1a9d4db1802deeca7712fe0f7abcb9f743d4e4f80c356992fc6fcb"
+    },
+    {
+      "path": "modules/figures-diagram.md",
+      "bytes": 9381,
+      "sha256": "db93210524b0a2430da48d5da75054e350a9f37aed6e202451334969e2bc8e72"
+    },
+    {
+      "path": "modules/figures-python.md",
+      "bytes": 9912,
+      "sha256": "b83ca4da1d219701a8be7344a8783ecf89b98d2eaebda9218ad872dabaa4f7a3"
+    },
+    {
+      "path": "modules/latex-guide.md",
+      "bytes": 9381,
+      "sha256": "1677a1b17035a4a652e91cc68da35769a38a5c2e4a3366899238b492ceffac99"
+    },
+    {
+      "path": "modules/literature-review.md",
+      "bytes": 8577,
+      "sha256": "dab57457292048f9d8507e1900cbd0cb00fae1d82308a8b7cfa51970f5e8bfd2"
+    },
+    {
+      "path": "modules/module-guide.md",
+      "bytes": 3473,
+      "sha256": "1213a5259f98813786c70a12f52887896f337d8f9bd2a1ffae13d2de7796b3e5"
+    },
+    {
+      "path": "modules/peer-review.md",
+      "bytes": 11533,
+      "sha256": "0ed96787a392e88b6bb1d8bf93a12d98e9ac4b8cd7dac593a14a6142f8dd803a"
+    },
+    {
+      "path": "modules/prompts-collection.md",
+      "bytes": 28063,
+      "sha256": "d0a6eb50650b90f429713f7ccb1ed710e342c79b5714540b570a85611e9341c1"
+    },
+    {
+      "path": "modules/statistical-analysis.md",
+      "bytes": 9874,
+      "sha256": "7c5c3b7f13fc150a1ae06454b72e0b4ad63e5fa741eab25c1284d560503c5150"
+    },
+    {
+      "path": "modules/workflow-lifecycle.md",
+      "bytes": 6631,
+      "sha256": "805f3b572dafc749ec439e2ced6d65ef588d1a3be48e71d5d1f8520b9cb0b3fe"
+    },
+    {
+      "path": "modules/writing-core.md",
+      "bytes": 3456,
+      "sha256": "e685eac235686765975d29acf1bb6d3d3e550fec96fae3b90f1eaff269b790dc"
+    },
+    {
+      "path": "modules/writing-humanities.md",
+      "bytes": 6359,
+      "sha256": "9fd61a63c4f53cca13aab7751b8c390d11ddd73798e77718406a1d655ed22e56"
+    },
+    {
+      "path": "modules/writing-law.md",
+      "bytes": 7928,
+      "sha256": "6380a5e26c7931f8e4b7e83358ccda15e65cbae2df586cac19b63ba22413efd8"
+    },
+    {
+      "path": "modules/writing-medical.md",
+      "bytes": 6952,
+      "sha256": "5d8e1bb4b1ef2fb4b26df2c1f4a56c039f1b6055e869f20562ef3a9c8dde8f61"
+    },
+    {
+      "path": "plan-template/notes.md",
+      "bytes": 887,
+      "sha256": "d776e599e896f4b979ccf261d01f6b7df4f1aa2e29ea70deb14c2b82a6aaa339"
+    },
+    {
+      "path": "plan-template/outline.md",
+      "bytes": 1050,
+      "sha256": "4d32043faac654057fbe392827f2925ef723acb0cd1433a8bcc114b6e8003a32"
+    },
+    {
+      "path": "plan-template/progress.md",
+      "bytes": 1754,
+      "sha256": "ff18c72dee00bfbe0b1f2104b98a9d1d1fde7035952f267a5f84b004bd25090c"
+    },
+    {
+      "path": "plan-template/project-overview.md",
+      "bytes": 1580,
+      "sha256": "fc619bc18793e0a32c0e1cf2d762d9a503b978f636d04880762ec1ab7be73c3c"
+    },
+    {
+      "path": "plan-template/stage-gates.md",
+      "bytes": 3256,
+      "sha256": "1a9eae83845c0e0eb4e1dcd8c2023bd7d88584acc3e0f7b0eaa22ce257544645"
+    },
+    {
+      "path": "scripts/init_plan.sh",
+      "bytes": 821,
+      "sha256": "26a02de69f2d1468d6cac9ecd9677bb8d2231ea87fb3a9f8448576a9b9c1f1d4"
+    },
+    {
+      "path": "scripts/pdf_parser.py",
+      "bytes": 7736,
+      "sha256": "9f6b815b72a93d9fe40cd0d67c31ce8b5e20f717ba4700b9ce8d7159b1d298aa"
+    },
+    {
+      "path": "scripts/scholar_search.py",
+      "bytes": 20755,
+      "sha256": "41672d92692a49835f2e453018c79cf8e7102a12d0887bf0ccc30bd6497085c6"
+    },
+    {
+      "path": "scripts/style_check.sh",
+      "bytes": 1578,
+      "sha256": "895a2bb50594075255c6e92acd8a91d4e6619790f7dc1e87fbd3ee37d500e0d3"
+    },
+    {
+      "path": "skills/brainstorming-research/SKILL.md",
+      "bytes": 10936,
+      "sha256": "b10feb2daed729a0f4a1d09d642f0314f201c1570b76b98bd2e14f3f9a920d8a"
+    },
+    {
+      "path": "skills/brainstorming-research/chapter-templates.md",
+      "bytes": 3795,
+      "sha256": "61b918dfe8e6c469fea1caa67e55c1cd19404796e3bfcae4ba79c102f32f1567"
+    },
+    {
+      "path": "skills/brainstorming-research/templates.md",
+      "bytes": 2620,
+      "sha256": "ef8b210401226215386e77c661165c39380de799484e28bbc0235f528bb91602"
+    },
+    {
+      "path": "skills/environment-setup/SKILL.md",
+      "bytes": 3986,
+      "sha256": "c488391fd63e152d7ae44166ba6893040669c196ed29228c2fba6749406d4eaf"
+    },
+    {
+      "path": "skills/evidence-driven-writing/SKILL.md",
+      "bytes": 3805,
+      "sha256": "e9abd429987889fdbbc8c14f48042885cdb13abfe35abaf4c12016705d449f42"
+    },
+    {
+      "path": "skills/evidence-driven-writing/references/gpr-introduction-example.md",
+      "bytes": 3443,
+      "sha256": "66dfacf185410e6c2feccbb65d4c62105a01d5367478bb209ea1003164f6eb1f"
+    },
+    {
+      "path": "skills/experiment-results-planning/SKILL.md",
+      "bytes": 4028,
+      "sha256": "a4442c07e884ecca40498c77880b10d8e1a72b9a59733ab1ce7c15427f70227c"
+    },
+    {
+      "path": "skills/figures-diagram/SKILL.md",
+      "bytes": 4304,
+      "sha256": "6bb3c8e0372833b759cf47215ce05abdf372a96285f372a3580cc3c725ef6051"
+    },
+    {
+      "path": "skills/figures-python/SKILL.md",
+      "bytes": 6233,
+      "sha256": "2745e90de215c6018edd60ae6d261c547e489ce894edb120945a36ba34fb4c59"
+    },
+    {
+      "path": "skills/latex-output/SKILL.md",
+      "bytes": 5528,
+      "sha256": "2019e045bf5cb9cc0bb9805494572d2fe7f11fa7a51670f3d1c87bb6af01a51b"
+    },
+    {
+      "path": "skills/latex-output/template-parser.md",
+      "bytes": 4295,
+      "sha256": "b1a7f1c7122aa6e497afc0f5fd3b8d27c8bad88d98d11ac6585c2b6849d7f8e1"
+    },
+    {
+      "path": "skills/literature-review/SKILL.md",
+      "bytes": 13176,
+      "sha256": "596673b7a64800444f1b1b90aaf7fa33d6dca6ed64d3df1b75db666e5464bd34"
+    },
+    {
+      "path": "skills/paper-orchestration/SKILL.md",
+      "bytes": 6217,
+      "sha256": "363361770e3338c70e0815e87dceaafe0be754cb86e898a987f37f54bb48ab7a"
+    },
+    {
+      "path": "skills/peer-review/SKILL.md",
+      "bytes": 4834,
+      "sha256": "b540c455b8e1a633828850491fdc8f0ccf4f117197d10273704dca40804441f3"
+    },
+    {
+      "path": "skills/prompts-collection/SKILL.md",
+      "bytes": 7542,
+      "sha256": "f4d20338337ac460fd60dc064dc74ecb037357a7dd1d247bd6cd5c0fce2f8f71"
+    },
+    {
+      "path": "skills/statistical-analysis/SKILL.md",
+      "bytes": 5011,
+      "sha256": "e2b425a9f657605340ed0562fd05e570b21e4612c048ac17d0bac35123e31076"
+    },
+    {
+      "path": "skills/using-research-writing/SKILL.md",
+      "bytes": 6369,
+      "sha256": "ce4bac8db068d489df70a25e86b4cc14649da3092f9fea5227b3a27ea65ebe23"
+    },
+    {
+      "path": "skills/verification/SKILL.md",
+      "bytes": 4377,
+      "sha256": "126b7a2bc7fbe259885c570ede0b1f8ceb5add2facbe8492266c4ae77b907808"
+    },
+    {
+      "path": "skills/writing-chapters/SKILL.md",
+      "bytes": 12115,
+      "sha256": "566363076c60dacbb64365a17e4e278716683bdbc8c634565ce56f8341faf775"
+    },
+    {
+      "path": "skills/writing-core/SKILL.md",
+      "bytes": 6018,
+      "sha256": "307983c131ef2219c76979d90c8d3512a4b492a8acc0e0fdfc5f3e92f5499360"
+    },
+    {
+      "path": "skills/writing-humanities/SKILL.md",
+      "bytes": 5415,
+      "sha256": "8563c27d032ae1559a452ff568657c2df8c1d7171262804dbc0523540f06a390"
+    },
+    {
+      "path": "skills/writing-law/SKILL.md",
+      "bytes": 4708,
+      "sha256": "0add85beb61f15d975d8343d4c39d368085b5608a335c49ec5680a0e3aaac6a3"
+    },
+    {
+      "path": "skills/writing-medical/SKILL.md",
+      "bytes": 4225,
+      "sha256": "4e62cb0daecdf5154ae34806852e38809f2302224d09dbb81ac3f0ee6eb8550a"
+    },
+    {
+      "path": "templates/color-palettes.md",
+      "bytes": 4867,
+      "sha256": "a3941a960471e6f11e8ea6c0cd12a982b8e784861563d03d16bab6b3df25946e"
+    },
+    {
+      "path": "templates/figure-template.py",
+      "bytes": 6768,
+      "sha256": "55633ba978d5dad5d25d8a478d553a7ab874a072d7c1cf108ccb467c59672c51"
+    },
+    {
+      "path": "templates/paper-outline.md",
+      "bytes": 3118,
+      "sha256": "ca4ffab3d16a1ef186461a1c30fbda96172fa8fb5387fdb269a73d0f382efb32"
+    }
+  ]
+}

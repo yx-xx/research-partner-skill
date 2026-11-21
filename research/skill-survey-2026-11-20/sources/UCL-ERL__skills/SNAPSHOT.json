@@ -1,0 +1,670 @@
+{
+  "repository": "UCL-ERL/skills",
+  "branch": "main",
+  "commit": "9d50603850b661a1da175ef3e330ba0b52e3efe9",
+  "commit_date_utc": "2026-09-15T20:50:32Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-07-03T03:37:08Z",
+  "pushed_at_utc": "2026-09-15T20:50:32Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 315,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "status": "downloaded",
+  "source_url": "https://github.com/UCL-ERL/skills",
+  "archive_url": "https://codeload.github.com/UCL-ERL/skills/tar.gz/9d50603850b6",
+  "archive_sha256": "5b3d1ff255153fe1b2eae2d720cdf14be9c4e36cd0856a39a162c13a99d236cb",
+  "archive_bytes": 129908,
+  "selection_policy": "Text/source files up to 2 MiB each; non-regular files, binaries, and dependency caches omitted. Snapshot is for reading, not installed.",
+  "retained_files": 122,
+  "retained_bytes": 390485,
+  "skill_entry_files": [
+    "skills/engineering/robotics-ai-coding-flow/SKILL.md",
+    "skills/evaluation/benchmark-audit/SKILL.md",
+    "skills/evaluation/experiment-dossier-builder/SKILL.md",
+    "skills/evaluation/experiment-provenance-auditor/SKILL.md",
+    "skills/evaluation/paper-code-consistency-auditor/SKILL.md",
+    "skills/figures/scientific-figure-director/SKILL.md",
+    "skills/flows/rai-coding-flow/SKILL.md",
+    "skills/flows/rai-paper-flow/SKILL.md",
+    "skills/flows/rai-research-flow/SKILL.md",
+    "skills/ideation/research-idea-rubric/SKILL.md",
+    "skills/ideation/research-plan-grill/SKILL.md",
+    "skills/presentation/slide-talk-builder/SKILL.md",
+    "skills/research/evidence-matrix-builder/SKILL.md",
+    "skills/research/knowledge-base-onboarding/SKILL.md",
+    "skills/research/paper-reading-card/SKILL.md",
+    "skills/research/paper-search-protocol/SKILL.md",
+    "skills/review/paper-red-team-review/SKILL.md",
+    "skills/writing/abstract-introduction-builder/SKILL.md",
+    "skills/writing/citation-integrity-auditor/SKILL.md",
+    "skills/writing/latex-submission-checker/SKILL.md",
+    "skills/writing/limitations-failure-case-auditor/SKILL.md",
+    "skills/writing/manuscript-structure-auditor/SKILL.md",
+    "skills/writing/paper-draft-builder/SKILL.md",
+    "skills/writing/related-work-positioning/SKILL.md",
+    "skills/writing/reviewer-response-builder/SKILL.md",
+    "skills/writing/scientific-writing-editor/SKILL.md",
+    "skills/writing/survey-synthesis-builder/SKILL.md",
+    "skills/writing/venue-paper-outline/SKILL.md",
+    "templates/SKILL.md"
+  ],
+  "skipped_files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "bytes": 85
+    }
+  ],
+  "file_manifest": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "bytes": 1240,
+      "sha256": "ae99e66565cb71ca2cfee022979b223c1ebc2d1cf94402a45690adab37c0eff1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 438,
+      "sha256": "1a062148eddf1c6ece19b0bea0cbf72222735aaed73ff0b3d17e146f84ee4ba8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/instruction_contract_proposal.yml",
+      "bytes": 1301,
+      "sha256": "42b7d5c7c09b3b621302b4cb31bf6d4a0431317f45e3b392c8abab0e66917cae"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/skill_proposal.yml",
+      "bytes": 836,
+      "sha256": "54c52cd96fb158f9ac7dca809f05d0ab96f8c11d25328670e861079ca499e0c3"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 1294,
+      "sha256": "153160897dcdcd561c70363992b9494a8c875ff149d7e851e22d5667dfadd065"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 719,
+      "sha256": "5546edb0a9fc7b204c8f6c9ffde04a4092f2192a79640a1607acf486b444e97f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 172,
+      "sha256": "112c391e8c79621e91d26570f74e3454d89cff484bc6262cbb06caaedd81d0aa"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 847,
+      "sha256": "a9b867e500932618fb9e7ad84feca7de229f05915c2f31b9e4884868fd2caa76"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 340,
+      "sha256": "c97adf08eacf4bed491e9d7a7c4ae4c9a33e8a488c16d8c4d8b66e357992d71c"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 1234,
+      "sha256": "af5576a7f81c692cfa92c65cd3703b615a58b7a08b9544e419dd4d10e035ab22"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 5128,
+      "sha256": "5f980e6fb1ad96070527eaee1695f4defe8d97750bddb1ed91765f09b608a816"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "bytes": 645,
+      "sha256": "d650ac381bbfdd342d58580ae6cfc908f9d0a82ace2d362c82c1fc67cf7c0769"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 2360,
+      "sha256": "f4ce8ab864fa57ec01cbad94e91feb5dffe2e6beafbadd9e995ddf7ea8cf620f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "46d561fd9d7edd6b328b143c80856f4daf21895bd5dc1f05c23bcebbfeff588c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11647,
+      "sha256": "542a57ed97b259e8701b5c0bf46976982e745fb33a066f7612a3eb47f82d2bac"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 912,
+      "sha256": "a08f7224fd58e8c05f2cee7d69968f5c9a43d455ad9d4b6864bef557415df273"
+    },
+    {
+      "path": "agent-instructions/README.md",
+      "bytes": 4045,
+      "sha256": "94ed3a93beb7f74c97ce31bbd35d83a38c661fb0f092a16128a13480389881b5"
+    },
+    {
+      "path": "agent-instructions/codex-engineering-rules/CODEX.md",
+      "bytes": 7808,
+      "sha256": "dc213472a53ec19150a0f7d97a76294ef60d3e327717a3413b448d0ef12a839e"
+    },
+    {
+      "path": "agent-instructions/survey-writing-audit/CODEX.md",
+      "bytes": 20679,
+      "sha256": "cce48c9006b5be92112e088c0cb8a2e5cd24bc1f0761d3ac5696b7a736027460"
+    },
+    {
+      "path": "agent-instructions/universal-engineering-contract/AGENTS.md",
+      "bytes": 3038,
+      "sha256": "84658d78c224b83292a05920e026e3ef115406618c1e7a8a9ae59ed533934353"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 26015,
+      "sha256": "aaee4ffe2fe1e8a7de26320ab2bc2a6932e8178bef0b138c7d4c99159736c1f6"
+    },
+    {
+      "path": "catalog.schema.json",
+      "bytes": 2656,
+      "sha256": "93a39a6e4daf47cb58f282516078873f4a18553677345723ca2ee29f32415af1"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 7701,
+      "sha256": "f16ae5975545ae7c8ada58960325eda8df4a0a69423d136fe7a5d2e5d753b66d"
+    },
+    {
+      "path": "docs/catalog.md",
+      "bytes": 3797,
+      "sha256": "27dd6a378629baaf5e5095945554389a9dd271cee3c7a23a69a82ea524dcd64e"
+    },
+    {
+      "path": "docs/curation-policy.md",
+      "bytes": 2707,
+      "sha256": "be23d728c37a6cef83ec68d13700be7c1783cbd38a6d48afe7c906e1ce9b00cf"
+    },
+    {
+      "path": "docs/quality-rubric.md",
+      "bytes": 1812,
+      "sha256": "5db035a8511fedf55a039d06dbcf87acf522262f35111d730604ce8ce8dd0a40"
+    },
+    {
+      "path": "docs/research-notes.md",
+      "bytes": 7177,
+      "sha256": "f3df2995af490339345624c96e643f980b69aeb247c48d094a45f0225b852430"
+    },
+    {
+      "path": "docs/skill-roadmap.md",
+      "bytes": 4391,
+      "sha256": "544678afe5c62a944dcec715440aee251baac0f30ba9b8b00038d70118889014"
+    },
+    {
+      "path": "docs/usage.md",
+      "bytes": 7312,
+      "sha256": "1ad0ebf39643beaf2484bf99d751572e5aea87c05acbe5303cc6773a7ae2c62d"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 2371,
+      "sha256": "ccd54e44186fb97da5c2907cba1c1b3c4b8acd486d0e049d0898a936796bf204"
+    },
+    {
+      "path": "examples/abstract-introduction-builder-example.md",
+      "bytes": 1468,
+      "sha256": "c71b1ff78cc5dcad46619bf07d714ca0984c116af45ef318a740dd701ab24cff"
+    },
+    {
+      "path": "examples/benchmark-audit-example.md",
+      "bytes": 1518,
+      "sha256": "3c7830e81c63a9b2667ac19a9f148ed804232a14437c3e659aba53194babeef3"
+    },
+    {
+      "path": "examples/evidence-matrix-builder-example.md",
+      "bytes": 2028,
+      "sha256": "52b67834a065553c21eb309f35f3ba8e51df78b26479c5bcb4503d3e28253336"
+    },
+    {
+      "path": "examples/experiment-provenance-auditor-example.md",
+      "bytes": 1219,
+      "sha256": "9c1a4f25dabe966e3367a370e06674e140374da0d4facff1e07e718ce5e4ef2d"
+    },
+    {
+      "path": "examples/knowledge-base-onboarding-example.md",
+      "bytes": 1172,
+      "sha256": "ff446f96fb61029f100e4d8a4fba3eea82667833e1c53f57583bea715022dbda"
+    },
+    {
+      "path": "examples/latex-submission-checker-example.md",
+      "bytes": 1223,
+      "sha256": "62ac4af802b4dea270ba222fc439097ef8fbd7fcb95c5608029d61216a84c48b"
+    },
+    {
+      "path": "examples/limitations-failure-case-auditor-example.md",
+      "bytes": 1341,
+      "sha256": "37d80fa984eccf67564a86ab79fbbb59f893ca6ecb10f7d9978d1650d6b18013"
+    },
+    {
+      "path": "examples/manuscript-structure-auditor-example.md",
+      "bytes": 2447,
+      "sha256": "22a3e009149a72eee3d0dbc625f53f09c1ccacc809e1851fcbbdd21920476500"
+    },
+    {
+      "path": "examples/paper-red-team-review-example.md",
+      "bytes": 2067,
+      "sha256": "e4146341bc7da6d4d35abdd87c9e59cd1a337d00fca6276eda6a673d62e99c61"
+    },
+    {
+      "path": "examples/paper-search-protocol-example.md",
+      "bytes": 2371,
+      "sha256": "cf8fcb6af2638219755a5b746829ccd83aef3757cc113a736b3180284ee8701e"
+    },
+    {
+      "path": "examples/related-work-positioning-example.md",
+      "bytes": 1390,
+      "sha256": "580d9ab98ed2ea564c13f39a6e06bcc165985e626cc8f1ad4eaf57262df44fdc"
+    },
+    {
+      "path": "examples/reviewer-response-builder-example.md",
+      "bytes": 1264,
+      "sha256": "00c5474cc83a89c35e329c6d9aecd186589f40fac19da101928980b631a2fba5"
+    },
+    {
+      "path": "examples/scientific-figure-director-example.md",
+      "bytes": 2105,
+      "sha256": "bbbfaa4e094fadff8cb8016b620d5d33fb0d04d8e96064a33cbadb623a423e93"
+    },
+    {
+      "path": "examples/scientific-writing-editor-example.md",
+      "bytes": 2653,
+      "sha256": "e9cce88ca3f40f81b0f642289d0e5886b2bae48288ffabdc737045be11bc281d"
+    },
+    {
+      "path": "examples/simplevla-paper-flow-dogfood.md",
+      "bytes": 13618,
+      "sha256": "438654ca2f89b79ec49a09288a7214a71b41fa0ccd5dc39ee14b58d08f529f8f"
+    },
+    {
+      "path": "forward-tests/README.md",
+      "bytes": 2483,
+      "sha256": "1ad0db56eee6eb87db9916ff867d4ee8c268b6f54710d09618ab7e958c33cc47"
+    },
+    {
+      "path": "forward-tests/abstract-introduction-builder.md",
+      "bytes": 1337,
+      "sha256": "e6c3937d588e3f8b2b8f7da7c8abad1ac26c3d3d2a08f01bb3f928ff71fb397e"
+    },
+    {
+      "path": "forward-tests/benchmark-audit.md",
+      "bytes": 1623,
+      "sha256": "9bb590fbba1cb37785cfecb4d2ac69b8c3ddc539577845f9f6a3a6ecafc0eb47"
+    },
+    {
+      "path": "forward-tests/evidence-matrix-builder.md",
+      "bytes": 1824,
+      "sha256": "ff1fefad23affc05b34d827551a4b1f50fce8678186e45f5a62b937889556f6d"
+    },
+    {
+      "path": "forward-tests/experiment-dossier-builder.md",
+      "bytes": 2099,
+      "sha256": "3284c404f5c179ab9727db885b6dd15bd8142fbbdb16d9937814fdc4776e2e22"
+    },
+    {
+      "path": "forward-tests/experiment-provenance-auditor.md",
+      "bytes": 1395,
+      "sha256": "956bfbc0e6994fd80fe0fe021aecb4be65bff6223e7edee80b06b3f3c43c6892"
+    },
+    {
+      "path": "forward-tests/knowledge-base-onboarding.md",
+      "bytes": 1279,
+      "sha256": "77046875f7191a60d1cea85cb343e4f3a9843f5e122f279f595db07612d09622"
+    },
+    {
+      "path": "forward-tests/latex-submission-checker.md",
+      "bytes": 1412,
+      "sha256": "0dd72c65f5352d952f8743e41288e6b82ccb37cc61135b3737f2814fe3024249"
+    },
+    {
+      "path": "forward-tests/limitations-failure-case-auditor.md",
+      "bytes": 1285,
+      "sha256": "fb5f3d912de4603fb1b5a77211f87f9bef711f23f2f41a5539900cdfc92d3a97"
+    },
+    {
+      "path": "forward-tests/manuscript-structure-auditor.md",
+      "bytes": 1595,
+      "sha256": "3a7b2d2b6430718b736c49d421e9bfadda6687317e42e5c4d2c942a29ae680f6"
+    },
+    {
+      "path": "forward-tests/paper-code-consistency-auditor.md",
+      "bytes": 1753,
+      "sha256": "c676381bf1de93b77036f712d94e77d288dd5df745d35da8da7096738fc77cfb"
+    },
+    {
+      "path": "forward-tests/paper-draft-builder.md",
+      "bytes": 2122,
+      "sha256": "203a043e1efae0d93c6f0f650a1c32a413952681828089d67e181f234515484b"
+    },
+    {
+      "path": "forward-tests/paper-red-team-review.md",
+      "bytes": 1416,
+      "sha256": "e72f569775639c878489ed272f963f93961bb9eb5096055fb95c5993c8485df5"
+    },
+    {
+      "path": "forward-tests/paper-search-protocol.md",
+      "bytes": 1384,
+      "sha256": "38eef105d846e8dd55b6cff777e1043d34410c6da1394bd681e973bb4bbe0f08"
+    },
+    {
+      "path": "forward-tests/related-work-positioning.md",
+      "bytes": 1247,
+      "sha256": "0b96295bcdd2f95956a247a7f8cb7e00c50491388d9fdce24815687c792f8de2"
+    },
+    {
+      "path": "forward-tests/research-plan-grill.md",
+      "bytes": 1724,
+      "sha256": "471c3afc53985bacf951f724fa857b462e40e8cef461c8d0701b08dc88dc5514"
+    },
+    {
+      "path": "forward-tests/reviewer-response-builder.md",
+      "bytes": 1531,
+      "sha256": "2025c938da1b9f82d7bd9f572f685af9ec662423e385ae0937b590bb1be8fc39"
+    },
+    {
+      "path": "forward-tests/scientific-figure-director.md",
+      "bytes": 1231,
+      "sha256": "3fb571cd498d1ca43f13d626dad7c87de60e03e0deb557381c731c5219f3f6f3"
+    },
+    {
+      "path": "forward-tests/scientific-writing-editor.md",
+      "bytes": 1957,
+      "sha256": "e42867e0830583f19d24ec59c0e22cb8ef01882c02e97602a592d6e6377dad6b"
+    },
+    {
+      "path": "forward-tests/slide-talk-builder.md",
+      "bytes": 1859,
+      "sha256": "08c9e6c0d1d9fda11cd56b4ca584f75461c81f00584259cb30e6ca34893834e4"
+    },
+    {
+      "path": "forward-tests/survey-synthesis-builder.md",
+      "bytes": 1973,
+      "sha256": "fc89a531f8875ffb1293275f820b02b5345ef357e872798f318ae8c89ba4a424"
+    },
+    {
+      "path": "scripts/validate_catalog.py",
+      "bytes": 10130,
+      "sha256": "a61fc3c9e39136d5c9d7b0bbf9e1c4349e9f0bc48a5c6fbdbb836577d448c46b"
+    },
+    {
+      "path": "scripts/validate_forward_tests.py",
+      "bytes": 3202,
+      "sha256": "e65454f6f7cb3c9e2503d11976f58750e03bfef56fb0d9de2ea8c47ed3c2a162"
+    },
+    {
+      "path": "scripts/validate_repository.py",
+      "bytes": 4907,
+      "sha256": "df074cebce5ceaa9185cbbcc68f9428ee4904b0251d44f705925ceec68846fb0"
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 3402,
+      "sha256": "ec0f446521ab4a0cc9c3ac9ba69e907eebda223c66035924f23cb3d23e2225d9"
+    },
+    {
+      "path": "skills/engineering/robotics-ai-coding-flow/SKILL.md",
+      "bytes": 3341,
+      "sha256": "502099ff3acef01e50419d111ee502bce6aefcf1c24e8fab6d63b875e746e38c"
+    },
+    {
+      "path": "skills/engineering/robotics-ai-coding-flow/references/robotics-code-checks.md",
+      "bytes": 2455,
+      "sha256": "a88407d5f1d14108fabae5863ebb670ff20dfebdf6f00b2fa402411d096c58ab"
+    },
+    {
+      "path": "skills/evaluation/benchmark-audit/SKILL.md",
+      "bytes": 3954,
+      "sha256": "4ef811350b188082defa14917f687119ad038f34de106750c58dce5536c331e9"
+    },
+    {
+      "path": "skills/evaluation/benchmark-audit/references/benchmark-checks.md",
+      "bytes": 3070,
+      "sha256": "db6c3187b55d228bb5ecfbdc2074588bc19b24249357e7ca1cee1406f6968cc4"
+    },
+    {
+      "path": "skills/evaluation/experiment-dossier-builder/SKILL.md",
+      "bytes": 5441,
+      "sha256": "5fc7136b62e48e7fda058433554c371fc9755ffd39e4f66b7e30521bc6bd3a5f"
+    },
+    {
+      "path": "skills/evaluation/experiment-dossier-builder/references/dossier-contract.md",
+      "bytes": 2965,
+      "sha256": "443db07455b76a5c1d02d060d51f32df4c5b2e883bd20ea07148acecc8b1d75d"
+    },
+    {
+      "path": "skills/evaluation/experiment-provenance-auditor/SKILL.md",
+      "bytes": 2955,
+      "sha256": "2520e0a4c2e7a1ade7b04c860318dff52959221d359c7f23e20bd7e3db22c288"
+    },
+    {
+      "path": "skills/evaluation/experiment-provenance-auditor/references/provenance-checks.md",
+      "bytes": 2706,
+      "sha256": "1f367b55639ad4345ee058d3af77d25f69d185d64805b9a72d5705c7dc76e8b9"
+    },
+    {
+      "path": "skills/evaluation/paper-code-consistency-auditor/SKILL.md",
+      "bytes": 4924,
+      "sha256": "029a407a194467ed9278312cbfd3bde30cdc56d2909d628cdd0e962156310eab"
+    },
+    {
+      "path": "skills/evaluation/paper-code-consistency-auditor/references/consistency-contract.md",
+      "bytes": 2976,
+      "sha256": "4749502e36fa931e90eedc1ea07181f6f29849031d9e07b24c54e65695647e87"
+    },
+    {
+      "path": "skills/figures/scientific-figure-director/SKILL.md",
+      "bytes": 3012,
+      "sha256": "0a4754dccd48f6c4329f32e0c979bdd7ffdfb9cff66a399084d5d221fdbccff9"
+    },
+    {
+      "path": "skills/figures/scientific-figure-director/references/figure-contract.md",
+      "bytes": 2350,
+      "sha256": "5e4340f5d013363a3e496527c26e55fb91e988551a3c0b8eb0d315cb20d92212"
+    },
+    {
+      "path": "skills/flows/rai-coding-flow/SKILL.md",
+      "bytes": 3692,
+      "sha256": "ebaf32d080acdf9def6762ae1842ced04cab44cc323d0ea774fe6f1021569ff2"
+    },
+    {
+      "path": "skills/flows/rai-paper-flow/SKILL.md",
+      "bytes": 8841,
+      "sha256": "cb3130b65128e4874e614bb7db89ca7e646e2f27cf388f3f18befdf6b9957292"
+    },
+    {
+      "path": "skills/flows/rai-research-flow/SKILL.md",
+      "bytes": 5584,
+      "sha256": "e212232b10de4a4b467724394cd23aa4bdf778362bc4ee765462a4439d33b7c9"
+    },
+    {
+      "path": "skills/ideation/research-idea-rubric/SKILL.md",
+      "bytes": 3113,
+      "sha256": "510c5a42b3b0b7677d08fd8b6a98d7766faf19cf55012856c4d777e00d986e45"
+    },
+    {
+      "path": "skills/ideation/research-idea-rubric/references/idea-stress-tests.md",
+      "bytes": 1676,
+      "sha256": "631cfb8434764b0d574a8a269a38829e9f537e8c12ec2fb73d7165d32de098a3"
+    },
+    {
+      "path": "skills/ideation/research-plan-grill/SKILL.md",
+      "bytes": 4746,
+      "sha256": "b7b4cc0daf72fdb378d5c43c7ce4f225638fb7ebe54632ddabcb95f5f0f47bcc"
+    },
+    {
+      "path": "skills/presentation/slide-talk-builder/SKILL.md",
+      "bytes": 5210,
+      "sha256": "bc96976beb7b9be3b8648760066fd288bb15c98d9919cfa6a6b214ff41fd4170"
+    },
+    {
+      "path": "skills/presentation/slide-talk-builder/references/talk-contract.md",
+      "bytes": 2055,
+      "sha256": "ad5f8f7a0bb5dd6ebca61d8d7d18bf799789b60d499374e2ca88f66233a042c8"
+    },
+    {
+      "path": "skills/research/evidence-matrix-builder/SKILL.md",
+      "bytes": 2652,
+      "sha256": "96d657a715445e199c0c5d7ecaac4764a9508ccf94c8f874e44247f533eb33ce"
+    },
+    {
+      "path": "skills/research/evidence-matrix-builder/references/matrix-design.md",
+      "bytes": 2293,
+      "sha256": "1f5367527742371ab3c33700e9ad54ca73e740c2e4fef7c7e214cd16c6415f2a"
+    },
+    {
+      "path": "skills/research/knowledge-base-onboarding/SKILL.md",
+      "bytes": 2565,
+      "sha256": "a0a253c76c88840a54f8203e2acb85fcb0942e829b5fbb7a7c2003c70cf600fa"
+    },
+    {
+      "path": "skills/research/knowledge-base-onboarding/references/onboarding-map.md",
+      "bytes": 1833,
+      "sha256": "0f5044668a5aa10acaa9e84fb6a334ba15142d307e098931fa74c0156d6ec55c"
+    },
+    {
+      "path": "skills/research/paper-reading-card/SKILL.md",
+      "bytes": 3070,
+      "sha256": "67de850bbaa3a163b5a2d6e6a6399e178eaef95c5353c64ae4955c360007359d"
+    },
+    {
+      "path": "skills/research/paper-search-protocol/SKILL.md",
+      "bytes": 3412,
+      "sha256": "2480e330ef83dd7fa2db3a319d38413b2aee5e966f422e6efb6933dd974f7969"
+    },
+    {
+      "path": "skills/research/paper-search-protocol/references/search-strategy.md",
+      "bytes": 2617,
+      "sha256": "071af67992a6f883229260ce9f9a96737df1d15744422a8be7c53470b789d078"
+    },
+    {
+      "path": "skills/review/paper-red-team-review/SKILL.md",
+      "bytes": 3301,
+      "sha256": "d23bcb2dad36b83c6358a7c118f62e62000cc15be96ea4ff07f8687196988ae4"
+    },
+    {
+      "path": "skills/review/paper-red-team-review/references/review-dimensions.md",
+      "bytes": 2080,
+      "sha256": "8aa8a613e2dee92f0ca30201bbf314ad1e56f66bee56eb07d56163f8c18bca50"
+    },
+    {
+      "path": "skills/writing/abstract-introduction-builder/SKILL.md",
+      "bytes": 2572,
+      "sha256": "a540101ddc4793ffe743b22aa39097379f83890c98930c15d6af39033a4d426d"
+    },
+    {
+      "path": "skills/writing/abstract-introduction-builder/references/abstract-intro-patterns.md",
+      "bytes": 2070,
+      "sha256": "9cf570e6661222baf955853c70ebf7e739f0d0bc9c3aed336f94885ec3e9de49"
+    },
+    {
+      "path": "skills/writing/citation-integrity-auditor/SKILL.md",
+      "bytes": 3589,
+      "sha256": "4f86f6e98083dc6d64f65762543216a4dac1338af5c03aa69f58985054d37bd0"
+    },
+    {
+      "path": "skills/writing/citation-integrity-auditor/references/support-grades.md",
+      "bytes": 1883,
+      "sha256": "b5a3be205599f2f82aa4352008081063579066dc45a008419a163363948f471d"
+    },
+    {
+      "path": "skills/writing/latex-submission-checker/SKILL.md",
+      "bytes": 2700,
+      "sha256": "fc4891fb75cdf9a8c5dfb48cc4146c079389337d988c2d493eb5117258826c31"
+    },
+    {
+      "path": "skills/writing/latex-submission-checker/references/submission-checks.md",
+      "bytes": 2059,
+      "sha256": "c5e3989936eafb96c6cb8f6d387b60a410202685ecbd9dffdfc6fb8ed22b5bb0"
+    },
+    {
+      "path": "skills/writing/limitations-failure-case-auditor/SKILL.md",
+      "bytes": 3306,
+      "sha256": "6a9bed6a1e94934381b503245a08039e3d47f476a2bddabe185783fc62b52aa0"
+    },
+    {
+      "path": "skills/writing/limitations-failure-case-auditor/references/limitations-checks.md",
+      "bytes": 2324,
+      "sha256": "325d601791e694fe4905ac6611ea9b95de574903c9abe924432611a86509fc14"
+    },
+    {
+      "path": "skills/writing/manuscript-structure-auditor/SKILL.md",
+      "bytes": 3410,
+      "sha256": "70362dda62270e4c65d55bb4c6680c61f319d8441bfa44b95937145c5e2f3e08"
+    },
+    {
+      "path": "skills/writing/manuscript-structure-auditor/references/structure-checks.md",
+      "bytes": 2457,
+      "sha256": "6ff3ab80dede219be255f765f7737a8b48b95d9b4becb4dba87ade72af118412"
+    },
+    {
+      "path": "skills/writing/paper-draft-builder/SKILL.md",
+      "bytes": 5345,
+      "sha256": "721cf184b69285259b852dd271a481f77e2cd77ee9373ec41e7749ff79a56f52"
+    },
+    {
+      "path": "skills/writing/paper-draft-builder/references/draft-contract.md",
+      "bytes": 2848,
+      "sha256": "9e6de01bedb666d1546a6322255be7414525d473a7ca185e1b65e0030824284e"
+    },
+    {
+      "path": "skills/writing/related-work-positioning/SKILL.md",
+      "bytes": 2436,
+      "sha256": "cec54bbd1d149cbc7a6858b2feea3f1fd29067ef6738c095a8536187507ccf7a"
+    },
+    {
+      "path": "skills/writing/related-work-positioning/references/positioning-checks.md",
+      "bytes": 1740,
+      "sha256": "7f36814a69ca447cee701e9f83c825f584cd3b38a6b1f2be5b4e8bfb35f6dab0"
+    },
+    {
+      "path": "skills/writing/reviewer-response-builder/SKILL.md",
+      "bytes": 2719,
+      "sha256": "fbef800d975fa86981803d3ff7bddabed4803ef24057532526dba698abc49fa1"
+    },
+    {
+      "path": "skills/writing/reviewer-response-builder/references/response-patterns.md",
+      "bytes": 2254,
+      "sha256": "a4c60f0e1d1a0284a610d4cda46d83f41c6b4f35c63e91b05a313c4df11349f1"
+    },
+    {
+      "path": "skills/writing/scientific-writing-editor/SKILL.md",
+      "bytes": 3951,
+      "sha256": "945a3a27df72187ab1b7f4871250c090d3e959a4b234e89b2a20246b61b3c950"
+    },
+    {
+      "path": "skills/writing/scientific-writing-editor/references/style-rules.md",
+      "bytes": 4850,
+      "sha256": "f65f4eb223d98e06ec68f9a2ec1e38590bf8a6209d49b58a774944f3f5cdfa1c"
+    },
+    {
+      "path": "skills/writing/survey-synthesis-builder/SKILL.md",
+      "bytes": 4760,
+      "sha256": "e3ce883f76e029bed2ea0a7a26d7e587ebff7dcf8f5f3dfb9f58afcb9969ff19"
+    },
+    {
+      "path": "skills/writing/survey-synthesis-builder/references/survey-contract.md",
+      "bytes": 2055,
+      "sha256": "938fd4a51585724aaf4046f35e723b8e28d68299782cfec3ef63a832af054210"
+    },
+    {
+      "path": "skills/writing/venue-paper-outline/SKILL.md",
+      "bytes": 2452,
+      "sha256": "4098bea831fad3ad48af5982e06d32748be99b1ab9657a273d9cd2d16401b83f"
+    },
+    {
+      "path": "skills/writing/venue-paper-outline/references/venue-rubric.md",
+      "bytes": 2569,
+      "sha256": "c550a7ef7d572129bbef6bbc9366237834c407b561865b98ab8b73d5ebc04413"
+    },
+    {
+      "path": "templates/SKILL.md",
+      "bytes": 1494,
+      "sha256": "00085ec09f521b54337fb80880099a47661a1bc7dd8fa2a119ceb206fcd30db1"
+    }
+  ]
+}

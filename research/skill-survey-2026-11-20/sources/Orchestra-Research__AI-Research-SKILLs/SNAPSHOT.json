@@ -1,0 +1,365 @@
+{
+  "repository": "Orchestra-Research/AI-Research-SKILLs",
+  "branch": "main",
+  "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "commit_date_utc": "2026-06-16T01:36:40Z",
+  "commit_subject": "",
+  "created_at_utc": "2025-11-03T06:13:06Z",
+  "pushed_at_utc": "2026-10-11T02:56:34Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 21171,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 60,
+  "retained_files": 65,
+  "retained_bytes": 880584,
+  "skill_entry_files": [
+    "0-autoresearch-skill/SKILL.md",
+    "01-model-architecture/litgpt/SKILL.md",
+    "01-model-architecture/mamba/SKILL.md",
+    "01-model-architecture/nanogpt/SKILL.md",
+    "01-model-architecture/rwkv/SKILL.md",
+    "01-model-architecture/torchtitan/SKILL.md",
+    "02-tokenization/huggingface-tokenizers/SKILL.md",
+    "02-tokenization/sentencepiece/SKILL.md",
+    "03-fine-tuning/axolotl/SKILL.md",
+    "03-fine-tuning/llama-factory/SKILL.md",
+    "03-fine-tuning/peft/SKILL.md",
+    "03-fine-tuning/unsloth/SKILL.md",
+    "18-multimodal/openpi/SKILL.md",
+    "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+    "21-research-ideation/creative-thinking-for-research/SKILL.md",
+    "22-agent-native-research-artifact/research-manager/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 12081,
+      "sha256": "8a24bc6571e67f8f75ee3d1b09e883b364cbaaea2ab53e9bf368c682fb650b9b"
+    },
+    {
+      "path": ".github/workflows/check-inventory.yml",
+      "bytes": 785,
+      "sha256": "1099dc6a270210c7fbcdfe52d2696cf5de4f1b18a90770d5f90ccf5427dd161b"
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "bytes": 1109,
+      "sha256": "e614b3f85adf94ebe8984593d5d143434cbf0cb40844deddff4586f11c54ecb7"
+    },
+    {
+      "path": ".github/workflows/publish-npm.yml",
+      "bytes": 2485,
+      "sha256": "e2b50b5a13d2ba0476b12972aeb0b6831181dbe04a06846506cab5eb3b683546"
+    },
+    {
+      "path": ".github/workflows/sync-skills.yml",
+      "bytes": 8925,
+      "sha256": "5f52af81bfa65167fbd03f440274c89c763f8d1592074d3ab50b68798f5aef75"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1099,
+      "sha256": "99816b68c2b0243e0386dd730f2e5e4c9180d283d995bbff5c602a7c039426aa"
+    },
+    {
+      "path": "0-autoresearch-skill/SKILL.md",
+      "bytes": 24945,
+      "sha256": "b7ca0d7a6e905da85a8b494d3fe398ac78eaa278854f67b50a34f2b37a9a2b78"
+    },
+    {
+      "path": "0-autoresearch-skill/references/agent-continuity.md",
+      "bytes": 4690,
+      "sha256": "8003b626868817498e7962183b9a4a415143d92cae3d88ac35c0f658acd6e595"
+    },
+    {
+      "path": "0-autoresearch-skill/references/progress-reporting.md",
+      "bytes": 6467,
+      "sha256": "f57fbd191618f3911b99fa0a68a038553e222201857b4f0bd5bd32cb524148b5"
+    },
+    {
+      "path": "0-autoresearch-skill/references/skill-routing.md",
+      "bytes": 8546,
+      "sha256": "a64f3877b4c0515ddcd5401a9eb4683824f4f9c0e9c010cee360a5409bd4e734"
+    },
+    {
+      "path": "0-autoresearch-skill/templates/findings.md",
+      "bytes": 1494,
+      "sha256": "f81f7f63ec2f962796a2e28dbd1bf256dcef683000e1dab513296f0e8d9f79f2"
+    },
+    {
+      "path": "0-autoresearch-skill/templates/progress-presentation.html",
+      "bytes": 8685,
+      "sha256": "40034b84dccfefffca74244abdc12b8376264b31749e7792bf683b2c5df9e175"
+    },
+    {
+      "path": "0-autoresearch-skill/templates/research-log.md",
+      "bytes": 5011,
+      "sha256": "975a85c5d90897718d3542560b1fe40516a0dde2521b5136e567769cc2dfdef5"
+    },
+    {
+      "path": "0-autoresearch-skill/templates/research-state.yaml",
+      "bytes": 2102,
+      "sha256": "46aded613c427052c1e5f1faa8f2490873f11b70e4f2028be05fa2d22e03fa9c"
+    },
+    {
+      "path": "01-model-architecture/litgpt/SKILL.md",
+      "bytes": 11010,
+      "sha256": "523f0b786c915af20a7980857e174b838e4440afe851bd16917ef69f8042adb2"
+    },
+    {
+      "path": "01-model-architecture/litgpt/references/custom-models.md",
+      "bytes": 15655,
+      "sha256": "82a300cde9db77031d7371edc9c689ad6399b5f0a5b5180e0ce3ac2830265014"
+    },
+    {
+      "path": "01-model-architecture/litgpt/references/distributed-training.md",
+      "bytes": 11099,
+      "sha256": "44a74c9bf640159e3e11bd885a21c65d96c6fbd7471da802979ba75fab8ec073"
+    },
+    {
+      "path": "01-model-architecture/litgpt/references/supported-models.md",
+      "bytes": 7935,
+      "sha256": "9d8d6632fb43b0d4673ef19403a1672e0479415da46241fe24a956bcb6644a31"
+    },
+    {
+      "path": "01-model-architecture/litgpt/references/training-recipes.md",
+      "bytes": 10978,
+      "sha256": "90bad095a8c3e87f221e45c66712b26bf096cf09b233db4c8340e540aacab25e"
+    },
+    {
+      "path": "01-model-architecture/mamba/SKILL.md",
+      "bytes": 7368,
+      "sha256": "51ddf99c12a472a78c258bddf7e66e72cf45d9e04969f3300cc8d68aaaef9b0e"
+    },
+    {
+      "path": "01-model-architecture/mamba/references/architecture-details.md",
+      "bytes": 5456,
+      "sha256": "09cf810fbcc2949e889f502c910bca97be094f0efde759294d40300591dd77ea"
+    },
+    {
+      "path": "01-model-architecture/mamba/references/benchmarks.md",
+      "bytes": 8120,
+      "sha256": "7f64a92015656c1ee318b23d11f8d3951a03c00be8dcf1614e01c6133f8a269f"
+    },
+    {
+      "path": "01-model-architecture/mamba/references/training-guide.md",
+      "bytes": 9012,
+      "sha256": "e382cfc6e0b6af4a04862001c983ea746b4ad327a1eec43b8b2955035b3b0fb0"
+    },
+    {
+      "path": "01-model-architecture/nanogpt/SKILL.md",
+      "bytes": 6752,
+      "sha256": "8893d8dd5b7ba4ae3219497e26d33fc9565e6bbf0d6aa4d6c1c3ee05003468c3"
+    },
+    {
+      "path": "01-model-architecture/nanogpt/references/architecture.md",
+      "bytes": 11716,
+      "sha256": "0a5bef9e725f8fdb0fe649688168562c69cd82deea279d289939df4a5aec23d2"
+    },
+    {
+      "path": "01-model-architecture/nanogpt/references/data.md",
+      "bytes": 11212,
+      "sha256": "316bcdacc6e8538b7315d8e079bd71a00815bec435fad39b42e85be1a5f3a0de"
+    },
+    {
+      "path": "01-model-architecture/nanogpt/references/training.md",
+      "bytes": 13551,
+      "sha256": "82cba9bf57cb82a2120f637f839badc1c54920be5ca41a00fd22042c45665119"
+    },
+    {
+      "path": "01-model-architecture/rwkv/SKILL.md",
+      "bytes": 7099,
+      "sha256": "17fc974b3f3b67b1648c5cb93b3bdc557fbd64df8463d8fbc8f71bdf88575a7c"
+    },
+    {
+      "path": "01-model-architecture/rwkv/references/architecture-details.md",
+      "bytes": 9304,
+      "sha256": "8d49b47e13d78771fb756b47eb6bca6c4aa9f85ffa5d4916eec5826356955487"
+    },
+    {
+      "path": "01-model-architecture/rwkv/references/rwkv7.md",
+      "bytes": 10428,
+      "sha256": "dffae18583757ebeefabdf58961577ecd9e8e43d601db942385ccb4e0295fa45"
+    },
+    {
+      "path": "01-model-architecture/rwkv/references/state-management.md",
+      "bytes": 9497,
+      "sha256": "c4de4fed3a84e4b515485e6a3e0742e0645ac02c191dd1cd2a4fc2a2676e4a6c"
+    },
+    {
+      "path": "01-model-architecture/torchtitan/SKILL.md",
+      "bytes": 8927,
+      "sha256": "530b85ddadfc69e2cfd3bbdd7cdb03c89f7ddd00ba0e84fed8ac43e98a25a4d8"
+    },
+    {
+      "path": "01-model-architecture/torchtitan/references/checkpoint.md",
+      "bytes": 4216,
+      "sha256": "0cacfc3cf87a3fa8cc40eaac4516113afc2bc68ef17186d249e3ed8a25a55b5d"
+    },
+    {
+      "path": "01-model-architecture/torchtitan/references/custom-models.md",
+      "bytes": 7383,
+      "sha256": "05136b49e9f53a3e331c89f59de46be5e26664d8eaa0884d10c8dbf927f8ca76"
+    },
+    {
+      "path": "01-model-architecture/torchtitan/references/float8.md",
+      "bytes": 4055,
+      "sha256": "33f05eacea84e571e4fc77fa39a1ec751c740645af14832322f80f63cdbe6ab8"
+    },
+    {
+      "path": "01-model-architecture/torchtitan/references/fsdp.md",
+      "bytes": 3888,
+      "sha256": "d0743e131ff129485e17f5ab01c604c12fdf682bd2e8a637fa338e5ee40f48a4"
+    },
+    {
+      "path": "02-tokenization/huggingface-tokenizers/SKILL.md",
+      "bytes": 13674,
+      "sha256": "d2ff3f9eed2cb8e15cb98e8e2398ca359325a32fd5d16ebfe0d115d7624583af"
+    },
+    {
+      "path": "02-tokenization/huggingface-tokenizers/references/algorithms.md",
+      "bytes": 15182,
+      "sha256": "b26bb48dca45c57797e23ee8d3afa3c602ffbb243a47c0a9a171f3f6828a08ed"
+    },
+    {
+      "path": "02-tokenization/huggingface-tokenizers/references/integration.md",
+      "bytes": 15389,
+      "sha256": "9e9c3f938424434da8e7b962ff536b2b3b4b585a0dabc5c9292a12c2a1682349"
+    },
+    {
+      "path": "02-tokenization/huggingface-tokenizers/references/pipeline.md",
+      "bytes": 16746,
+      "sha256": "3fe8a70a27b1bf9aa52f6320a4da569c510fcf602e026cfc57a3f1518175cfc6"
+    },
+    {
+      "path": "02-tokenization/huggingface-tokenizers/references/training.md",
+      "bytes": 14559,
+      "sha256": "9732225aacd7dacd83063a1c206e8566793fe41c628fd32f827e3489246dfcfe"
+    },
+    {
+      "path": "02-tokenization/sentencepiece/SKILL.md",
+      "bytes": 5632,
+      "sha256": "47b1d10f419a51a400010bcd80d99a8bdb5c4510fc3e57fe9bc9be7efa6a48f8"
+    },
+    {
+      "path": "02-tokenization/sentencepiece/references/algorithms.md",
+      "bytes": 4212,
+      "sha256": "6927a326b067ed3aa25712a33a2601e24704f55d2146e451efb2a4619bf4fb52"
+    },
+    {
+      "path": "02-tokenization/sentencepiece/references/training.md",
+      "bytes": 6240,
+      "sha256": "d1061c220d74d4e8889ebec06f6abe99a0ff3f6706435fff37b58c3eaf2931a9"
+    },
+    {
+      "path": "03-fine-tuning/axolotl/SKILL.md",
+      "bytes": 4797,
+      "sha256": "9273d534cd6a06612b18418f2cd98f63d1ac9bb780eda511a91800dee48f1dda"
+    },
+    {
+      "path": "03-fine-tuning/axolotl/references/api.md",
+      "bytes": 121142,
+      "sha256": "fa42d8161bf366de96e8949f57bcd4e8021a332b28f58f379f67dbd09792c8a6"
+    },
+    {
+      "path": "03-fine-tuning/axolotl/references/dataset-formats.md",
+      "bytes": 46043,
+      "sha256": "08005105153166d0dac4746bed3e3b0ef87d62cb3380ec3288754d40c38d9833"
+    },
+    {
+      "path": "03-fine-tuning/axolotl/references/index.md",
+      "bytes": 199,
+      "sha256": "663ea0eeae52868ab221cb5620784d72d3a3fc1775ad9d3b3ef83e4e6e06471d"
+    },
+    {
+      "path": "03-fine-tuning/axolotl/references/other.md",
+      "bytes": 140407,
+      "sha256": "bff49a43ec3072612eccebb9bbb597e4c6e2083f5aafd77ca57fdf740809e7d9"
+    },
+    {
+      "path": "03-fine-tuning/llama-factory/SKILL.md",
+      "bytes": 2472,
+      "sha256": "6adfd1babfbfe2f85e0fcbde518f24a804ebe06afeb8682ce1df395284d6f5cb"
+    },
+    {
+      "path": "03-fine-tuning/llama-factory/references/_images.md",
+      "bytes": 307,
+      "sha256": "c1fef3c82d902c455353dd873cba30bcdfba779b83b300ce2ac55718fae5a616"
+    },
+    {
+      "path": "03-fine-tuning/llama-factory/references/advanced.md",
+      "bytes": 47823,
+      "sha256": "984d86809194921a64d5738affa3152f6f5e74198e83c39bf4c0807ef977c5f5"
+    },
+    {
+      "path": "03-fine-tuning/llama-factory/references/getting_started.md",
+      "bytes": 16188,
+      "sha256": "ca959ff8b1dd7d4d09c5e6c247dd03d01759391f20fdeb12e03cff2a1f305cf6"
+    },
+    {
+      "path": "03-fine-tuning/llama-factory/references/index.md",
+      "bytes": 262,
+      "sha256": "d2b9a950f5721809d0bb6c46b35a2a7bf05b3d0b23f600163d4b2ac6ea0418c7"
+    },
+    {
+      "path": "03-fine-tuning/llama-factory/references/other.md",
+      "bytes": 1166,
+      "sha256": "674714380dbc7bcab07a6972e4b8699fd85ac4321144537bc67c305df4fb47ed"
+    },
+    {
+      "path": "03-fine-tuning/peft/SKILL.md",
+      "bytes": 12210,
+      "sha256": "acdb318f94624517c8cdb3c925c7a2e8b34c65e8ca02b301777c51eea9f0f73c"
+    },
+    {
+      "path": "03-fine-tuning/peft/references/advanced-usage.md",
+      "bytes": 12541,
+      "sha256": "8663cf75afa2e1048832f680c8594b2709c0205603133ab5e81561697c847659"
+    },
+    {
+      "path": "03-fine-tuning/peft/references/troubleshooting.md",
+      "bytes": 10344,
+      "sha256": "06645be59b9ad0461e837fce5a1b0a7121b19a1353635c04fdf9df5a13578738"
+    },
+    {
+      "path": "03-fine-tuning/unsloth/SKILL.md",
+      "bytes": 2307,
+      "sha256": "ac7f1d1f87d08d7f8713f07c1f6522268b814acea850f97bc986e00f8b461bc3"
+    },
+    {
+      "path": "03-fine-tuning/unsloth/references/index.md",
+      "bytes": 98,
+      "sha256": "e0f799b2c5dea599a860ea50ae85eec3d89a2b9a5017511d426fb46c4a4806e1"
+    },
+    {
+      "path": "18-multimodal/openpi/SKILL.md",
+      "bytes": 14242,
+      "sha256": "60af709a253bd745330e43067b22667b932a393e65a3cde6660a25d0ffbe4742"
+    },
+    {
+      "path": "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+      "bytes": 37635,
+      "sha256": "96733e6d758642d792ed15b7c08eb90548d4775099368cd72a8312127f2fe911"
+    },
+    {
+      "path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+      "bytes": 21962,
+      "sha256": "ec111f9236d7f9d72c895cebbf0f534ac93f4249172607559ad4bf92aefc5310"
+    },
+    {
+      "path": "22-agent-native-research-artifact/research-manager/SKILL.md",
+      "bytes": 12625,
+      "sha256": "f78da7627ac09a4be398ea4363fc7b8753b2dcb22bc961c5059395e33ef3ef2c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1095,
+      "sha256": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00"
+    }
+  ]
+}

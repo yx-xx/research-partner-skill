@@ -1,0 +1,77 @@
+{
+  "repository": "Valdemar-Yu/mil-paper-advisor",
+  "branch": "main",
+  "commit": "a978d8ca29e3db7ef39c9c4f665797bcc615b763",
+  "commit_date_utc": "2026-11-20T08:57:58Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-11-20T08:58:20Z",
+  "pushed_at_utc": "2026-11-20T08:58:29Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 39,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "status": "downloaded",
+  "source_url": "https://github.com/Valdemar-Yu/mil-paper-advisor",
+  "archive_url": "https://codeload.github.com/Valdemar-Yu/mil-paper-advisor/tar.gz/a978d8ca29e3",
+  "archive_sha256": "c35a5e12c68069aabb599d2b9beade5dd6cd1f30f16735312677e39b51493de8",
+  "archive_bytes": 34909,
+  "selection_policy": "Text/source files up to 2 MiB each; non-regular files, binaries, and dependency caches omitted. Snapshot is for reading, not installed.",
+  "retained_files": 10,
+  "retained_bytes": 84038,
+  "skill_entry_files": [
+    "SKILL.md"
+  ],
+  "skipped_files": [],
+  "file_manifest": [
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "097dfa4fa37f863db70285ba6043ffad3be847b819a39f13586dfed473a9b9a9"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "e4eb004a42b45943686622a3d0e97ec056dc022abe8bc4bf2c041d759bd945e9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6166,
+      "sha256": "627ccf2d01c9a863ace9d5315076b56dab50f2f825ff1ebfc32a492d76ba7786"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9111,
+      "sha256": "ed2d51159c37154a0223b852cd1d95d58f60a22abf312a33d83dac2c676b8d6f"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 340,
+      "sha256": "7b5199ebdf895d0f323ac1b74e1cbd563fd8a9336ce33714791615c28d3e4cf0"
+    },
+    {
+      "path": "references/argumentation-and-structure.md",
+      "bytes": 17287,
+      "sha256": "bf910831127c0422ab57a38229f64053f002a40bdf845074487ed7e026f14ce5"
+    },
+    {
+      "path": "references/drawing-prompts.md",
+      "bytes": 14746,
+      "sha256": "4eb3376450df96e6bd259124acda63206b9df40293dea461267f2867c93b8b40"
+    },
+    {
+      "path": "references/experiment-and-ablation.md",
+      "bytes": 11652,
+      "sha256": "ab25636a3456850bbbf0d34ee4c5aca80c3b1dcbd8de9a5de2ea3b350f0dfbe4"
+    },
+    {
+      "path": "references/figure-and-table-design.md",
+      "bytes": 12698,
+      "sha256": "70431f51fc0cdfa3238884abac4392dc900f5a0d5a93bc5ba21cd3e8af123be1"
+    },
+    {
+      "path": "references/writing-style-and-polish.md",
+      "bytes": 10926,
+      "sha256": "bdb463cd9310215d92a888be46b73fcf8dc6e4b6df36b75021f667b654fed6e6"
+    }
+  ]
+}

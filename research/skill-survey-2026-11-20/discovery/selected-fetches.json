@@ -1,0 +1,733 @@
+[
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/experiment-craft/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/experiment-craft/SKILL.md",
+    "sha256": "a56d30cbb5a1101b65572a90af9b6f22270022d0237d9402731431f3247b5ece"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/research-survey/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/research-survey/SKILL.md",
+    "sha256": "2d547783c85a76dad5f66c15e343bc333a9860aca3576f829a6d375624650d58"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-planning/SKILL.md",
+    "status": "unavailable",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-writing/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-writing/SKILL.md",
+    "sha256": "b1957cdefc155d6eb702049d8baa2209925af463f9529bb60a8f46b90308a134"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-review/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-review/SKILL.md",
+    "sha256": "73b01c2ba9a8069c5df561c8b128a3be3b29a83033084d5f3ec18970b79972e5"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-navigator/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-navigator/SKILL.md",
+    "sha256": "c94d56f4183be4faf5a56aa32ebbe99c966304e6fea9652a4264ed077fea5ec7"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/research-ideation/SKILL.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/results-analysis/SKILL.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/results-report/SKILL.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/paper-self-review/SKILL.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/citation-verification/SKILL.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/README.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/README.md",
+    "sha256": "281b388f6ae59b73e13ab1b9a408175d7a0a78804fa70ceca2e48ae565daad41"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-graph/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-graph/SKILL.md",
+    "sha256": "5048c4abe179975a47d31d3044f9b33364068b528d145110f82064f5dc547d28"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-rebuttal/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-rebuttal/SKILL.md",
+    "sha256": "f2b9db1b48ca0e08b3f2eed62fbef11a3d8bb133f5a0419a4752f09b77e1f7fe"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/experiment-pipeline/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/experiment-pipeline/SKILL.md",
+    "sha256": "88e68f4c1334ad05b7d42b957ba30bc82d899c2327799ad55660300bce89b125"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/results-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/b672e80951a2348dd6136316d096603bf2dc5b83/skills/results-analysis/SKILL.md",
+    "sha256": "2232f74d141fad4a3e23635be0109217713d34bf0cb7be8d120e6296f4b79782"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/results-report/SKILL.md",
+    "status": "unavailable",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/research-ideation/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/research-ideation/SKILL.md",
+    "sha256": "3813e5b602e7123a31d834fd9df55e5144e6e19e8bf686240e38d70561646db9"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/paper-self-review/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/b672e80951a2348dd6136316d096603bf2dc5b83/skills/paper-self-review/SKILL.md",
+    "sha256": "e9c0040db7394e537becb5209f1b0100eb1267fbf1c540a2da07d7876cb93a41"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "VERSION",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/research-ideation/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/b672e80951a2348dd6136316d096603bf2dc5b83/skills/research-ideation/SKILL.md",
+    "sha256": "8fd82b93e2bfc83dda4fffe036a219848141b41cc2d90520f0eca93ccabc4437"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/evomath-tao/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/evomath-tao/SKILL.md",
+    "sha256": "188308046e4e739a43d497394ff11b33db49742586dc4bac2f7b9174315e552f"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "deep-research/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c/deep-research/SKILL.md",
+    "sha256": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "academic-paper-reviewer/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c/academic-paper-reviewer/SKILL.md",
+    "sha256": "f65faaf1414f95c729307af7604ef253bb93ccf80484af61bc9f390b68141bd6"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "experiment-agent/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "academic-paper/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c/academic-paper/SKILL.md",
+    "sha256": "1ec96c8b8db42e8481ece4004b4e03527116f89948a994a4befb50f6542a5917"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "skills/citation-verification/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/b672e80951a2348dd6136316d096603bf2dc5b83/skills/citation-verification/SKILL.md",
+    "sha256": "62e7eaed943d3773896f0e9af58913ec7950b34b8c939f3e8e984427a77a91ab"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "academic-pipeline/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c/academic-pipeline/SKILL.md",
+    "sha256": "cca9a5d29e1a0825e008bdf609c2230e9fcc8c87891681eeb77bfba32b247cf6"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "LICENSE.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "K-Dense-AI/claude-scientific-writer",
+    "path": "LICENSE.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "LICENSE",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c/LICENSE",
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c"
+  },
+  {
+    "repository": "K-Dense-AI/claude-scientific-writer",
+    "path": "LICENSE",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-writer/9820740d252800ecf0b8fc066ffb5bf9659f4a51/LICENSE",
+    "sha256": "6ea149808a174cbe116b4726cd06fe251d91eb9277c2842339c7ae14c4bc8523"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/preregistering-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/preregistering-analysis/SKILL.md",
+    "sha256": "52b8560d60af85cd768ca2d71d45a849e3b4e39af697aa6f71251f645f8815c9"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/evo-memory/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/evo-memory/SKILL.md",
+    "sha256": "43c7b157cea101928fb0fe5a5ef1b35800705153da4b4075bc6b7029ec6d5d43"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/subagent-driven-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/subagent-driven-analysis/SKILL.md",
+    "sha256": "2cee4173125e8998066528a0893a9700a47f8139b58a8a77b40e8e1c2d8b7fc8"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/executing-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/executing-analysis/SKILL.md",
+    "sha256": "245b14c34f8d0deec3ad45479244b07726bb276ae8251d50e869194ef8291f75"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/establishing-feasibility-first/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/establishing-feasibility-first/SKILL.md",
+    "sha256": "53ce3f3db22297061f141f641d45c2c324f058f15cf620455773939496786352"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-figures/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-figures/SKILL.md",
+    "sha256": "a7a0f5ae95c17e2b3a060b52beb6968f3e98027e18af0c1c2c273ca9fa67d327"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/requesting-red-team-review/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/requesting-red-team-review/SKILL.md",
+    "sha256": "3f08383d24d74de000e15d989e1cac539c3c2c6096ab5b18a6a7933bf8b9672f"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/investigating-anomalous-results/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)>"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/surveying-prior-work/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/surveying-prior-work/SKILL.md",
+    "sha256": "e502b4b1e4b80ecee4bcd96d4239632b9e40279bf2cdbe6ad2a69961a3c0e360"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/setting-up-reproducible-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/setting-up-reproducible-analysis/SKILL.md",
+    "sha256": "f52c4d4c107744ec42ef4ad13cef7e652b1c6b8e01fd4717e8ddf07dce73b487"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/reporting-and-archiving-findings/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/reporting-and-archiving-findings/SKILL.md",
+    "sha256": "645d951675e4893d774f96893d5fdad8ae66e3620cee485bcbd7c3f3a36366ed"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/writing-science-skills/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/writing-science-skills/SKILL.md",
+    "sha256": "0721adfe0050565dfac9706f5531781fa8cac710a1310125eb080186fed0e132"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/receiving-critical-review/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/receiving-critical-review/SKILL.md",
+    "sha256": "48af2ab8bb593c000af2c3ba22af254f86ea241c04e33fb908886a305977917f"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/verifying-results-before-claiming/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/verifying-results-before-claiming/SKILL.md",
+    "sha256": "90fbeb6dce4a1213778c3ced639ba6aab5a5a801bc4ee2a53c98d7058c4decad"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/experiment-iterative-coder/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/experiment-iterative-coder/SKILL.md",
+    "sha256": "389ec2845a37ef432e767bff904d6ee90c7a555763572c5dabb8ccfdf9f1e34b"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/hypothesis-generation/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/hypothesis-generation/SKILL.md",
+    "sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statistical-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/statistical-analysis/SKILL.md",
+    "sha256": "e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/using-science-superpowers/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/using-science-superpowers/SKILL.md",
+    "sha256": "fac8de9f7be50ec9688661060db95c02dd92b4cfd7e87b1da448b78fa633cd1a"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/paper-lookup/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/paper-lookup/SKILL.md",
+    "sha256": "fac99456ad404ff9a0d3043709b956b5d6383838ae8e8394f274a5693d8bd294"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/dispatching-parallel-investigations/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/dispatching-parallel-investigations/SKILL.md",
+    "sha256": "c0bef023dde4f91d65de01055d33d6818b61c25cab606b654fd7e9346cbda682"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/citation-management/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)>"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-critical-thinking/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/scientific-critical-thinking/SKILL.md",
+    "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-visualization/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/scientific-visualization/SKILL.md",
+    "sha256": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/designing-the-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/designing-the-analysis/SKILL.md",
+    "sha256": "ba2332cc1980f6993153718bc71d6c00bd6e534552a4f6a1d1ed68681835b768"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-brainstorming/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/scientific-brainstorming/SKILL.md",
+    "sha256": "06f73b71556356a7f488c369b9445d7943543a3f14d159b2168fd3f621d6f8a9"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/framing-research-questions/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/science-superpowers/0374bdf82c2372bdf1667e3c762146c3a29215f5/skills/framing-research-questions/SKILL.md",
+    "sha256": "f26651fec7df5a9919b92f8bfe7bb5aea0d6b9a520033dcec8d9ecaa6799c449"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/experimental-design/scripts/randomization.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/experimental-design/scripts/randomization.py",
+    "sha256": "c7c2eab469618a4b27548058b924ec3f4aafaf635d3797af920b9058e700bce4"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/uncertainty-and-units/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/uncertainty-and-units/SKILL.md",
+    "sha256": "caaafa079a4eaac6012717bcf705dec0417b5434f5dbd1af934a3a36ad375722"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/sympy/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/sympy/SKILL.md",
+    "sha256": "bb97087bdddccc845401737ddc7f7a8da1c14ced5e8d40da01271c991ac46e23"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/research-manager/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statistical-analysis/scripts/assumption_checks.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/statistical-analysis/scripts/assumption_checks.py",
+    "sha256": "3e37a4e04407b5f040f103962ed0e73935d114d3892ee45b5a06a1da42c10341"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/office/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/experimental-design/scripts/doe_designs.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/experimental-design/scripts/doe_designs.py",
+    "sha256": "916996b5e6a5dbb9a408aa1e755a95800af70231e46d12c8c5efddb9e3e30683"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statistical-power/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/statistical-power/SKILL.md",
+    "sha256": "a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/experimental-design/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/experimental-design/SKILL.md",
+    "sha256": "db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/research-methodology/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/verification-before-completion/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/scientific-critical-thinking/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/scientific-critical-thinking/SKILL.md",
+    "sha256": "4cffb3c61b53a62074bf5046431a9716ccf551a3b42dcbb52b8fdf4da88a8086"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/research-persona/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/scientific-writing/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/scientific-writing/SKILL.md",
+    "sha256": "5be255e9c2aa4bca22416eaf60f46b90fbafad935078bd50ff7073031ed1825b"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/paper-lookup/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/paper-lookup/SKILL.md",
+    "sha256": "0ba6f128602f3c79e7e42682520d34f5462d9e09a31c4d1bf79fd2b79e57e8af"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/statistical-analysis/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/statistical-analysis/SKILL.md",
+    "sha256": "87d97e2fbb96a09d4c3d67361a7babb0a41cf0754712a5d7c4fda2bf319476f2"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/office-agent/office-docs/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/creative-thinking-for-research/SKILL.md",
+    "sha256": "ec111f9236d7f9d72c895cebbf0f534ac93f4249172607559ad4bf92aefc5310"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/peer-review/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/peer-review/SKILL.md",
+    "sha256": "a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "22-agent-native-research-artifact/research-manager/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/research-manager/SKILL.md",
+    "sha256": "f78da7627ac09a4be398ea4363fc7b8753b2dcb22bc961c5059395e33ef3ef2c"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "LICENSE",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/LICENSE",
+    "sha256": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "18-multimodal/openpi/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/18-multimodal/openpi/SKILL.md",
+    "sha256": "60af709a253bd745330e43067b22667b932a393e65a3cde6660a25d0ffbe4742"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "LICENSE.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/ai-research-reproduction/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/ai-research-reproduction/SKILL.md",
+    "sha256": "429b7d6c29a62fa9f35ee8976672ef97fb7a5df16a4b5a4b21e5a09880018c95"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/novelty-check/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/research-review/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "meiyou666/research-skills-system",
+    "path": "LICENSE.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/ml-paper-writing/SKILL.md",
+    "sha256": "96733e6d758642d792ed15b7c08eb90548d4775099368cd72a8312127f2fe911"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/experiment-audit/SKILL.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "meiyou666/research-skills-system",
+    "path": "LICENSE",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/paper-context-resolver/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/paper-context-resolver/SKILL.md",
+    "sha256": "a2351c67577fe3a534a33c104af6fc45407a7df51f02893596598304831b1b22"
+  },
+  {
+    "repository": "ray-caster/autoresearch-skill",
+    "path": "LICENSE",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "README.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/README.md",
+    "sha256": "b31d54de58792784eca2b7228a270646210363131dc6f5f2ed9e14e579e654d7"
+  },
+  {
+    "repository": "scanady/ds-mlops",
+    "path": "LICENSE",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "ray-caster/autoresearch-skill",
+    "path": "LICENSE.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/idea-discovery-robot/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/idea-discovery-robot/SKILL.md",
+    "sha256": "fe77e38c3ecc10983e4d0faa8e514f90837c02038d8cdf0d34524416a0d605ee"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/idea-creator/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/idea-creator/SKILL.md",
+    "sha256": "4752ae46d1a67c181838f0dbe15812e36d384751b1e5c9e3d7b8abb608cb58b2"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/novelty-check/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/novelty-check/SKILL.md",
+    "sha256": "a1f257297405c9948f570d51672f50b0176177001e74118c926b149c9ccb9af4"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/research-refine/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/research-refine/SKILL.md",
+    "sha256": "c58649772c1cca2fc3e9d32622be279b42491991ab96301b30acb3722b45af6b"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/research-review/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/research-review/SKILL.md",
+    "sha256": "71982b92a7790229076204d7b7264bf5d31e9053169ec140ca0c6cca849ab7ab"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/experiment-bridge/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/experiment-bridge/SKILL.md",
+    "sha256": "8afba310ad8a381b3cecfa4549780af30e1cbebaca37c45338ea3232bf188856"
+  },
+  {
+    "repository": "scanady/ds-mlops",
+    "path": "LICENSE.md",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "22-agent-native-research-artifact/rigor-reviewer/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/result-to-claim/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/result-to-claim/SKILL.md",
+    "sha256": "b12d10bdb51440f65e4112e6643712f172a7e37c1e15066e15d81eaee5838a8f"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/proof-orchestrator/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/proof-orchestrator/SKILL.md",
+    "sha256": "a413ff855b0d297671b443e66e6a0ae64caa0a23ed2cbff5b5037cea4f7c8de5"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "tools/evidence_check.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/tools/evidence_check.py",
+    "sha256": "2edbd901d760d22e7e43a14e8e88ab0e089303f489055cd9b5e9d1f4dce50382"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "18-multimodal/openvla-oft/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "18-multimodal/cosmos-policy/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/experiment-audit/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/experiment-audit/SKILL.md",
+    "sha256": "6a8b6817a30e1bef03ad2bd679155ce39c2b0977bca38874485f7f5c1fd2567c"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "docs/SKILLS_CATALOG.md",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "skills/paper-writing/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd/skills/paper-writing/SKILL.md",
+    "sha256": "295bd0b3852635258a60c1917dcca29256c690bb6dde5c6ac49732b905ff8743"
+  }
+]

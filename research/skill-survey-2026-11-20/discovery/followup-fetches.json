@@ -1,0 +1,182 @@
+[
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/citation-verification/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/citation-verification/SKILL.md",
+    "sha256": "e029dcb02f733fc56418943bf74318049fd879acb2e9d1ed1383d34a11b7724f"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/experimental-design/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/experimental-design/SKILL.md",
+    "sha256": "f2a6f3bef5ddac313ca4b739119cd8e03a464b133b637e5fbb4561230200028d"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-figures/scripts/validate_figure.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-figures/scripts/validate_figure.py",
+    "sha256": "4e7bf6eed50bbee056bfbf6434b93a375e30fa12816f1d3a44138605bfdb98c5"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/paper-planning/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/85ad685d1df5ed1d7fe641564d04bb8a3dec8f28/skills/paper-planning/SKILL.md",
+    "sha256": "018e0d8aa4e10cea252ebbcf2b20100e15254b78d3c4c0d3429a6430aa40fd00"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "scripts/prereg.sh",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/fulltext-acquisition/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/fulltext-acquisition/SKILL.md",
+    "sha256": "8d7f121ef15253846b468972374487ff713008143497e011129985c52e6748d3"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/paper-card/SKILL.md",
+    "status": "unavailable",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "repository": "WUBING2023/PaperSpine",
+    "path": "dist/claude/skills/paper-spine/references/results-validation.md",
+    "status": "unavailable",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "repository": "WUBING2023/PaperSpine",
+    "path": "dist/claude/skills/paper-spine/references/scientific-evidence-ledger.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/WUBING2023/PaperSpine/8e1f105b4299136a9b4b596083a2325fb9086b97/dist/claude/skills/paper-spine/references/scientific-evidence-ledger.md",
+    "sha256": "3184d20c4e822e9fce7bd62bfcdf3bd2778a9770d3460d44993d91822e6e168f"
+  },
+  {
+    "repository": "WUBING2023/PaperSpine",
+    "path": "dist/claude/skills/paper-spine/references/paper-spine-production-protocol.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/WUBING2023/PaperSpine/8e1f105b4299136a9b4b596083a2325fb9086b97/dist/claude/skills/paper-spine/references/paper-spine-production-protocol.md",
+    "sha256": "8991d3739736c12e440ac9f729c3eff55096463da01cbd590c18a3b01c873f25"
+  },
+  {
+    "repository": "YufanDu-bjtu/paper-easy-reader",
+    "path": "scripts/render_reader.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/YufanDu-bjtu/paper-easy-reader/7f66f55b56a423a81c59ba1c6a9f3383583f5628/scripts/render_reader.py",
+    "sha256": "e07e4b5ce4efc7b16829c5ff4e8f2b4e69616f70d49f5da00dfedaee3fd16229"
+  },
+  {
+    "repository": "WUBING2023/PaperSpine",
+    "path": "dist/claude/skills/paper-spine/references/scientific-figure-workflow.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/WUBING2023/PaperSpine/8e1f105b4299136a9b4b596083a2325fb9086b97/dist/claude/skills/paper-spine/references/scientific-figure-workflow.md",
+    "sha256": "231137903bae1efcb9ddd2b32b58fdb517087603b9ad0820ec683a788931f404"
+  },
+  {
+    "repository": "YufanDu-bjtu/paper-easy-reader",
+    "path": "scripts/check_reader.py",
+    "status": "unavailable",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/safe-debug/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/safe-debug/SKILL.md",
+    "sha256": "2c3a51de17d8d37b7c92262527a8a429886942efd9fb0b392dc9b5e742ac0498"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/autoresearch/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/KalarisLabs/research-agent-skills/a74b0dbe5fa865d73b9f250ba5b0c9f107bd1baa/skills/autoresearch/SKILL.md",
+    "sha256": "15044580ef1aacb92ad81f50bcf939ad50adffe700164d108f970cd801f749bc"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/ai-research-explore/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/ai-research-explore/SKILL.md",
+    "sha256": "40d698b71b727d6fa4c639060341f5f5f8f3941b2b5be395df20022ebf69dd91"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/explore-run/SKILL.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/explore-run/SKILL.md",
+    "sha256": "0643eab765bee05830ee2f3f04172c7ebee7771b7c3396e5fd1cbc4a71281756"
+  },
+  {
+    "repository": "leo-lilinxiao/codex-autoresearch",
+    "path": "scripts/autoresearch.py",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/leo-lilinxiao/codex-autoresearch/0089369d803a2f3fa2a804aaf854c194cbc00241/scripts/autoresearch.py",
+    "sha256": "add2679db8c47f7448ffd2c30c7b47f2a7cfa8d005f93eee0e9686ed2639d1aa"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "skills/investigating-anomalous-results/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error _ssl.c:990: The handshake operation timed out>"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "skills/experiment-craft/references/experiment-log-template.md",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/ai-research-explore/references/research-campaign-spec.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/ai-research-explore/references/research-campaign-spec.md",
+    "sha256": "aff03ac0f069a7b2b0daa3fdc352002714f0a5ff8a548ea5588405b21e9b9f92"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "skills/reproducibility-statement/SKILL.md",
+    "status": "unavailable",
+    "error": "The read operation timed out"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "references/research-thinking-loop.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/references/research-thinking-loop.md",
+    "sha256": "c0f7dc13f6d1e45df5f2ffa183850d1b47ff6f65fb41619910b9771bbe43461a"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/ai-research-reproduction/references/agent-runner.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/ai-research-reproduction/references/agent-runner.md",
+    "sha256": "bd50734bd67afea418e89cac020c21307ef662ec5fd5b93a883260d35d773757"
+  },
+  {
+    "repository": "YufanDu-bjtu/paper-easy-reader",
+    "path": "references/reader-data.md",
+    "status": "unavailable",
+    "error": "<urlopen error _ssl.c:990: The handshake operation timed out>"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/ai-research-reproduction/references/agent-job.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/lllllllama/RigorPilot-Skills/fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01/skills/ai-research-reproduction/references/agent-job.md",
+    "sha256": "2e2b5944f64d25395c75c7ce0102cb48578f4b9faaf1c4d1982749951523ad03"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "skills/minimal-run-and-audit/SKILL.md",
+    "status": "unavailable",
+    "error": "<urlopen error _ssl.c:990: The handshake operation timed out>"
+  }
+]

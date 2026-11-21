@@ -1,0 +1,5 @@
+id = "{{study_id}}"
+title = "{{title}}"
+track = "{{track}}"
+owner = "{{owner}}"
+created = "{{date}}"

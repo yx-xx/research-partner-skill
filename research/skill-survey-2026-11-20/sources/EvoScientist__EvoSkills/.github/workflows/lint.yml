@@ -1,0 +1,25 @@
+name: Lint
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install ruff
+        # Pinned: ruff 0.16.0 expanded default lint rules and began formatting
+        # Python code blocks inside Markdown, breaking CI without code changes.
+        # Bump deliberately in a dedicated PR (run `ruff check --fix` there).
+        run: pip install "ruff==0.15.8"
+      - name: Run ruff linter
+        run: ruff check --output-format=github .
+      - name: Run ruff format check
+        run: ruff format --check .

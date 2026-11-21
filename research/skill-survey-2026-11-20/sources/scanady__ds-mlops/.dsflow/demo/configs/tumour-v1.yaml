@@ -1,0 +1,34 @@
+# Demo study 001: first version of the tumour classifier.
+# The demo writes the data. Run `uv run poe demo` to use this file.
+study: tumour-classifier
+seed: 42
+task: binary_classification
+
+data:
+  path: data/raw/demo/history.csv
+  target: target
+  id_column: id
+  features: auto
+
+split:
+  strategy: stratified
+  test_size: 0.2
+  valid_size: 0.2
+
+models:
+  baseline: dummy
+  candidates:
+    - name: logistic_regression
+      params:
+        C: 1.0
+    - name: hist_gradient_boosting
+      params:
+        max_iter: 200
+        learning_rate: 0.1
+
+selection_metric: log_loss
+
+tracking:
+  experiment: tumour-classifier
+
+output_dir: models/demo

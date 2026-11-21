@@ -1,0 +1,102 @@
+[
+  {
+    "repository": "onescience-ai/OneSkills",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "WUBING2023/PaperSpine",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "YufanDu-bjtu/paper-easy-reader",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "lllllllama/RigorPilot-Skills",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "google-deepmind/science-skills",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "K-Dense-AI/science-superpowers",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "leo-lilinxiao/codex-autoresearch",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "EvoScientist/EvoSkills",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "dahliasan/researchskills",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "w1-23/scientific-figure",
+    "path": "README.md",
+    "status": "already_present"
+  },
+  {
+    "repository": "Galaxy-Dawn/claude-scholar",
+    "path": "README.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Galaxy-Dawn/claude-scholar/b672e80951a2348dd6136316d096603bf2dc5b83/README.md",
+    "sha256": "76056211051cd4f702c755b6e4d691fe273b276763933f0e3ffcbef834b5a58c"
+  },
+  {
+    "repository": "K-Dense-AI/claude-scientific-writer",
+    "path": "README.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-writer/9820740d252800ecf0b8fc066ffb5bf9659f4a51/README.md",
+    "sha256": "58c0bc2f1a7283042cd776244a7fa1f29d27690f20cf6374b59cc65da97b9a59"
+  },
+  {
+    "repository": "Imbad0202/academic-research-skills",
+    "path": "README.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills/bd57330f63f4b089dde8fdef9bf5f009ecc89f0c/README.md",
+    "sha256": "aee6d09ba4a2da3d28dff81fb49bf1e7713e8e33e53a35b3bd973b0db3f15fda"
+  },
+  {
+    "repository": "scanady/ds-mlops",
+    "path": "README.md",
+    "status": "downloaded",
+    "source_url": "https://raw.githubusercontent.com/scanady/ds-mlops/e1b4653eab2ead06dc4482e2953e990e1ec948cd/README.md",
+    "sha256": "9c8860424754ab90521bc0969c42568b4cd2ebe12139581dc68c6494d0d680d9"
+  },
+  {
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "path": "README.md",
+    "status": "unavailable",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "repository": "KalarisLabs/research-agent-skills",
+    "path": "README.md",
+    "status": "unavailable",
+    "error": "The read operation timed out"
+  }
+]

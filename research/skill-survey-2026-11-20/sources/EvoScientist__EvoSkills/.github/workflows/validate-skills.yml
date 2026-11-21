@@ -1,0 +1,29 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  validate-frontmatter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history: the version-bump check compares against the base branch.
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Validate SKILL.md frontmatter
+        if: github.event_name != 'pull_request'
+        run: python .github/scripts/validate_skills.py
+      - name: Validate SKILL.md frontmatter and version bumps
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: python .github/scripts/validate_skills.py --base "origin/$BASE_REF"

@@ -1,0 +1,438 @@
+{
+  "repository": "dahliasan/researchskills",
+  "branch": "main",
+  "commit": "2c8d6e6aa1da3196b081e5fc0f0caf70a417816c",
+  "commit_date_utc": "2026-11-20T12:37:43Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-07-20T18:10:34Z",
+  "pushed_at_utc": "2026-11-20T12:37:43Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 491,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/dahliasan/researchskills",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 80,
+  "retained_files": 80,
+  "retained_bytes": 395019,
+  "skill_entry_files": [
+    "skills/aic-model-selection/SKILL.md",
+    "skills/dayhoff-remote-edits/SKILL.md",
+    "skills/dayhoff-slurm/SKILL.md",
+    "skills/discover-papers/SKILL.md",
+    "skills/fact-check/SKILL.md",
+    "skills/figure-design/SKILL.md",
+    "skills/find-pdf/SKILL.md",
+    "skills/ggplot-maps/SKILL.md",
+    "skills/improve-r-research-architecture/SKILL.md",
+    "skills/literature-review/SKILL.md",
+    "skills/manuscript-collab/SKILL.md",
+    "skills/manuscript-markdown/SKILL.md",
+    "skills/manuscript-submission/SKILL.md",
+    "skills/manuscript-writing/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 844,
+      "sha256": "bb3cbfbe00f18344faddd6e915f4d9e3ee62c524fd4afb0f43cb8c8a24fcdb6c"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 481,
+      "sha256": "04db7b0f5eeb94491c3e770fc990d771adf824dfbc836b35e69267265d416bf7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 204,
+      "sha256": "2ff7672f59c71f9342b55d953865b8a34b08a374cc8291379fe03fd3237ebd65"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3244,
+      "sha256": "26cb931ed1a0a37ca6c65c3d0702c7d15d71991f1bf55a15a0687441a211b792"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 6994,
+      "sha256": "181877293974400d5632e52c5c3a3a80d9f575a6c5e1bcba74a48fa6170755ff"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 5738,
+      "sha256": "0a3165c64bf22f7a6edbeac70c7a5c9f9118f0ae42dbfcabf10408594430b238"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 741,
+      "sha256": "640e0cd4ad08ab67b987c1ae5205384d4e53818c9ba458a06e3331b0679c3409"
+    },
+    {
+      "path": "EXAMPLES.md",
+      "bytes": 4477,
+      "sha256": "4dbf1ea293ae5d860c659adda9669024f7b7aae73f01fb6f7590b13ea9d93f71"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 2953,
+      "sha256": "b3de26a6108aea2e8bfd5f0795812d017fe989f2d6c73ed8c492d4c6ca0f62cc"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "37dea19b5ea43d396224808028b3985788a0787dae54801e8017e7400f62bfa0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6372,
+      "sha256": "bc8884795c6e8ddb252370d37d4ab3568ff0e90b61bf913a5e5d837e31b6b87e"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-21-manuscript-collab.md",
+      "bytes": 23158,
+      "sha256": "62115c3ac5d9ddd66511ddb1cb623bee4f2c652d791d22b4a2d8a4372c2d68de"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-19-my-research-library-mcp.md",
+      "bytes": 5111,
+      "sha256": "24b8c7ca09e3a58fb83de21dd23e16af4b39f080a1e6675a619416bbccb0eec1"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-21-manuscript-collab-design.md",
+      "bytes": 8662,
+      "sha256": "a6f9613628905bb6037a7678b30c442879b34bba7f12c4c49d86cb12a8221fac"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-27-chatgpt-research-mcp-tunnel-design.md",
+      "bytes": 9914,
+      "sha256": "bbc35cb918063f7c92bd1462b697c6a7e751c61016022a509e0fac0ceecffdfa"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-19-my-research-library-mcp-design.md",
+      "bytes": 12612,
+      "sha256": "b0d56f0fc5bc951f5eb3b9c820070f38df6c8fa2a001b8fcf378e62c8da46d33"
+    },
+    {
+      "path": "schemas/README.md",
+      "bytes": 930,
+      "sha256": "1fa6b8f9158713540cfeea77ad4784f20a8a7e31884eb62770c747f7e53e70df"
+    },
+    {
+      "path": "schemas/examples/paper-extraction.v1.example.json",
+      "bytes": 2182,
+      "sha256": "a7c7bbdaef5ce4940dc1aea8637d8499376dacf6bfad9c4ca0d1e745cae57b52"
+    },
+    {
+      "path": "schemas/paper-extraction.v1.schema.json",
+      "bytes": 7187,
+      "sha256": "d1e6d0212cc4b74628994193131cfd1847b297c65a9c3be45b4dbe3968ad4783"
+    },
+    {
+      "path": "scripts/link-cursor-rules.sh",
+      "bytes": 803,
+      "sha256": "79262c856c951d1039dfacc8c46e138bcac5b8536c5f2c27b0c6ecaf4760bc61"
+    },
+    {
+      "path": "scripts/link-global.sh",
+      "bytes": 2394,
+      "sha256": "bccd0cea5b5882baa6108d556616dfa4df72f86e06143330e5671902f207ed21"
+    },
+    {
+      "path": "skills/aic-model-selection/SKILL.md",
+      "bytes": 5429,
+      "sha256": "4364dad213ac831107e009a28a49958fad67dba5b20b0b9cbe5a17ea75d33607"
+    },
+    {
+      "path": "skills/aic-model-selection/references/arnold-2010.md",
+      "bytes": 2695,
+      "sha256": "d84109b60638d4258c2e5039c10a3d9ddf94e02e5d2b3ebdf6de9df558074ca0"
+    },
+    {
+      "path": "skills/aic-model-selection/references/overview.md",
+      "bytes": 2166,
+      "sha256": "a3738e6f5a604b5f710604501dae7640c8cc0f717480fea5d6f22e1d7afa5a6c"
+    },
+    {
+      "path": "skills/aic-model-selection/references/uninformative-parameters.md",
+      "bytes": 1810,
+      "sha256": "e480827c6e1aff14fa6f27239e4a1d97ce5072da52836e57c76f6cb9c29f9585"
+    },
+    {
+      "path": "skills/dayhoff-remote-edits/SKILL.md",
+      "bytes": 4934,
+      "sha256": "01a87723251d6b2aab3acc4bd3481e1d12a3ec01212b2135e97c971b22f141c0"
+    },
+    {
+      "path": "skills/dayhoff-slurm/SKILL.md",
+      "bytes": 10099,
+      "sha256": "f0f21d15d83b75bbb6c7b6b78fe64f20ca514a8ec7b911af40b4093355d85e79"
+    },
+    {
+      "path": "skills/discover-papers/SKILL.md",
+      "bytes": 2822,
+      "sha256": "290dec6cfae8620bb033afebfd48fa7c0971c09bcdc412648101be87e3a11cdd"
+    },
+    {
+      "path": "skills/discover-papers/references/modes.md",
+      "bytes": 402,
+      "sha256": "8e5c7a4b5d4a6d1be2f437eca4361549d67a338f77ab9d858daa105ff243a0d7"
+    },
+    {
+      "path": "skills/discover-papers/scripts/openalex_search.py",
+      "bytes": 7604,
+      "sha256": "fd0bc9158accd9983152d25c22f442d178c8d81fa1e429545b5dd2c693fa49b5"
+    },
+    {
+      "path": "skills/fact-check/SKILL.md",
+      "bytes": 4902,
+      "sha256": "5e19be4f5bfdbf4dbf701f3d873598fbf81c2c92bdf365ba6e9ce32376bb3826"
+    },
+    {
+      "path": "skills/fact-check/references/tool-map.md",
+      "bytes": 2605,
+      "sha256": "f1cecf87e937105eda7a126006313b4ea81aac136e745d3b12681789789cf9f9"
+    },
+    {
+      "path": "skills/figure-design/SKILL.md",
+      "bytes": 13883,
+      "sha256": "b8f11be365f7013bf310b09cc94fd39585d1a6b964b3203cabe969939c02ca5f"
+    },
+    {
+      "path": "skills/figure-design/assets/figure-brief.md",
+      "bytes": 1328,
+      "sha256": "7759c7d17580e464026d45b25f331029506c2814265aaa0982b7917f35e5aecc"
+    },
+    {
+      "path": "skills/figure-design/references/design-guidance.md",
+      "bytes": 3501,
+      "sha256": "91d5bd10d9d3d286aa711ea6cce48ae346cda9575e29e0f6bb72bd1fbc1c7b4e"
+    },
+    {
+      "path": "skills/figure-design/references/publication-sizing.md",
+      "bytes": 4372,
+      "sha256": "d782d8c85a92217202962ffcc24e7a705102cac29931e05ed36060239397d8df"
+    },
+    {
+      "path": "skills/find-pdf/SKILL.md",
+      "bytes": 3648,
+      "sha256": "4d3d96f1bcbedf01b537ebf6b0c44ccf79914c1da6c545e3d43e46718c32e756"
+    },
+    {
+      "path": "skills/find-pdf/references/attribution.md",
+      "bytes": 277,
+      "sha256": "824995ca66f7bf6dbca6ae7d1862e66acd2dfa5e5b3de45992e332ca9f9dcb31"
+    },
+    {
+      "path": "skills/find-pdf/references/institutional-proxy.md",
+      "bytes": 5346,
+      "sha256": "95db24fe4783a812cbc5fca40dca38dcc7c70edc9a4cbc285ec0dbd1ac6cd339"
+    },
+    {
+      "path": "skills/find-pdf/references/scihub.md",
+      "bytes": 7444,
+      "sha256": "272ef485519e9ed314b99f977e2ddba4906b859393c53eb053958094ef66f6fb"
+    },
+    {
+      "path": "skills/find-pdf/references/waterfall.md",
+      "bytes": 731,
+      "sha256": "4942aefe9768a0aaec24835050aaa7d0a17a738155ee096ac57a896d2f10c278"
+    },
+    {
+      "path": "skills/ggplot-maps/SKILL.md",
+      "bytes": 7634,
+      "sha256": "d79694b47a5946c81ef659f0714d045d1d6e399a90725b66a416a07459627b4a"
+    },
+    {
+      "path": "skills/ggplot-maps/references/layouts-and-colour.md",
+      "bytes": 8847,
+      "sha256": "f39ed6c8bc2367cc9d6c9f9a40f7b403275f58762c27da203173a708c35dcff8"
+    },
+    {
+      "path": "skills/ggplot-maps/references/r-recipes.md",
+      "bytes": 3981,
+      "sha256": "572fb348fa13363060a49bb79110b3d5be3cd1cff5600e77c5dea02112bd52aa"
+    },
+    {
+      "path": "skills/ggplot-maps/references/resources.md",
+      "bytes": 4305,
+      "sha256": "6d0aa00b7ca940d5377e972b3910dab0d2955644e4f5f505552e53f5b3a2a8b9"
+    },
+    {
+      "path": "skills/improve-r-research-architecture/SKILL.md",
+      "bytes": 15945,
+      "sha256": "6e198ebf21b46d4d8eb5ae95ef69e55b1f8e155c3fc41603275658c2df067ad1"
+    },
+    {
+      "path": "skills/improve-r-research-architecture/references/principles.md",
+      "bytes": 2797,
+      "sha256": "c8df768ddbd222891293bbf376b0b629da7cc0f918c27970e797fe608dca9b63"
+    },
+    {
+      "path": "skills/literature-review/SKILL.md",
+      "bytes": 13434,
+      "sha256": "b5cc23e96d935cdfcb7d41ce954c25eb53716a00d73bf3c86d3a851340e2a094"
+    },
+    {
+      "path": "skills/literature-review/references/evidence-artifacts.md",
+      "bytes": 4906,
+      "sha256": "82a060a9882953975b651bdabece2d469b8cb3ff0d6aea3ef3f4105c8a55d66f"
+    },
+    {
+      "path": "skills/literature-review/references/extraction-prompt.md",
+      "bytes": 4214,
+      "sha256": "a574fd498658f35a89b53c9010f6ae7602b6da83370a5f5a210f9f91be8a3789"
+    },
+    {
+      "path": "skills/literature-review/scripts/render_extraction_prompt.py",
+      "bytes": 11391,
+      "sha256": "5ef7b711996a3c1d59bb53c291fba140b874e8292cd9be2c5ad0d9febbc41a9c"
+    },
+    {
+      "path": "skills/literature-review/scripts/validate_extraction.py",
+      "bytes": 2803,
+      "sha256": "4428aaf17db037c6bc0070c17828fac233e430360b4792a3e75b2fce2a5874ea"
+    },
+    {
+      "path": "skills/manuscript-collab/SKILL.md",
+      "bytes": 3784,
+      "sha256": "1f2698a7e00c5c6c2c3cc7a063409fce4840a9a61b2c9766942ff08e3feda9e3"
+    },
+    {
+      "path": "skills/manuscript-collab/reference.md",
+      "bytes": 2223,
+      "sha256": "dad347c8693b4585bc9cf619cdd19ac3a90ab61ca73723c4cb21ca2ce181a0d5"
+    },
+    {
+      "path": "skills/manuscript-collab/scripts/ensure_manuscript_markdown_cli.sh",
+      "bytes": 1224,
+      "sha256": "741f8d07614a211c9d11fcc49b4fda0cddadcfe142a591675d0d629069256914"
+    },
+    {
+      "path": "skills/manuscript-collab/scripts/export_for_collaborators.sh",
+      "bytes": 2606,
+      "sha256": "c2faa3e990447730f4434c04b92f79e3893c268933f33715ac52fd294aae4f2b"
+    },
+    {
+      "path": "skills/manuscript-collab/scripts/strip_agent_criticmarkup.py",
+      "bytes": 3425,
+      "sha256": "6d0af532671fbd1ac53ff9ea5b4ba0c29a9e9657bdf92eb18d2c6187a690f1eb"
+    },
+    {
+      "path": "skills/manuscript-markdown/SKILL.md",
+      "bytes": 6965,
+      "sha256": "705eabc5b8de23eb982875d4383b5f8bdf515152197c141ac093e4e310c2abcc"
+    },
+    {
+      "path": "skills/manuscript-markdown/references/cli.md",
+      "bytes": 1979,
+      "sha256": "3726f37ef4b80436147c75af2ccda32752777db265d2e15aa704fd91de6c39c4"
+    },
+    {
+      "path": "skills/manuscript-markdown/references/criticmarkup.md",
+      "bytes": 1415,
+      "sha256": "f0b51b7ff4e0ed4f7df6b3777a55cf533e97bc2fce0aca0aead92203ed1dfef5"
+    },
+    {
+      "path": "skills/manuscript-markdown/references/install.md",
+      "bytes": 2564,
+      "sha256": "9aa5159598a00bca4eb436fb5db40c7e2133e9212199fdbab6cbf683ffd542fa"
+    },
+    {
+      "path": "skills/manuscript-markdown/references/zotero-fields.md",
+      "bytes": 3204,
+      "sha256": "40e4d867679b6f0d85e60acfd60efb94efbecd3d3974ab252e36afb549442fe3"
+    },
+    {
+      "path": "skills/manuscript-submission/SKILL.md",
+      "bytes": 9290,
+      "sha256": "0cc5b53b42289a1272c8a3264790c04ff2cc3dc6f50382b7fd74326e69c52f6c"
+    },
+    {
+      "path": "skills/manuscript-submission/assets/submission-checklist.md",
+      "bytes": 2133,
+      "sha256": "5f8e0f8136a812fb3a6229d014da33f7752fb1e604de9985f98bd0c830a002d8"
+    },
+    {
+      "path": "skills/manuscript-submission/references/submission-guidance.md",
+      "bytes": 4199,
+      "sha256": "3abec182ca4caa1941177ccbbc1328a44b1af2a23bbfa195ea3d8d69203712cc"
+    },
+    {
+      "path": "skills/manuscript-writing/SKILL.md",
+      "bytes": 7889,
+      "sha256": "a95dac006f70e212fa27e8e4e21c6885da54e779844c0fca34d8b30906edae91"
+    },
+    {
+      "path": "skills/manuscript-writing/assets/manuscript-outline.md",
+      "bytes": 1262,
+      "sha256": "8a98c68e27e344a4f09c972c8929a8a8ac9d8fb8d8a12f812917d36374468754"
+    },
+    {
+      "path": "skills/manuscript-writing/modes/audit.md",
+      "bytes": 2148,
+      "sha256": "57a09db88e35021d0b066ab2c0be4fe5ad04c54d7d92710ef30e1233e169fc30"
+    },
+    {
+      "path": "skills/manuscript-writing/modes/draft.md",
+      "bytes": 1154,
+      "sha256": "9fecb9aba7e5296d0ebf984d1c154dd89ee156e97600928c80df4d801bd58705"
+    },
+    {
+      "path": "skills/manuscript-writing/modes/outline.md",
+      "bytes": 1647,
+      "sha256": "b50c5cd34dd646247ea24c5ae82e0081bb6ad57d2985b6281c7d2d9dc89032b9"
+    },
+    {
+      "path": "skills/manuscript-writing/modes/response-to-reviewers.md",
+      "bytes": 1113,
+      "sha256": "f7ad475fb1d28ca8bd25eb06f05c753825df37afd3013c82a886cf0d40d1f321"
+    },
+    {
+      "path": "skills/manuscript-writing/modes/revise.md",
+      "bytes": 2290,
+      "sha256": "755bc50087ac5c9e7513a8173310b70aea3c79980fec92c1cc549f42bb3985cf"
+    },
+    {
+      "path": "skills/manuscript-writing/modes/surgical-edit.md",
+      "bytes": 1085,
+      "sha256": "79f7a7f60ea768d0604abc9746ce2ac3f08ef937e63bc5cf74e746055443ad1d"
+    },
+    {
+      "path": "skills/manuscript-writing/reference.md",
+      "bytes": 15378,
+      "sha256": "7d2852c7828a5fbef485e075d2ef1c712fe58f1c1ca92304729d5783d26c1ead"
+    },
+    {
+      "path": "skills/manuscript-writing/scaffolding.md",
+      "bytes": 2441,
+      "sha256": "5f6fb8a157bf51f086626754032a4305d52f4a8f986c98da2c80561ab7983b34"
+    },
+    {
+      "path": "skills/manuscript-writing/scripts/track_changes/__init__.py",
+      "bytes": 173,
+      "sha256": "2916095c6911484b49ee7d4c60f8021617a26d9dec66c3a0606285befd721032"
+    },
+    {
+      "path": "skills/manuscript-writing/scripts/track_changes/dlib.py",
+      "bytes": 2444,
+      "sha256": "b8c5bed2379b2fa9f2b98606c144c86eaf5300a5062de76e578a033398d99689"
+    },
+    {
+      "path": "skills/manuscript-writing/scripts/track_changes/engine.py",
+      "bytes": 23488,
+      "sha256": "d84f7f3f5382abe89cb8043c63d6fc1733034bc375f755373c2529f3eb9709fc"
+    },
+    {
+      "path": "skills/manuscript-writing/scripts/track_changes/revtools.py",
+      "bytes": 7664,
+      "sha256": "dd54d94bf12666acbf82d054e8189dc11f14f6214a8fd46cc8751f3bb34e2c74"
+    },
+    {
+      "path": "skills/manuscript-writing/scripts/track_edit.py",
+      "bytes": 7510,
+      "sha256": "2ae011e5ecd879758dee1bf04f92f1be24c101701427f31f22eadf887fa3c568"
+    }
+  ]
+}

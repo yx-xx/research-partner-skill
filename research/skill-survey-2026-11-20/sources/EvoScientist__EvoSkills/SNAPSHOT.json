@@ -1,0 +1,178 @@
+{
+  "repository": "EvoScientist/EvoSkills",
+  "branch": "main",
+  "commit": "85ad685d1df5ed1d7fe641564d04bb8a3dec8f28",
+  "commit_date_utc": "2026-11-13T17:25:42Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-01-31T10:19:21Z",
+  "pushed_at_utc": "2026-11-13T17:25:43Z",
+  "license_metadata": "Apache-2.0",
+  "repository_size_kib": 2505,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/EvoScientist/EvoSkills",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 12,
+  "retained_files": 28,
+  "retained_bytes": 311390,
+  "skill_entry_files": [
+    "skills/evo-memory/SKILL.md",
+    "skills/evomath-tao/SKILL.md",
+    "skills/experiment-craft/SKILL.md",
+    "skills/experiment-iterative-coder/SKILL.md",
+    "skills/experiment-pipeline/SKILL.md",
+    "skills/paper-figures/SKILL.md",
+    "skills/paper-graph/SKILL.md",
+    "skills/paper-navigator/SKILL.md",
+    "skills/paper-planning/SKILL.md",
+    "skills/paper-rebuttal/SKILL.md",
+    "skills/paper-review/SKILL.md",
+    "skills/paper-writing/SKILL.md",
+    "skills/research-ideation/SKILL.md",
+    "skills/research-survey/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".github/scripts/validate_mcp.py",
+      "bytes": 3882,
+      "sha256": "a66c42dfdf5a3d78922040246f502944398abe0775b05b53a6c7c0351cfc5d59"
+    },
+    {
+      "path": ".github/scripts/validate_skills.py",
+      "bytes": 7693,
+      "sha256": "ec9d6bc3f69c7229f41ed42040d6e984b38a0652075015f21a7d8210374c84c6"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "bytes": 712,
+      "sha256": "7af8e2597d451c9db2eb9eb4a77069bc00844e26337b5aea39b0d40263af67e8"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "bytes": 413,
+      "sha256": "8fa388105e170195ea8ca798fb2ce9dd57a2d154e59a10ac033bd1fef9ecafe8"
+    },
+    {
+      "path": ".github/workflows/validate-mcp.yml",
+      "bytes": 437,
+      "sha256": "b28388999df82d3ae6408f42c53cb3affb925855448b2c39ec3fadf9121a1481"
+    },
+    {
+      "path": ".github/workflows/validate-skills.yml",
+      "bytes": 862,
+      "sha256": "a1a719cfed949fa19fb5ec07903c185650734f7c599fb07028fa6be56cec89d1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 373,
+      "sha256": "abe09cce2033472363ac10294c8b395e7254c703824550d831c97f7d86420175"
+    },
+    {
+      "path": ".ruff.toml",
+      "bytes": 435,
+      "sha256": "6d7b5bcb50358369c74cab6984df6cd88d73c2150d944a64dab55a3cc9cd243c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1604,
+      "sha256": "94eb754fb5b9ca7340d5edf8901c1c82f1541953366925afa8a50e1668a22dd2"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11342,
+      "sha256": "eae7b5b1f14c471f27d7f3d8cc5d26b154966910b761241fab8ad11fc6f637a5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 25828,
+      "sha256": "45420ffe069ac0a190607274e372c5c2f7437c4725f918cd79768b4041288ba7"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 24170,
+      "sha256": "39b5675311bd9b54fa77ec88ee4637aebbcda34eb0e4a1481c2ded25f4b84515"
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 13677,
+      "sha256": "281b388f6ae59b73e13ab1b9a408175d7a0a78804fa70ceca2e48ae565daad41"
+    },
+    {
+      "path": "skills/evo-memory/SKILL.md",
+      "bytes": 19134,
+      "sha256": "43c7b157cea101928fb0fe5a5ef1b35800705153da4b4075bc6b7029ec6d5d43"
+    },
+    {
+      "path": "skills/evomath-tao/SKILL.md",
+      "bytes": 6890,
+      "sha256": "188308046e4e739a43d497394ff11b33db49742586dc4bac2f7b9174315e552f"
+    },
+    {
+      "path": "skills/experiment-craft/SKILL.md",
+      "bytes": 8038,
+      "sha256": "a56d30cbb5a1101b65572a90af9b6f22270022d0237d9402731431f3247b5ece"
+    },
+    {
+      "path": "skills/experiment-iterative-coder/SKILL.md",
+      "bytes": 9882,
+      "sha256": "389ec2845a37ef432e767bff904d6ee90c7a555763572c5dabb8ccfdf9f1e34b"
+    },
+    {
+      "path": "skills/experiment-pipeline/SKILL.md",
+      "bytes": 17800,
+      "sha256": "88e68f4c1334ad05b7d42b957ba30bc82d899c2327799ad55660300bce89b125"
+    },
+    {
+      "path": "skills/paper-figures/SKILL.md",
+      "bytes": 17655,
+      "sha256": "a7a0f5ae95c17e2b3a060b52beb6968f3e98027e18af0c1c2c273ca9fa67d327"
+    },
+    {
+      "path": "skills/paper-figures/scripts/validate_figure.py",
+      "bytes": 6179,
+      "sha256": "4e7bf6eed50bbee056bfbf6434b93a375e30fa12816f1d3a44138605bfdb98c5"
+    },
+    {
+      "path": "skills/paper-graph/SKILL.md",
+      "bytes": 28843,
+      "sha256": "5048c4abe179975a47d31d3044f9b33364068b528d145110f82064f5dc547d28"
+    },
+    {
+      "path": "skills/paper-navigator/SKILL.md",
+      "bytes": 26805,
+      "sha256": "c94d56f4183be4faf5a56aa32ebbe99c966304e6fea9652a4264ed077fea5ec7"
+    },
+    {
+      "path": "skills/paper-planning/SKILL.md",
+      "bytes": 9834,
+      "sha256": "018e0d8aa4e10cea252ebbcf2b20100e15254b78d3c4c0d3429a6430aa40fd00"
+    },
+    {
+      "path": "skills/paper-rebuttal/SKILL.md",
+      "bytes": 13553,
+      "sha256": "f2b9db1b48ca0e08b3f2eed62fbef11a3d8bb133f5a0419a4752f09b77e1f7fe"
+    },
+    {
+      "path": "skills/paper-review/SKILL.md",
+      "bytes": 18007,
+      "sha256": "73b01c2ba9a8069c5df561c8b128a3be3b29a83033084d5f3ec18970b79972e5"
+    },
+    {
+      "path": "skills/paper-writing/SKILL.md",
+      "bytes": 11271,
+      "sha256": "b1957cdefc155d6eb702049d8baa2209925af463f9529bb60a8f46b90308a134"
+    },
+    {
+      "path": "skills/research-ideation/SKILL.md",
+      "bytes": 15822,
+      "sha256": "3813e5b602e7123a31d834fd9df55e5144e6e19e8bf686240e38d70561646db9"
+    },
+    {
+      "path": "skills/research-survey/SKILL.md",
+      "bytes": 10249,
+      "sha256": "2d547783c85a76dad5f66c15e343bc333a9860aca3576f829a6d375624650d58"
+    }
+  ]
+}

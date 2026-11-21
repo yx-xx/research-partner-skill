@@ -1,0 +1,37 @@
+{
+  "method": "Whitespace-normalized body character SequenceMatcher ratio; similarity is not ancestry or quality evidence. Only retained same-name pairs examined.",
+  "pairs": [
+    {
+      "skill": "experimental-design",
+      "a": "sources/KalarisLabs__research-agent-skills/skills/experimental-design/SKILL.md",
+      "b": "sources/K-Dense-AI__scientific-agent-skills/skills/experimental-design/SKILL.md",
+      "exact_bytes": false,
+      "normalized_body_equal": false,
+      "body_sequence_ratio": 0.7961
+    },
+    {
+      "skill": "statistical-analysis",
+      "a": "sources/KalarisLabs__research-agent-skills/skills/statistical-analysis/SKILL.md",
+      "b": "sources/K-Dense-AI__scientific-agent-skills/skills/statistical-analysis/SKILL.md",
+      "exact_bytes": false,
+      "normalized_body_equal": false,
+      "body_sequence_ratio": 0.7567
+    },
+    {
+      "skill": "scientific-critical-thinking",
+      "a": "sources/KalarisLabs__research-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+      "b": "sources/K-Dense-AI__scientific-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+      "exact_bytes": false,
+      "normalized_body_equal": false,
+      "body_sequence_ratio": 0.7461
+    },
+    {
+      "skill": "paper-lookup",
+      "a": "sources/KalarisLabs__research-agent-skills/skills/paper-lookup/SKILL.md",
+      "b": "sources/K-Dense-AI__scientific-agent-skills/skills/paper-lookup/SKILL.md",
+      "exact_bytes": false,
+      "normalized_body_equal": false,
+      "body_sequence_ratio": 0.94
+    }
+  ]
+}

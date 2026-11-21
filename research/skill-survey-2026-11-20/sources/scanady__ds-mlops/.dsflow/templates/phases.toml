@@ -1,0 +1,103 @@
+# Single source of truth for the study lifecycle.
+# dsflow reads this file. docs/process/lifecycle.md describes it for humans.
+# Artifact file name -> template: strip the "NN-" prefix (05-model-card.md -> .dsflow/templates/model-card.md).
+# An empty artifact list for a track means the phase does not apply to that track.
+
+tracks = ["ml", "ml-lite", "analysis", "retrain"]
+cross_cutting_skills = ["dsflow-gate", "dsflow-decide", "dsflow-write", "dsflow-autoresearch"]
+
+[risk_tiers]
+ml = ["low", "medium", "high"]
+ml-lite = ["low"]
+analysis = ["low", "medium", "high"]
+retrain = ["low", "medium", "high"]
+
+[[phase]]
+id = "frame"
+number = 0
+title = "Frame the problem"
+skill = "dsflow-frame"
+ml = ["00-charter.md"]
+ml-lite = ["00-charter.md"]
+analysis = ["00-charter.md"]
+retrain = ["00-retrain-brief.md"]
+
+[[phase]]
+id = "discover"
+number = 1
+title = "Discover the data"
+skill = "dsflow-discover"
+ml = ["01-data-card.md"]
+ml-lite = []
+analysis = ["01-data-card.md"]
+retrain = []
+
+[[phase]]
+id = "explore"
+number = 2
+title = "Explore the data"
+skill = "dsflow-explore"
+ml = ["02-eda-report.md"]
+ml-lite = []
+analysis = ["02-eda-report.md"]
+retrain = []
+
+[[phase]]
+id = "plan"
+number = 3
+title = "Plan the work"
+skill = "dsflow-plan"
+ml = ["03-experiment-plan.md"]
+ml-lite = []
+analysis = ["03-analysis-plan.md"]
+retrain = []
+
+[[phase]]
+id = "develop"
+number = 4
+title = "Develop"
+skill = "dsflow-develop"
+ml = ["04-experiment-log.md"]
+ml-lite = ["04-experiment-log.md"]
+analysis = ["04-analysis-log.md"]
+retrain = ["04-experiment-log.md"]
+
+[[phase]]
+id = "evaluate"
+number = 5
+title = "Evaluate"
+skill = "dsflow-evaluate"
+ml = ["05-evaluation-report.md", "05-model-card.md"]
+ml-lite = ["05-evaluation-report.md", "05-model-card.md"]
+analysis = ["05-findings-report.md"]
+retrain = ["05-evaluation-report.md", "05-champion-comparison.md"]
+
+[[phase]]
+id = "deploy"
+number = 6
+title = "Deploy"
+skill = "dsflow-deploy"
+ml = ["06-deployment-spec.md"]
+ml-lite = ["06-deployment-spec.md"]
+analysis = []
+retrain = ["06-deployment-spec.md"]
+
+[[phase]]
+id = "monitor"
+number = 7
+title = "Monitor and operate"
+skill = "dsflow-monitor"
+ml = ["07-monitoring-plan.md"]
+ml-lite = []
+analysis = []
+retrain = []
+
+[[phase]]
+id = "close"
+number = 8
+title = "Close the study"
+skill = "dsflow-retro"
+ml = ["08-retrospective.md"]
+ml-lite = ["08-retrospective.md"]
+analysis = ["08-retrospective.md"]
+retrain = []

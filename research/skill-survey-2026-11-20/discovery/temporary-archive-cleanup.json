@@ -1,0 +1,77 @@
+{
+  "reason": "Complete source members already recovered; remove own failed archive downloads, preserving per-file snapshots and fetch outcomes.",
+  "removed": [
+    {
+      "path": "sources/.leo-lilinxiao__codex-autoresearch-main.tar.gz",
+      "bytes": 707243
+    },
+    {
+      "path": "sources/.Imbad0202__academic-research-skills-main.tar.gz",
+      "bytes": 241856
+    },
+    {
+      "path": "sources/.scanady__ds-mlops-main.tar.gz",
+      "bytes": 125639
+    },
+    {
+      "path": "sources/.wanshuiyin__Auto-claude-code-research-in-sleep-main.tar.gz",
+      "bytes": 815137
+    },
+    {
+      "path": "sources/.Orchestra-Research__AI-Research-SKILLs-main.tar.gz",
+      "bytes": 281259
+    },
+    {
+      "path": "sources/.lllllllama__RigorPilot-Skills-main.tar.gz",
+      "bytes": 969387
+    },
+    {
+      "path": "sources/.K-Dense-AI__claude-scientific-writer-main.tar.gz",
+      "bytes": 222573
+    },
+    {
+      "path": "sources/.K-Dense-AI__scientific-agent-skills-main.tar.gz",
+      "bytes": 609188
+    },
+    {
+      "path": "sources/.Galaxy-Dawn__claude-scholar-codex.tar.gz",
+      "bytes": 675845
+    },
+    {
+      "path": "sources/.YufanDu-bjtu__paper-easy-reader-main.tar.gz",
+      "bytes": 288100
+    },
+    {
+      "path": "sources/.WUBING2023__PaperSpine-main.tar.gz",
+      "bytes": 778259
+    },
+    {
+      "path": "sources/.EvoScientist__EvoSkills-main.tar.gz",
+      "bytes": 489094
+    },
+    {
+      "path": "sources/.google-deepmind__science-skills-main.tar.gz",
+      "bytes": 101084
+    },
+    {
+      "path": "sources/.w1-23__scientific-figure-main.tar.gz",
+      "bytes": 371399
+    },
+    {
+      "path": "sources/.dahliasan__researchskills-main.tar.gz",
+      "bytes": 144763
+    },
+    {
+      "path": "sources/.K-Dense-AI__science-superpowers-main.tar.gz",
+      "bytes": 659728
+    },
+    {
+      "path": "sources/.KalarisLabs__research-agent-skills-main.tar.gz",
+      "bytes": 719573
+    },
+    {
+      "path": "sources/.onescience-ai__OneSkills-master.tar.gz",
+      "bytes": 703189
+    }
+  ]
+}

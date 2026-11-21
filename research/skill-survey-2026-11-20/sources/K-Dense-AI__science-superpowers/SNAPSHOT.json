@@ -1,0 +1,204 @@
+{
+  "repository": "K-Dense-AI/science-superpowers",
+  "branch": "main",
+  "commit": "0374bdf82c2372bdf1667e3c762146c3a29215f5",
+  "commit_date_utc": "2026-09-13T14:59:27Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-05-28T22:37:52Z",
+  "pushed_at_utc": "2026-09-13T14:59:31Z",
+  "license_metadata": "NOASSERTION",
+  "repository_size_kib": 1071,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/K-Dense-AI/science-superpowers",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 17,
+  "retained_files": 33,
+  "retained_bytes": 172625,
+  "skill_entry_files": [
+    "skills/designing-the-analysis/SKILL.md",
+    "skills/dispatching-parallel-investigations/SKILL.md",
+    "skills/establishing-feasibility-first/SKILL.md",
+    "skills/executing-analysis/SKILL.md",
+    "skills/framing-research-questions/SKILL.md",
+    "skills/preregistering-analysis/SKILL.md",
+    "skills/receiving-critical-review/SKILL.md",
+    "skills/reporting-and-archiving-findings/SKILL.md",
+    "skills/requesting-red-team-review/SKILL.md",
+    "skills/setting-up-reproducible-analysis/SKILL.md",
+    "skills/subagent-driven-analysis/SKILL.md",
+    "skills/surveying-prior-work/SKILL.md",
+    "skills/using-science-superpowers/SKILL.md",
+    "skills/verifying-results-before-claiming/SKILL.md",
+    "skills/writing-science-skills/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".antigravity/INSTALL.md",
+      "bytes": 5188,
+      "sha256": "e50882ddadf378337682a33541eb8ba71c32dd85a167f593114dac4dca45fb9c"
+    },
+    {
+      "path": ".antigravity/rules/using-science-superpowers.md",
+      "bytes": 2614,
+      "sha256": "65f6a9d3b6c37155c6c12915ce7ea417882efc8283d9a0504f37f666b3d97544"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 525,
+      "sha256": "c49250c56edcfe1363588156294182c527a37d47be9cb9331d22fe8e8ab1ffed"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 602,
+      "sha256": "4aa75a9273cca2db2b32c9f1a4de2e96458da6c8996ab1e94880784074e47b9a"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 1841,
+      "sha256": "71d320d68838913600c78ea931dac33f669dcd44c74ed2aa887077e284ef7c8e"
+    },
+    {
+      "path": ".cursor-plugin/plugin.json",
+      "bytes": 691,
+      "sha256": "12f164f5aedd9873cbc2492faeae4e148aad3d9d3b114b971453f90ab0d25755"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 373,
+      "sha256": "4702b23e09afad9638c184c8900b31af635673ba439c265ecc3d341efb54eaf8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "a4991bb5da0a8befa6ca10d8399584f29e89594316238623162ec70c8cd9c266"
+    },
+    {
+      "path": ".opencode/INSTALL.md",
+      "bytes": 1666,
+      "sha256": "70ed81525b2e7d66983c162a7554adc9bdb8b30d76dd28597e891c5c7c330f10"
+    },
+    {
+      "path": ".opencode/plugins/science-superpowers.js",
+      "bytes": 4451,
+      "sha256": "28ad6162f1c4146d37608e6fe5c2381281b1152be92181d5a694b2f88d78c9c2"
+    },
+    {
+      "path": ".pi/INSTALL.md",
+      "bytes": 3979,
+      "sha256": "368d04fe1f11219e3beb6e79dac586b86a8d684270f01bc798b1e940573a072d"
+    },
+    {
+      "path": ".pi/extensions/science-superpowers.ts",
+      "bytes": 3942,
+      "sha256": "044deed019db04b08c8ab71e4f035391082aa448dd6d95f7b43245e019c2e7fb"
+    },
+    {
+      "path": ".version-bump.json",
+      "bytes": 647,
+      "sha256": "76bdcf027045f004a0ad15759d22f7e44669f501acb575298ec597b0f49cb7fb"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 2909,
+      "sha256": "a83da595a19f97a4d5a53d7b4713211f3c2c3193c8d038be78e4f9719385ea87"
+    },
+    {
+      "path": "GEMINI.md",
+      "bytes": 108,
+      "sha256": "4d685c55c8ea885c4d6d298eea8fbc7c77b7badd341d90e6a37c8ae817b40141"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1498,
+      "sha256": "ba6e60c421082532b7dce64e622b0f3e636b7e131f3df207be7afdce3f93f692"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16986,
+      "sha256": "d2dcdb472304b116ec70f71d70dd320602a5943cf955ca1f015ea53d5a147430"
+    },
+    {
+      "path": "skills/designing-the-analysis/SKILL.md",
+      "bytes": 6919,
+      "sha256": "ba2332cc1980f6993153718bc71d6c00bd6e534552a4f6a1d1ed68681835b768"
+    },
+    {
+      "path": "skills/dispatching-parallel-investigations/SKILL.md",
+      "bytes": 5269,
+      "sha256": "c0bef023dde4f91d65de01055d33d6818b61c25cab606b654fd7e9346cbda682"
+    },
+    {
+      "path": "skills/establishing-feasibility-first/SKILL.md",
+      "bytes": 17014,
+      "sha256": "53ce3f3db22297061f141f641d45c2c324f058f15cf620455773939496786352"
+    },
+    {
+      "path": "skills/executing-analysis/SKILL.md",
+      "bytes": 3606,
+      "sha256": "245b14c34f8d0deec3ad45479244b07726bb276ae8251d50e869194ef8291f75"
+    },
+    {
+      "path": "skills/framing-research-questions/SKILL.md",
+      "bytes": 10240,
+      "sha256": "f26651fec7df5a9919b92f8bfe7bb5aea0d6b9a520033dcec8d9ecaa6799c449"
+    },
+    {
+      "path": "skills/preregistering-analysis/SKILL.md",
+      "bytes": 13443,
+      "sha256": "52b8560d60af85cd768ca2d71d45a849e3b4e39af697aa6f71251f645f8815c9"
+    },
+    {
+      "path": "skills/preregistering-analysis/prereg.sh",
+      "bytes": 12777,
+      "sha256": "e6c612a2777db9b3d97693e844c8dd501147854ba82d028367cdb100873269c0"
+    },
+    {
+      "path": "skills/receiving-critical-review/SKILL.md",
+      "bytes": 5118,
+      "sha256": "48af2ab8bb593c000af2c3ba22af254f86ea241c04e33fb908886a305977917f"
+    },
+    {
+      "path": "skills/reporting-and-archiving-findings/SKILL.md",
+      "bytes": 6656,
+      "sha256": "645d951675e4893d774f96893d5fdad8ae66e3620cee485bcbd7c3f3a36366ed"
+    },
+    {
+      "path": "skills/requesting-red-team-review/SKILL.md",
+      "bytes": 4078,
+      "sha256": "3f08383d24d74de000e15d989e1cac539c3c2c6096ab5b18a6a7933bf8b9672f"
+    },
+    {
+      "path": "skills/setting-up-reproducible-analysis/SKILL.md",
+      "bytes": 5812,
+      "sha256": "f52c4d4c107744ec42ef4ad13cef7e652b1c6b8e01fd4717e8ddf07dce73b487"
+    },
+    {
+      "path": "skills/subagent-driven-analysis/SKILL.md",
+      "bytes": 8015,
+      "sha256": "2cee4173125e8998066528a0893a9700a47f8139b58a8a77b40e8e1c2d8b7fc8"
+    },
+    {
+      "path": "skills/surveying-prior-work/SKILL.md",
+      "bytes": 3625,
+      "sha256": "e502b4b1e4b80ecee4bcd96d4239632b9e40279bf2cdbe6ad2a69961a3c0e360"
+    },
+    {
+      "path": "skills/using-science-superpowers/SKILL.md",
+      "bytes": 6904,
+      "sha256": "fac8de9f7be50ec9688661060db95c02dd92b4cfd7e87b1da448b78fa633cd1a"
+    },
+    {
+      "path": "skills/verifying-results-before-claiming/SKILL.md",
+      "bytes": 6010,
+      "sha256": "90fbeb6dce4a1213778c3ced639ba6aab5a5a801bc4ee2a53c98d7058c4decad"
+    },
+    {
+      "path": "skills/writing-science-skills/SKILL.md",
+      "bytes": 9056,
+      "sha256": "0721adfe0050565dfac9706f5531781fa8cac710a1310125eb080186fed0e132"
+    }
+  ]
+}

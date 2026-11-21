@@ -1,0 +1,620 @@
+{
+  "repository": "WUBING2023/PaperSpine",
+  "branch": "main",
+  "commit": "8e1f105b4299136a9b4b596083a2325fb9086b97",
+  "commit_date_utc": "2026-11-20T12:16:33Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-05-17T08:37:31Z",
+  "pushed_at_utc": "2026-11-20T13:06:50Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 165765,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/WUBING2023/PaperSpine",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 115,
+  "retained_files": 119,
+  "retained_bytes": 2354259,
+  "skill_entry_files": [
+    "dist/claude/skills/paper-spine/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 650,
+      "sha256": "54a5a99ebcd278865b5150623b9159a313f2231758bd070b26f6e098b06bcd0f"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 536,
+      "sha256": "3cf2ddd9aa793d260ec72023ab4634d648e5ed6505a337c212acd845413e81c8"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 144,
+      "sha256": "f8eb4abbfb819209dc0d14a111e70b1f4872a4a3746943ee643e6416d5c60716"
+    },
+    {
+      "path": ".github/workflows/atlas.yml",
+      "bytes": 3989,
+      "sha256": "2b2188238195da4e5ee621c4cddef3678e571d04df8d4c1a849fbb486b59c1d1"
+    },
+    {
+      "path": ".github/workflows/build-portable-suites.yml",
+      "bytes": 5532,
+      "sha256": "2e463ea6a03132d9f6530b08c20a34734c903eda1bea14615d0f6b27c99e3839"
+    },
+    {
+      "path": ".github/workflows/build-v6-release.yml",
+      "bytes": 1495,
+      "sha256": "6436df5b44a4e276291cb3b9171b954b554715e0bdb8598d587e6f2393b2f4c9"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 1585,
+      "sha256": "888aeb0981f25a8eb6479a9c4efe683ec843bf3cf4805305792ef5384a2e9350"
+    },
+    {
+      "path": ".github/workflows/verify-v5-release.yml",
+      "bytes": 1492,
+      "sha256": "c1791e6261d2fd54808cb079373c8cfea4cb14f78d8fd0869eaacf45bc7574d4"
+    },
+    {
+      "path": ".github/workflows/verify-workflow-upgrade.yml",
+      "bytes": 2322,
+      "sha256": "a3960620818556fc01ef47ba0bdd0ea496827936fa28b090fcf1857a3b8976dd"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 829,
+      "sha256": "2b7d13a047ba706a01c30239526af22f1d8f5beea99fdc067b95de73e1e859d1"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 3648,
+      "sha256": "90148781d8476274330b9f7fa12eed1ee7ca15f2593a1ad4e41f8b5bd286d58f"
+    },
+    {
+      "path": "INSTALL-V6.en.md",
+      "bytes": 2337,
+      "sha256": "781794cc5cf44536d15362e0a97a285afeee8432147511d0c3296dcaf3ecba56"
+    },
+    {
+      "path": "INSTALL-V6.md",
+      "bytes": 3150,
+      "sha256": "6a0b2915ba11fd37b36d4912432ac415b951ca163139011387e86dd11f781eee"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 5800,
+      "sha256": "0722b4b554844a00c387ab70047cf047fc08eb258d78a6107120a443794a767e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1080,
+      "sha256": "e89308aa6fe435bd6c8967ed865c613732888329176cc4c6fb020825812bec2d"
+    },
+    {
+      "path": "README.de.md",
+      "bytes": 4982,
+      "sha256": "67d1729b7c3aacf42efc5a18452795948effb93f81f603208fc51adfbbdf882b"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 1991,
+      "sha256": "b5ea616825563f99668d80e84de8c18575a4a5e4f9a916d55ed2a3cab909a0ef"
+    },
+    {
+      "path": "README.es.md",
+      "bytes": 4879,
+      "sha256": "925e86fa59c2ccad1c52671ac61c9322cfce4707a39cf804a8359d75fe3cbb29"
+    },
+    {
+      "path": "README.fr.md",
+      "bytes": 5113,
+      "sha256": "7d4b66f1ea478bc76e7edd4f82c93b205f7408388c851bd3970b1da0b96319b6"
+    },
+    {
+      "path": "README.ja.md",
+      "bytes": 5227,
+      "sha256": "88c0ee7a21c5d53d94b43fe67e8da5bb4dd59f57f116abb1475f273c968d4ec2"
+    },
+    {
+      "path": "README.ko.md",
+      "bytes": 4923,
+      "sha256": "8c3d1d35ba4d00034989f29e29770e5c0a1ad9a0880078025ef7a1eacbe5ae57"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19467,
+      "sha256": "c9c7e2df8bdd90f4a60233d9b910cd9664cbe575b37ec67c8331e69cdd1d53b4"
+    },
+    {
+      "path": "README.pt.md",
+      "bytes": 4875,
+      "sha256": "db1dacabb7f40799190018729773eafa4b2366973882ebd630ca1391e899d005"
+    },
+    {
+      "path": "README.ru.md",
+      "bytes": 6772,
+      "sha256": "8349a152402a1aa8f8f6b4c051806906ffc08ecbab4d89d22745ecfc383d7e3b"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 18976,
+      "sha256": "102ad92b3ddfb6d2fea9d9b19562069e8372b930d6e4ddfc09481ac8f7f3f8ff"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.4.0-alpha.1-dev.md",
+      "bytes": 2724,
+      "sha256": "f3b7c38ab1aea2782927b2f3aea4480f184f37606f431ca545006e7a85a6cbf9"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.4.0-alpha.2.md",
+      "bytes": 1626,
+      "sha256": "45ad9cd90314ae15956916e9ae917d0098561abe36dba2d826717e4b80cad0ee"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.4.0-alpha.3.md",
+      "bytes": 1733,
+      "sha256": "7533d783ef738ae8a56da5757c138788fa787725fe3c4d4fb6e91240e219680a"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.4.0-alpha.4.md",
+      "bytes": 1896,
+      "sha256": "83638edc93bd8ee609aff42b6a1d0ba88d9e03272463f0f3e22af853abaa9287"
+    },
+    {
+      "path": "RELEASE-NOTES-v6.0.0-beta.1.md",
+      "bytes": 1496,
+      "sha256": "98f29fb50f76a31f9bf2f4c2d2829323f4140f0de6b0d7b33d04a46634670cfc"
+    },
+    {
+      "path": "RELEASE-NOTES-v6.0.0-beta.2.md",
+      "bytes": 1496,
+      "sha256": "98f29fb50f76a31f9bf2f4c2d2829323f4140f0de6b0d7b33d04a46634670cfc"
+    },
+    {
+      "path": "ROLLBACK.md",
+      "bytes": 1570,
+      "sha256": "64d92fb7f6b09bed7c018127cb412261b61140d4c2e268908d561c9380bb2cb2"
+    },
+    {
+      "path": "UNINSTALL.md",
+      "bytes": 536,
+      "sha256": "711e0f36ff68929826127ff1ff4c1fd6713f7aa5fadf4f9185de95be12c0e960"
+    },
+    {
+      "path": "UPDATE.md",
+      "bytes": 1113,
+      "sha256": "33ccbbb9cfa85bb8c2c062f7e9f9add713de317f1beb5ea0f1644b4948244212"
+    },
+    {
+      "path": "atlas/.gitignore",
+      "bytes": 49,
+      "sha256": "b70f2c8a9572e71f4bde10d7bdd6b651faf666411059ab28e7a378b84cb9561c"
+    },
+    {
+      "path": "atlas/atlas-view.css",
+      "bytes": 7713,
+      "sha256": "b2b2166a4b1e13c9ebafb79b04bae6d596832d172dcb96bcb45e239e6e5e604c"
+    },
+    {
+      "path": "atlas/atlas.js",
+      "bytes": 22843,
+      "sha256": "b398eb0b9c655f518da05d503e01be2722bc39dc0ba06f98a96f876443a3652f"
+    },
+    {
+      "path": "atlas/build-provinces.cjs",
+      "bytes": 1229,
+      "sha256": "caa7eb799765b279ddbe67aae712547d869bea80d3908524db96a7d5714098a4"
+    },
+    {
+      "path": "atlas/china-provinces.js",
+      "bytes": 95166,
+      "sha256": "7a78b44318c92c4721bc476a6a0e2cf6d92aa40ec30937cb989123434406f03c"
+    },
+    {
+      "path": "atlas/community-map.js",
+      "bytes": 6702,
+      "sha256": "32ae99c382dac77a3a10d58db37ff8e45a9266a8ca53b433f89d8ca72d657f1c"
+    },
+    {
+      "path": "atlas/community.css",
+      "bytes": 8142,
+      "sha256": "f1ad6b4fe4c872126600f030b025b02b37dbc539e0a8b9c0d3ea5c5c55f1e688"
+    },
+    {
+      "path": "atlas/community_snapshot.py",
+      "bytes": 1985,
+      "sha256": "782175354ff8189b4e26ff8fbe5b4ef12496995110f5c807b851d5a1174594f7"
+    },
+    {
+      "path": "atlas/contributors-zh.html",
+      "bytes": 6835,
+      "sha256": "cb58eec06d6aa24d4674cff12a3f4a370504df5ac1f33f93d2e5ae68508d2c1e"
+    },
+    {
+      "path": "atlas/contributors.html",
+      "bytes": 6917,
+      "sha256": "827cfaaab1be64bee75d871367e418b934e21826c987bb491ecf5e8da5260b44"
+    },
+    {
+      "path": "atlas/contributors.js",
+      "bytes": 2088,
+      "sha256": "65b84ecdd2ea9d584d3a9622ea03f44031ce93bd782ceac95387b93a73f3a47f"
+    },
+    {
+      "path": "atlas/data.js",
+      "bytes": 48437,
+      "sha256": "4e09349295e5e1b5a28e5aec9a297a11bd94c3c7ba6c3fc4f88ec977c4b76665"
+    },
+    {
+      "path": "atlas/echarts.min.js",
+      "bytes": 1030855,
+      "sha256": "e84270bd0cd5bdf60fefc26d00c2a391cb2e81f4d26a7a9ee16185a54773a3cf"
+    },
+    {
+      "path": "atlas/fetch_stargazers.py",
+      "bytes": 7292,
+      "sha256": "e6df25de14ae072c2bd328272f083f5b2b3174c7603425c9a73f97b7877779e8"
+    },
+    {
+      "path": "atlas/index.html",
+      "bytes": 5492,
+      "sha256": "49d71bafed1450f82ba4b6685c10fa41c717b22d7765091fd741cf96f5e1a3ea"
+    },
+    {
+      "path": "atlas/language.js",
+      "bytes": 3845,
+      "sha256": "3507eaf9f80761842f53e70b0863eb67938e26c8cab91fe2798afd7a3d333f90"
+    },
+    {
+      "path": "atlas/model.js",
+      "bytes": 5042,
+      "sha256": "4da86933dfad5f64d61e6789980f1e077035f484665e24a5022446ca4aee533d"
+    },
+    {
+      "path": "atlas/model.test.cjs",
+      "bytes": 3098,
+      "sha256": "df70aab66e90ff8fd9b9662f3f2a54aa1ea8a8957b4e1d070b33e9d86e9ef8ca"
+    },
+    {
+      "path": "atlas/process.py",
+      "bytes": 36062,
+      "sha256": "9494d3a06e6ddb5754e0f1e71e33d879a72cce83a86d100b0468e9665f30d4fb"
+    },
+    {
+      "path": "atlas/public_feed.py",
+      "bytes": 2335,
+      "sha256": "e76914a81b19a68f6c0505a6870d81de00b88f583599ca1b50d0fe57b792a013"
+    },
+    {
+      "path": "atlas/readme_activity.py",
+      "bytes": 2205,
+      "sha256": "3948e631e51ccd5b54ff7bd2904d7e758c9330881e3b192bd5878a4d4db31ace"
+    },
+    {
+      "path": "atlas/static_preview.py",
+      "bytes": 3714,
+      "sha256": "e167586b8594699f292883c860680b918b41d251d57e899a43ee5093dfd2e57f"
+    },
+    {
+      "path": "atlas/validate_data.py",
+      "bytes": 1097,
+      "sha256": "6a2fbeb5631a86b973ae0e6c7cdb21a82d7eb3c340d3e7ea8d8342096f62f296"
+    },
+    {
+      "path": "atlas/world.geo.json",
+      "bytes": 265052,
+      "sha256": "167819d565228f0bbbf967823498c0b4c154d1560ca8dba70fd2d7e8452157bd"
+    },
+    {
+      "path": "atlas/worldgeo.js",
+      "bytes": 265070,
+      "sha256": "b145fa4963d2f001eae6e9e0fc766f953363ca0305061fc9b2e272e802fa5281"
+    },
+    {
+      "path": "atlas/zh.html",
+      "bytes": 5502,
+      "sha256": "fa262acdd76cbbd3517df076a6ca84165e0e60bb82ddda9124faa5391acf8490"
+    },
+    {
+      "path": "dist/claude/commands/paperspine.md",
+      "bytes": 1854,
+      "sha256": "d3c48d84f48c0965b52c2f071ee76f72b3b95b46417303a6371cf67c4464f947"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/SKILL.md",
+      "bytes": 22978,
+      "sha256": "61d8bd7fc8724f46140e436cf071c29bc05db1676a2013e3baf8cbe27b530288"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/openai.yaml",
+      "bytes": 290,
+      "sha256": "1ec573016e3618f57518fc1c35d3f1c654b3c5c6c917ca027282df50416f2eff"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/research-exemplar.md",
+      "bytes": 1320,
+      "sha256": "c230f0c3ec5e357cec8012039298c40cb450fd46dd070d8dc627904f2ab79941"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/research-scene.md",
+      "bytes": 1054,
+      "sha256": "d7ecf1cbdc1b4e67a7cc64e4d91291c4e6f74b83508b2edc87c287759541e83a"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/research-sota.md",
+      "bytes": 1131,
+      "sha256": "2aea3f08a583a7d23718cd73d527a17a46ba700c745a002e0661812b0e896d52"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/reviewer-evidence.md",
+      "bytes": 2049,
+      "sha256": "d54ddb51b2e020bfe75086ddd68c726bf7dabdab417660037cb58e4b42f8ba63"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/reviewer-method.md",
+      "bytes": 1639,
+      "sha256": "5063f4852deb56e0f9264608bcbccc12212745a32c07788253e429df0e92a663"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/agents/reviewer-writing.md",
+      "bytes": 2489,
+      "sha256": "f32d5bb44723f6dcfb6574cd93714dd60d71eed7088569d1e13e2cb18cba2bda"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/adaptive-shadow.md",
+      "bytes": 5343,
+      "sha256": "f53dba4049ee5ea55c78c755a6b4fd7817558ac64db50c7f6ce4d178e7e317ef"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/assertive-scientific-writing.md",
+      "bytes": 5409,
+      "sha256": "f71ad7f3de35365fb78e899b7f39c99f797f10038e26591ac4840c9d14232c41"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/asset-selection.md",
+      "bytes": 2225,
+      "sha256": "09676e64d17cb87834e964bc3a25a2252c1b4cec39add8f9517622e6e90bd973"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/audit.md",
+      "bytes": 13801,
+      "sha256": "cef75e1e2b38207f49a9233c38c27abd62db3fbec6191a91e9ff4a1e7b608424"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/build.md",
+      "bytes": 7375,
+      "sha256": "1a50d3d8b60b510c99f28546fb6bd4676cf1e5c333f440f8580f9fd3433cd78a"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/citation-support-bank.md",
+      "bytes": 5278,
+      "sha256": "08f43376d9d0b65518da2b97d51ed48afe8f29568952c3e75e6ae1e7f1baabd6"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/citation.md",
+      "bytes": 6337,
+      "sha256": "8fc5a5f664e5e0b0617dd32416d5929bf84ccc14691a9ab25366b177f824147d"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/adaptive-shadow-request.schema.json",
+      "bytes": 13121,
+      "sha256": "005a786f8d462a308e99b654a4fb4da50a02585a710aee23b8680971dcfd333c"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/adaptive-shadow-result.schema.json",
+      "bytes": 2676,
+      "sha256": "75d5fe47d8f6f32ad56703434f0ffb617a3b9897539dff39dab527d5ca788cac"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/asset-selection-request.schema.json",
+      "bytes": 1759,
+      "sha256": "f016b57628af485be74856e6b016eba34e0253f080b60c9050626dcea4b983c3"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/author-voice-profile.schema.json",
+      "bytes": 2347,
+      "sha256": "b2579674eb65f10ebc38a311c31117bdd88c82662a80642d3f5fbad4675ba131"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/author-voice-receipt.schema.json",
+      "bytes": 1246,
+      "sha256": "9bebb200c836ecc959a175f70ede1675986dd62308552ae5d5a59a1c0c429254"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/author-voice-restoration.schema.json",
+      "bytes": 4610,
+      "sha256": "b1cba66681447dead7fe221b6b142f9e96d7abd373ceef4aa009a9165723c057"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/evidence-review.schema.json",
+      "bytes": 4414,
+      "sha256": "51770babe368a875e98b2ce0bca4bb19d58c3735bc25c194fba1500dbe2cfabb"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-agent-ticket.schema.json",
+      "bytes": 2041,
+      "sha256": "66d5ee52c0c64eccbce39acb8785be046ab570101d7587bed4a4de1c4f5e56d4"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-confirmation.schema.json",
+      "bytes": 1043,
+      "sha256": "c66e4641e9fa64709001834ab0eb4f6e9e8a140b8715ceed41cda81bb8c50b8b"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-invocation.schema.json",
+      "bytes": 3351,
+      "sha256": "4b8ac0b7284e354013ec3d34e50d8f2022e52211589f4cb8e5f1b8835bbd578c"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-manifest.schema.json",
+      "bytes": 1411,
+      "sha256": "7b0c0887a0132d70bdfc90b1e4a69c8a3a380b9542e9cff794e8d367da1cf9fe"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-plan.schema.json",
+      "bytes": 3536,
+      "sha256": "90ec2ac6e16f067544bf0426d44bfc91cdbd9291338df1f7a9bf3db80aac7dc3"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-platform-receipts.schema.json",
+      "bytes": 1950,
+      "sha256": "b508b3d9fcbbc4c9236700891bd9adddc19e542f0d679286326e45f09fe75509"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/open-release-result.schema.json",
+      "bytes": 1787,
+      "sha256": "2da530d2c612d9785807442052de9be98f7422dfb1e77007217ba73c59392dcf"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/publication-cycle-invocation.schema.json",
+      "bytes": 2713,
+      "sha256": "0831888460f3b511d9b9774eabf91ceb71c4840d4d537e468267630801ae2da7"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/publication-cycle-result.schema.json",
+      "bytes": 3624,
+      "sha256": "4a4d0afe0bc4b23a4a3cf55c96dcd3976a5f3389176935bae070a4bb372651fd"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/publication-target-profile.schema.json",
+      "bytes": 5376,
+      "sha256": "38fb479e96e76709db9e7d7d388bdc60983726c259571f89adcd716f3104259b"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/review-calibration.schema.json",
+      "bytes": 1695,
+      "sha256": "1f2ff9cd8666ee206e3d839958a4ae1763335aff72736aa2886c0d47b06d53ed"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/skill-discovery-migration-preview.schema.json",
+      "bytes": 2822,
+      "sha256": "f01fb4c65f47dba0dc8e301b24dc2927cf2e6ee018c3fe88f35373d5b97ecd6a"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/skill-discovery-migration.schema.json",
+      "bytes": 2922,
+      "sha256": "44ab21052b532c3151b21694949c8db7a8fa26c5dfbfa86d106fd0da811c9a23"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/submission-package-plan.schema.json",
+      "bytes": 1713,
+      "sha256": "ff6f998df447ec1b25d19127b3bdd0a838be1b680fce4510e1774255dd1ba705"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contracts/supplement-evidence-index.schema.json",
+      "bytes": 3286,
+      "sha256": "61f82b64fde53cdbdbe5115b137f4d366ad0c6d1cc2f7c4b6c91dc81c3ffe095"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/contribution.md",
+      "bytes": 10882,
+      "sha256": "1364989ecdc9dea58ea61505ff30502971f1ec5a063c4b83bae0231a9cc10f45"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/current-method-routing.json",
+      "bytes": 81528,
+      "sha256": "4a69e8fe3feacd5040c9a9cf651562a06f3de3deec0c8152f4ebddf5dfcaa14b"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/current-method-routing.md",
+      "bytes": 10617,
+      "sha256": "144cd2e60bb307232998343cdb25cdd0629fb9893e5b28df7292b04967016d6f"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/deep-imitation-protocol.md",
+      "bytes": 7448,
+      "sha256": "547db0c436939f9784e060e3a547ecd950b4d8d937d56531f26c22c7af55f0b8"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/deep-reading.md",
+      "bytes": 11305,
+      "sha256": "d58f5fb6bec3da326f7f7dfb0b6b1a92b7f925c0073844b9470edc5ed10dea47"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/editorial-completeness.md",
+      "bytes": 4211,
+      "sha256": "a1df2459b00e09f4938804c2e3728701e985c67760719006ea3d2ee90b830a82"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/evidence-grounded-review.md",
+      "bytes": 5494,
+      "sha256": "1ec4622269dc38ec813f3ab0942c0712b31a0881cc84c02c0cdbc764a2ee57d2"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/execution-efficiency.md",
+      "bytes": 6450,
+      "sha256": "dd6f9f24a1e3e716ccb078b3d8e5b7f4802dc25820dcd19f1f407412724964a8"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/exemplar-learning-dossier.md",
+      "bytes": 5733,
+      "sha256": "08346dd288475f22bc7c767676618ae0fc6bbfe5061aa191ed9b9dadbd2ac68f"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/figure-reference-mapping.md",
+      "bytes": 9816,
+      "sha256": "0deba6b5b4870139208dc9eb7cc8a943c6af7e6940c495551f99d702baf902bc"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/figure-story.md",
+      "bytes": 10246,
+      "sha256": "032cb8900007b70b2fb534c1a84544c0b1f5ba096a4e38bb278af49b75475ba9"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/humanize-calibration.md",
+      "bytes": 2201,
+      "sha256": "c38bb1f628c73ed2b36e92082f4ef2f7fd8532b5bb42bde8ef1bec4eaeed5435"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/humanize.md",
+      "bytes": 8736,
+      "sha256": "28817e0dcd85675ca5a5e816c47c902ea2a21e3b64047d1b98dafcc7481285e9"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/intake.md",
+      "bytes": 5018,
+      "sha256": "b05dea4b1ccaacacd28d39795ba36896245a499b9264122befdb520c21197af9"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/intent-configuration.md",
+      "bytes": 4352,
+      "sha256": "0de3fe595594976690244795203009f10c175ae8920876fce47715a2ef099cae"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/interaction-policy.md",
+      "bytes": 4986,
+      "sha256": "1f26d45f2456db418ca2131ffd18e11f5a41117534644a11ee8472ebe92dc4a7"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/interactive-intake.md",
+      "bytes": 6850,
+      "sha256": "feecd13d4f6547e1721469ad73b382321f0a16f51c1d8114aa1da427cdf18f88"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/paper-spine-production-protocol.md",
+      "bytes": 22993,
+      "sha256": "8991d3739736c12e440ac9f729c3eff55096463da01cbd590c18a3b01c873f25"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/results-validation.md",
+      "bytes": 8238,
+      "sha256": "5c6f1339a46f4f1aa3e07d0ccb3c2c6d3ebfc71f62e01f3bec6c06f1977be710"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/scientific-evidence-ledger.md",
+      "bytes": 3633,
+      "sha256": "3184d20c4e822e9fce7bd62bfcdf3bd2778a9770d3460d44993d91822e6e168f"
+    },
+    {
+      "path": "dist/claude/skills/paper-spine/references/scientific-figure-workflow.md",
+      "bytes": 2756,
+      "sha256": "231137903bae1efcb9ddd2b32b58fdb517087603b9ad0820ec683a788931f404"
+    }
+  ]
+}

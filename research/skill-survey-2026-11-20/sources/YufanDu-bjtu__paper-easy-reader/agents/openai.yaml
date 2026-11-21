@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文便捷阅读skill"
+  short_description: "把论文制成离线三栏精读页，逐句对照中英文并核对图表和公式"
+  default_prompt: "请用 $paper-easy-reader 精读这篇论文，按原章节生成带中英句子联动、图表、公式和中文批注的离线 HTML。"

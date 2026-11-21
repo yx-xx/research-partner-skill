@@ -1,0 +1,467 @@
+{
+  "repository": "scanady/ds-mlops",
+  "branch": "main",
+  "commit": "e1b4653eab2ead06dc4482e2953e990e1ec948cd",
+  "commit_date_utc": "2026-11-20T02:58:15Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-11-19T13:31:31Z",
+  "pushed_at_utc": "2026-11-20T02:58:20Z",
+  "license_metadata": null,
+  "repository_size_kib": 728,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/scanady/ds-mlops",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 85,
+  "retained_files": 86,
+  "retained_bytes": 427459,
+  "skill_entry_files": [
+    ".agents/skills/dsflow-autoresearch/SKILL.md",
+    ".agents/skills/dsflow-decide/SKILL.md",
+    ".agents/skills/dsflow-deploy/SKILL.md",
+    ".agents/skills/dsflow-develop/SKILL.md",
+    ".agents/skills/dsflow-discover/SKILL.md",
+    ".agents/skills/dsflow-evaluate/SKILL.md",
+    ".agents/skills/dsflow-explore/SKILL.md",
+    ".agents/skills/dsflow-frame/SKILL.md",
+    ".agents/skills/dsflow-gate/SKILL.md",
+    ".agents/skills/dsflow-monitor/SKILL.md",
+    ".agents/skills/dsflow-plan/SKILL.md",
+    ".agents/skills/dsflow-retro/SKILL.md",
+    ".agents/skills/dsflow-write/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".agents/skills/dsflow-autoresearch/SKILL.md",
+      "bytes": 10276,
+      "sha256": "2db8c711dc1c4a219dc2275a0c29804ff75e6804c3e1fa0ca4f63261b10fa0a0"
+    },
+    {
+      "path": ".agents/skills/dsflow-autoresearch/references/check-in-report.md",
+      "bytes": 2844,
+      "sha256": "d07f1dd6b5634b5118ba456bd145acf3c72e520e31164290a1d68eee16a423e6"
+    },
+    {
+      "path": ".agents/skills/dsflow-autoresearch/references/idea-ladder.md",
+      "bytes": 4675,
+      "sha256": "d1585265e8c0f6c5577b0223a9abd6dafd15780f323d83d3a1183ff317385e08"
+    },
+    {
+      "path": ".agents/skills/dsflow-decide/SKILL.md",
+      "bytes": 5919,
+      "sha256": "8c6ee0b13e1015e284c5ec63c221ca10bbfa5618e256d02fa2b66a5dc42418f2"
+    },
+    {
+      "path": ".agents/skills/dsflow-deploy/SKILL.md",
+      "bytes": 10636,
+      "sha256": "51b495e741b97d6d029eb3d14c383d060dc0b3f16dfef98cd228e0d8e8464d25"
+    },
+    {
+      "path": ".agents/skills/dsflow-deploy/references/release-checklist.md",
+      "bytes": 3713,
+      "sha256": "110e6da54b742b538b4a1b553727077d03937731d7568eeeb37a6227989e3bc2"
+    },
+    {
+      "path": ".agents/skills/dsflow-develop/SKILL.md",
+      "bytes": 10045,
+      "sha256": "6e28730bca9faff5fafbef0120cf376d3f80b0752de0a49bb9f85b33c5bce47d"
+    },
+    {
+      "path": ".agents/skills/dsflow-discover/SKILL.md",
+      "bytes": 7883,
+      "sha256": "c6891ac68a0f02df8490b83baaa06608e12994b548de0811d25a34914054cf03"
+    },
+    {
+      "path": ".agents/skills/dsflow-discover/references/data-source-checklist.md",
+      "bytes": 2994,
+      "sha256": "3f5fec2373acac0912a71695b81c7bc1097b01d4d63f1f46c19381fd31759076"
+    },
+    {
+      "path": ".agents/skills/dsflow-evaluate/SKILL.md",
+      "bytes": 10544,
+      "sha256": "355b86ad1151b79ad25bd1e23b348cd8f8f426822b57f0c8163df10c07b0bbc4"
+    },
+    {
+      "path": ".agents/skills/dsflow-evaluate/references/evaluation-checklist.md",
+      "bytes": 4587,
+      "sha256": "608b1511475cddbf4cfef568d4ed2a4ef30dc627b762f7bf4ff97ccf06e7b7b5"
+    },
+    {
+      "path": ".agents/skills/dsflow-explore/SKILL.md",
+      "bytes": 8246,
+      "sha256": "00233d0f6bafc8f842637f957b53ba6331e5a38d45f35533fe2481eba7b59d03"
+    },
+    {
+      "path": ".agents/skills/dsflow-explore/references/eda-checklist.md",
+      "bytes": 4009,
+      "sha256": "84f6219eae51ab54e49538c05ff79a363ed40ee359ba6a6e6a6abb842e3f23c2"
+    },
+    {
+      "path": ".agents/skills/dsflow-explore/references/leakage-patterns.md",
+      "bytes": 3838,
+      "sha256": "5360eb0d2ee30d3567a8d107ce5cb7c28edc48071fd0a041bc8d48f23c77033f"
+    },
+    {
+      "path": ".agents/skills/dsflow-frame/SKILL.md",
+      "bytes": 8315,
+      "sha256": "abcf7e8d953b47e901e2023ddd95047e5c3936dee4bc9a240ce675b58f68c7e8"
+    },
+    {
+      "path": ".agents/skills/dsflow-frame/references/framing-questions.md",
+      "bytes": 4996,
+      "sha256": "b99fa5b47f4176cafe0f54f7ee1abb0d263142f9bc7ac2125af9c9d5809f7b22"
+    },
+    {
+      "path": ".agents/skills/dsflow-gate/SKILL.md",
+      "bytes": 8262,
+      "sha256": "deb346a4d3144dc705428072edb408b9b53298b931b83e31ff97a00633698c6a"
+    },
+    {
+      "path": ".agents/skills/dsflow-gate/references/consistency-checks.md",
+      "bytes": 7364,
+      "sha256": "af37fdfd28167cef5897fdfaa1e5b304a900b6aac1e491b646558986c78d9491"
+    },
+    {
+      "path": ".agents/skills/dsflow-monitor/SKILL.md",
+      "bytes": 11270,
+      "sha256": "92e0e889de378e2d553a1eae866c262ee9cf2e4a1f44e69d3c70d7044846ce73"
+    },
+    {
+      "path": ".agents/skills/dsflow-plan/SKILL.md",
+      "bytes": 9226,
+      "sha256": "c26bc111500d16ed65d64dcf0e872f10eec39d62d747d686a43f3e4f243bdf92"
+    },
+    {
+      "path": ".agents/skills/dsflow-plan/references/metric-selection.md",
+      "bytes": 3925,
+      "sha256": "02def785bf5a989bcf9045f23ace3705915eeb3489248f65efad52214a652390"
+    },
+    {
+      "path": ".agents/skills/dsflow-plan/references/validation-strategies.md",
+      "bytes": 4742,
+      "sha256": "a6959416bb620de7cde3b431534750bd6c4177cb0f8d245cab763d623d8a12a9"
+    },
+    {
+      "path": ".agents/skills/dsflow-retro/SKILL.md",
+      "bytes": 8056,
+      "sha256": "9d9675bcec6ad945cbc30c2dcf3ace4b56dcc05a0e4a42118fe58c74babc67fd"
+    },
+    {
+      "path": ".agents/skills/dsflow-write/SKILL.md",
+      "bytes": 5744,
+      "sha256": "9898a6645e694a18f3cbddbbfcf8be0337586570f22fb30b52bf1a147e31342d"
+    },
+    {
+      "path": ".agents/skills/dsflow-write/references/examples.md",
+      "bytes": 3963,
+      "sha256": "eb55a95034a0d547e2c724fb61a572ae653d4354f5c68931c8c7177c6e3c1f85"
+    },
+    {
+      "path": ".claude/CLAUDE.md",
+      "bytes": 14,
+      "sha256": "7b50d15feae7b63b94d845b2fa6e19e3220527c5b0cac69303b7fc19bd7484a8"
+    },
+    {
+      "path": ".dsflow/CHANGELOG.md",
+      "bytes": 3530,
+      "sha256": "c00185e058a4d372180c790e3a6b00b73c3b2d8d0ce9f0599f887634d7b8ec85"
+    },
+    {
+      "path": ".dsflow/README.md",
+      "bytes": 2901,
+      "sha256": "300ccd5478a2618cdb9ca8441f1119374e59689410c2d760814f9d3be29ee42f"
+    },
+    {
+      "path": ".dsflow/demo/README.md",
+      "bytes": 4594,
+      "sha256": "88e070e4a9293847cf3911fbbef5cb67e6e10b9365356af1b34f25d52ab21616"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/00-charter.md",
+      "bytes": 4644,
+      "sha256": "0fa8dcba8f705c4fe2282258f24ec1d28134c786413a565f253c407b815fdebb"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v1-deployment-spec.md",
+      "bytes": 805,
+      "sha256": "e7c4ac8aae70a139a52189941d72dcbf42b10e9d1cdb7061daa260324aa792c8"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v1-evaluation-report.md",
+      "bytes": 1761,
+      "sha256": "245750ca569188a143c754cff2b466e14fc4aad9c0e32b37821a42f366b9864f"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v1-experiment-log.md",
+      "bytes": 1322,
+      "sha256": "4a221710c9a0d0498d2f15287b0bded5615b789f975eed27c0ea53a568e9f3ad"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v1-model-card.md",
+      "bytes": 1333,
+      "sha256": "25054be775803805763be4aa5896b029d9fb87b34d5d91db1a787f87efd2e43b"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v1-retrospective.md",
+      "bytes": 864,
+      "sha256": "ca94c66297c7f9facc00d23ab7248633bc3e3f185b02cdfb297eaa3d38d483d5"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v2-champion-comparison.md",
+      "bytes": 1143,
+      "sha256": "7db5bab001a6d97794268f5737542c216a5149d3b8c7b0c8ee6f68a20cf1a035"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v2-deployment-spec.md",
+      "bytes": 813,
+      "sha256": "a9fff656a02e9ee8b11aab789e0145e7ebd018789000f2d484b68b15f1fc8347"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v2-evaluation-report.md",
+      "bytes": 1326,
+      "sha256": "c1fed58cb56c0d9b5b8972e6d474be054d2f5952130cf312218532136ee6d82b"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v2-experiment-log.md",
+      "bytes": 1030,
+      "sha256": "4790c10738eaaf19c4ba57bdead2addc09ceed9fa68540ae311aa8d5ba7c3d4d"
+    },
+    {
+      "path": ".dsflow/demo/artifacts/v2-retrain-brief.md",
+      "bytes": 1694,
+      "sha256": "4ca90f4eca760c6ab9182b72c2f99738366e3088ae1a01feaa2cf25f25909d78"
+    },
+    {
+      "path": ".dsflow/demo/configs/tumour-refresh.yaml",
+      "bytes": 688,
+      "sha256": "4f9ded1c2bbbfde733996b1514ce8b556bb83e5420a32643bdd1239cdac434a2"
+    },
+    {
+      "path": ".dsflow/demo/configs/tumour-v1.yaml",
+      "bytes": 641,
+      "sha256": "e00ba9bd06913072e3957c93faddcb31e9ce1906234f7ecb38c5e422e82d12ac"
+    },
+    {
+      "path": ".dsflow/demo/run_demo.py",
+      "bytes": 21215,
+      "sha256": "f5992ef332d1e7d60e3368963674558ea33e89eb9aec0ead39b63528d70660c0"
+    },
+    {
+      "path": ".dsflow/src/dsflow/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".dsflow/src/dsflow/cli.py",
+      "bytes": 10140,
+      "sha256": "a8e6495ee3aaefffa9c04a14c3415c35a52386bbb55155ef305997a2ccbce138"
+    },
+    {
+      "path": ".dsflow/src/dsflow/doctor.py",
+      "bytes": 6260,
+      "sha256": "966946e829d3d6bba94ef5b1e093aba79ef328613ef2e2b5c2418086163be570"
+    },
+    {
+      "path": ".dsflow/src/dsflow/evidence.py",
+      "bytes": 10194,
+      "sha256": "3c64bd44ca362857ec5b98896935b1b871aad38a0fc33c7ed3e4f7e18cb8e3cf"
+    },
+    {
+      "path": ".dsflow/src/dsflow/frontmatter.py",
+      "bytes": 2522,
+      "sha256": "28d4aa5bfffd6246b2044690a514511f5983db6a9aa53a502b8615d8d1ae8b15"
+    },
+    {
+      "path": ".dsflow/src/dsflow/gate.py",
+      "bytes": 8983,
+      "sha256": "ef236cd3879f185ed1ed87c81e33b10e3cf250c0e38763104adf9be6136cc19c"
+    },
+    {
+      "path": ".dsflow/src/dsflow/init.py",
+      "bytes": 2588,
+      "sha256": "082a74efa635735dddb8267a8f221f1c72de906dfef7b416d66c2b0dd815194e"
+    },
+    {
+      "path": ".dsflow/src/dsflow/manifest.py",
+      "bytes": 2877,
+      "sha256": "8b05c2189e1146ebc792b0e93ba534feb4bc6bc747c9fad6ce35cae80660712b"
+    },
+    {
+      "path": ".dsflow/src/dsflow/markdown.py",
+      "bytes": 1386,
+      "sha256": "a2bf95f8f3cd47cdc7b57545cbd543400a5a51b1d15498770b1cc2fd6dc744bb"
+    },
+    {
+      "path": ".dsflow/src/dsflow/models.py",
+      "bytes": 15639,
+      "sha256": "aa286de82922ac4e714c1b3cb22cfa322b7ecaaf7903e718eeda7be583eded75"
+    },
+    {
+      "path": ".dsflow/src/dsflow/repo.py",
+      "bytes": 4661,
+      "sha256": "b694a7a1e61a579acd68b66ae1d3e7a92b7eaac41b831f897ed5ff5541cb0902"
+    },
+    {
+      "path": ".dsflow/src/dsflow/research.py",
+      "bytes": 25396,
+      "sha256": "1b2744aeba5710250739a250329858cdd146222600aa8e1aebe54e03635bd20b"
+    },
+    {
+      "path": ".dsflow/src/dsflow/skills.py",
+      "bytes": 2377,
+      "sha256": "fbd11dd71bcb3de3a1027dd85cf838cff8976c8a4f1f0303abd4bd371a76eea8"
+    },
+    {
+      "path": ".dsflow/src/dsflow/status.py",
+      "bytes": 7444,
+      "sha256": "869e023d02affd6fc06b4bf16e47bc904fe7bc8288386f4f1507651dcba4095d"
+    },
+    {
+      "path": ".dsflow/src/dsflow/study.py",
+      "bytes": 9881,
+      "sha256": "aa1d8f27495dcad2abbd03f92724dab95b208610fb677ab81ade6c53be4dbba3"
+    },
+    {
+      "path": ".dsflow/src/dsflow/style.py",
+      "bytes": 8938,
+      "sha256": "222a353f8396134360fd75e0aae3248f08e5d474b967fc205d45f7cba0f08ebc"
+    },
+    {
+      "path": ".dsflow/src/dsflow/workflow.py",
+      "bytes": 6507,
+      "sha256": "0148afd921d4f1bea58cb295d41df39e0b914f9710526b419171163d7a5aeb76"
+    },
+    {
+      "path": ".dsflow/templates/analysis-log.md",
+      "bytes": 1483,
+      "sha256": "7feb20ca82669edf35bb985129a0b2f92a14fc7f7e3c7c62dfcfca363785ccfa"
+    },
+    {
+      "path": ".dsflow/templates/analysis-plan.md",
+      "bytes": 3429,
+      "sha256": "e86ceab727f6043f69b5ad5e0fcbff95eec457a9f27f341b8cbff83c1ff64271"
+    },
+    {
+      "path": ".dsflow/templates/champion-comparison.md",
+      "bytes": 2242,
+      "sha256": "fc97143603303f545f32bf1d58dda0d629f5e2d113eca508a8529ae50f93d09a"
+    },
+    {
+      "path": ".dsflow/templates/charter.md",
+      "bytes": 5068,
+      "sha256": "579fc1cd8606cde2f37dda993d7458abae50ed7e349ee4f98a2728a29f61dffb"
+    },
+    {
+      "path": ".dsflow/templates/data-card.md",
+      "bytes": 4425,
+      "sha256": "d8fc055eeed38fc11850ef9788ce453346d33dcfe61aed9dedcd14b60119c7e2"
+    },
+    {
+      "path": ".dsflow/templates/deployment-spec.md",
+      "bytes": 4134,
+      "sha256": "04374647cff9feafd11bb4b2bb3bbbcfeec495929da264e28cdff879d03b1967"
+    },
+    {
+      "path": ".dsflow/templates/eda-report.md",
+      "bytes": 4250,
+      "sha256": "6666ccde1330241897170faddeae890528ab27fb76364a0d369e87f4b59997ac"
+    },
+    {
+      "path": ".dsflow/templates/evaluation-report.md",
+      "bytes": 4474,
+      "sha256": "bd811e0eebba1a2bb4c21cc0fe76e7585c8c2d7700210ba25fb6df0d29fcd603"
+    },
+    {
+      "path": ".dsflow/templates/experiment-log.md",
+      "bytes": 2229,
+      "sha256": "cd0f2284e9d1f13d71642ff6b8dbbb2aab916201803d5f68deb7692c61230388"
+    },
+    {
+      "path": ".dsflow/templates/experiment-plan.md",
+      "bytes": 4762,
+      "sha256": "a2a36986e5c71a7028efb4ba91e408c634e42fb0adb900fc1316ce702c97f193"
+    },
+    {
+      "path": ".dsflow/templates/findings-report.md",
+      "bytes": 2376,
+      "sha256": "641b6d87e5f61176d7d855b5fa6afa9629d58398683bdefe5333622803486d06"
+    },
+    {
+      "path": ".dsflow/templates/log.md",
+      "bytes": 1265,
+      "sha256": "c4c2f11f58a65d02030c09bb7a67eab680027bd31f618ba17f4c655f863fb805"
+    },
+    {
+      "path": ".dsflow/templates/model-card.md",
+      "bytes": 3236,
+      "sha256": "090fcfd2e3c10d865bdf88dd9e91605290c4f9709cb0e50f10576b78bac2ad0b"
+    },
+    {
+      "path": ".dsflow/templates/monitoring-plan.md",
+      "bytes": 4119,
+      "sha256": "b98521946483bb2f505fb56585ed063d58cfe873e8d6e9df441ccf65058f8df8"
+    },
+    {
+      "path": ".dsflow/templates/phases.toml",
+      "bytes": 2387,
+      "sha256": "a7e5e270e7930208d8d8853d02551e60f79527a3f4a55bee208eb7a1893f5ff5"
+    },
+    {
+      "path": ".dsflow/templates/research-candidate.py",
+      "bytes": 2019,
+      "sha256": "e84922e308391beb1d52d151157976024e2a008f0aa2c11744567c314dbe3e49"
+    },
+    {
+      "path": ".dsflow/templates/research-journal.md",
+      "bytes": 1264,
+      "sha256": "1a73b2ef127d58aca90d5d32d72e7e45dd36ef8f0fa9eedb4497c411991e2754"
+    },
+    {
+      "path": ".dsflow/templates/research-program.md",
+      "bytes": 3077,
+      "sha256": "973c14f04c4e189504e49c9ff039bd2bdc878ed02df8a63df0d8b8ca3ebd237c"
+    },
+    {
+      "path": ".dsflow/templates/retrain-brief.md",
+      "bytes": 2983,
+      "sha256": "6804683deaf0d8fbf19bbdc4ef54155bcc9c3ff032299050c6c6d3cab9879551"
+    },
+    {
+      "path": ".dsflow/templates/retrospective.md",
+      "bytes": 2452,
+      "sha256": "1c84646e051e35c87cca404e784499014d34d02f2ae4aa82b5c9515514475f2f"
+    },
+    {
+      "path": ".dsflow/templates/study.toml",
+      "bytes": 101,
+      "sha256": "2e62e9bd9af235de217d44f313fe6abe2d1f4af0178946684be1d4dd8b4ff881"
+    },
+    {
+      "path": ".dsflow/tests/conftest.py",
+      "bytes": 3031,
+      "sha256": "d7e9b24ee07a37ff00bc97c5ed1fa4cee2d1abf2734dc82cd6dfe1730727e1d7"
+    },
+    {
+      "path": ".dsflow/tests/dsflow_helpers.py",
+      "bytes": 3233,
+      "sha256": "3472cb3685ea06c2573ace9287612f1ce825fe8615c0bf12797f21a7d6b65d5a"
+    },
+    {
+      "path": ".dsflow/tests/test_dsflow_doctor.py",
+      "bytes": 8522,
+      "sha256": "342ecd8ad9be3f7d47587b4e6a5bb5e270e50915a90810cf2fca31662dec9a9f"
+    },
+    {
+      "path": ".dsflow/tests/test_dsflow_manifest.py",
+      "bytes": 2303,
+      "sha256": "4c22efa37ec9d1820292a7a6cf18888c2361df9becd80698e8fd39b5abe011a0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6412,
+      "sha256": "9c8860424754ab90521bc0969c42568b4cd2ebe12139581dc68c6494d0d680d9"
+    }
+  ]
+}

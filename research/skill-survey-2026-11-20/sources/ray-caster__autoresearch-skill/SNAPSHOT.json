@@ -1,0 +1,117 @@
+{
+  "repository": "ray-caster/autoresearch-skill",
+  "branch": "main",
+  "commit": "999c06b10d7941ada311e62b9ee5d87e1070d9c4",
+  "commit_date_utc": "2026-11-17T10:26:59Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-11-17T10:27:00Z",
+  "pushed_at_utc": "2026-11-17T10:27:07Z",
+  "license_metadata": null,
+  "repository_size_kib": 50,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "status": "downloaded",
+  "source_url": "https://github.com/ray-caster/autoresearch-skill",
+  "archive_url": "https://codeload.github.com/ray-caster/autoresearch-skill/tar.gz/999c06b10d79",
+  "archive_sha256": "188a78701518efbd8683bf7168eaf3a532311cd0525e4044283fda367b4260f5",
+  "archive_bytes": 45400,
+  "selection_policy": "Text/source files up to 2 MiB each; non-regular files, binaries, and dependency caches omitted. Snapshot is for reading, not installed.",
+  "retained_files": 17,
+  "retained_bytes": 132388,
+  "skill_entry_files": [
+    "SKILL.md"
+  ],
+  "skipped_files": [
+    {
+      "path": "templates/gitignore",
+      "bytes": 274
+    }
+  ],
+  "file_manifest": [
+    {
+      "path": ".gitignore",
+      "bytes": 32,
+      "sha256": "385a33d7e49fb63a359fb9bf9216cf393c61d1fb3fc0df3e4ad15d35a2453654"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1299,
+      "sha256": "d52c836b8f0d318096870815006178c272e832fdf835220bfd120f42bfc4858e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18491,
+      "sha256": "966e80b3acb08a9231789689412dcabd6d657adb7edc1a6df1a50967dc5382be"
+    },
+    {
+      "path": "references/explore-mode.md",
+      "bytes": 2192,
+      "sha256": "067d3a89051a7f0d5a079946d3cc861c58809082d8c321e3f6a9594559ab8b76"
+    },
+    {
+      "path": "references/hard-checks.md",
+      "bytes": 5170,
+      "sha256": "65717ea4b7d30bd83de4824b5892463cfc77162daece5f0a0799917813899147"
+    },
+    {
+      "path": "references/researcher.md",
+      "bytes": 1354,
+      "sha256": "782afc824124c03949448d8cea1cd512c96b2f519aa4b8bfae96b205639af09e"
+    },
+    {
+      "path": "references/token-use.md",
+      "bytes": 1569,
+      "sha256": "be952cbb96c7e8a99670ea8ea0b35467157fd1a76f5505d344bf66284f149d6b"
+    },
+    {
+      "path": "scripts/driver.py",
+      "bytes": 47271,
+      "sha256": "1be7fa70fe07f838a9869e2db9f07c8c51fe37e18dd0ca7659824068ba28f6c9"
+    },
+    {
+      "path": "scripts/report.py",
+      "bytes": 12146,
+      "sha256": "df6a0712662b69e0bc70aa7807dd982fac96811e2dcb4a5029ad00dd288e65d5"
+    },
+    {
+      "path": "templates/checks/lean_gate.py",
+      "bytes": 3099,
+      "sha256": "80c62100be9b8acfede4f03eb102f445e12ba36ff6494dd98f4d64b9aae0019c"
+    },
+    {
+      "path": "templates/checks/tla_gate.py",
+      "bytes": 3430,
+      "sha256": "bee23dc226d678c5299e7ffc7f59b634300953caf2a0de72973e96671618fbf4"
+    },
+    {
+      "path": "templates/config.json",
+      "bytes": 804,
+      "sha256": "3696f70940d4ff9e7a90006c7d68e7eb6e12e805ee9ace0f4b49edac49af7207"
+    },
+    {
+      "path": "templates/evaluate_example.py",
+      "bytes": 1230,
+      "sha256": "b02f5d23f9266907ebcef21fa789d5fd19e12ef73f31261ccb832a2736f7204a"
+    },
+    {
+      "path": "templates/program.md",
+      "bytes": 1446,
+      "sha256": "2636a84d59bc887cd0b40886f8b2bdc21354afdca0f23b736b7999364b514f7a"
+    },
+    {
+      "path": "templates/trading/evaluate.py",
+      "bytes": 8360,
+      "sha256": "728356115893356f32bf5d9d17c176200159fce4b7a32032290401b6e915277d"
+    },
+    {
+      "path": "templates/trading/strategy.py",
+      "bytes": 951,
+      "sha256": "04f67756148e3dc606714d9677be6e9fea1cb1c3fefa58c9595a7478d18bf466"
+    },
+    {
+      "path": "tests/run_tests.py",
+      "bytes": 23544,
+      "sha256": "4f48c0ee5e14466d03b195195332f10a9abe08141de4d506764ea8b81e2b2e3d"
+    }
+  ]
+}

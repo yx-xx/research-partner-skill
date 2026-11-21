@@ -1,0 +1,165 @@
+{
+  "repository": "lllllllama/RigorPilot-Skills",
+  "branch": "main",
+  "commit": "fb3ccdf5aa64b1fa5b1d0463e666a8bc8bc26e01",
+  "commit_date_utc": "2026-09-23T14:14:05Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-03-30T04:30:06Z",
+  "pushed_at_utc": "2026-09-23T14:14:25Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 14113,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/lllllllama/RigorPilot-Skills",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 17,
+  "retained_files": 27,
+  "retained_bytes": 129016,
+  "skill_entry_files": [
+    "skills/ai-research-explore/SKILL.md",
+    "skills/ai-research-reproduction/SKILL.md",
+    "skills/explore-run/SKILL.md",
+    "skills/minimal-run-and-audit/SKILL.md",
+    "skills/paper-context-resolver/SKILL.md",
+    "skills/safe-debug/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude/commands/ai-research-explore.md",
+      "bytes": 723,
+      "sha256": "fd737e5dd0c45c0a472f4902fb5416596aa064d4cfdb3ad1078c58061efb8767"
+    },
+    {
+      "path": ".claude/commands/ai-research-reproduction.md",
+      "bytes": 579,
+      "sha256": "a7439999acf8f1aef570b711a5f1b3fd6b454a08319ec947a3b598e949cfbe27"
+    },
+    {
+      "path": ".claude/commands/analyze-project.md",
+      "bytes": 565,
+      "sha256": "3523f6280575fecbb4a6570539c6ac0485dc94ca264bcfed2214dbbfd3e5c6df"
+    },
+    {
+      "path": ".claude/commands/safe-debug.md",
+      "bytes": 627,
+      "sha256": "a3384cc1ecd9ccd014d89bc116dbac0bef5817da0976f22b61cf0ad6559749cf"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 118,
+      "sha256": "b5c7ea0f150774885c6924c0a17a6a889ac36500271f197b9c49ab4d271f2370"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/reproduction.yml",
+      "bytes": 1525,
+      "sha256": "b17427cf651c034cdab9b46fdee0dd4d17874fa8284b11a78957d786afb7c38b"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1118,
+      "sha256": "4a7d33120d38c6e21b7660ca30a3b41d50a85c82a184d93a30938940b6c98912"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 1330,
+      "sha256": "98fa75ab2ebd10b2ea98ce9959994fcf029cf29018657ebdcee02cc385767852"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 637,
+      "sha256": "8c795f6e51cdc10e32a7f5f0793718ff72248d4857ca758fe6562913b7e11d5c"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3744,
+      "sha256": "f5d4b2242239557d472b3fa9ac9cfe78305328af2b1d0fd1bfe66c3f75f23687"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 24250,
+      "sha256": "aa58034aa503d924b0730e1e804a0e2463132afa0f2a71799b8df10cba2c956a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3542,
+      "sha256": "fd4095c97e510fb3ed2f9bed5e927dd0cc1226439678fed2f1d45ea42bac8546"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "3925c988925b998884eba71d1237b6b20d7add53295605f65abf2e85b58202e9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16822,
+      "sha256": "a7c0a3e6cb86f8cc2af3bfe7c3ed0bfe8fbd6f118a5685e46d0cc67772f1657a"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 16063,
+      "sha256": "7e9e1d899dbf4801e5cc532211a6ee7fa786216f1fe9d08bea93e95caa8bedf6"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 2242,
+      "sha256": "acf4d11fd2dd8ac795605fb7d9ca655a2de9153b95557eddd16b914b8a609064"
+    },
+    {
+      "path": "references/research-thinking-loop.md",
+      "bytes": 4189,
+      "sha256": "c0f7dc13f6d1e45df5f2ffa183850d1b47ff6f65fb41619910b9771bbe43461a"
+    },
+    {
+      "path": "skills/ai-research-explore/SKILL.md",
+      "bytes": 6701,
+      "sha256": "40d698b71b727d6fa4c639060341f5f5f8f3941b2b5be395df20022ebf69dd91"
+    },
+    {
+      "path": "skills/ai-research-explore/references/research-campaign-spec.md",
+      "bytes": 9663,
+      "sha256": "aff03ac0f069a7b2b0daa3fdc352002714f0a5ff8a548ea5588405b21e9b9f92"
+    },
+    {
+      "path": "skills/ai-research-reproduction/SKILL.md",
+      "bytes": 7123,
+      "sha256": "429b7d6c29a62fa9f35ee8976672ef97fb7a5df16a4b5a4b21e5a09880018c95"
+    },
+    {
+      "path": "skills/ai-research-reproduction/references/agent-job.md",
+      "bytes": 5670,
+      "sha256": "2e2b5944f64d25395c75c7ce0102cb48578f4b9faaf1c4d1982749951523ad03"
+    },
+    {
+      "path": "skills/ai-research-reproduction/references/agent-runner.md",
+      "bytes": 10444,
+      "sha256": "bd50734bd67afea418e89cac020c21307ef662ec5fd5b93a883260d35d773757"
+    },
+    {
+      "path": "skills/explore-run/SKILL.md",
+      "bytes": 3332,
+      "sha256": "0643eab765bee05830ee2f3f04172c7ebee7771b7c3396e5fd1cbc4a71281756"
+    },
+    {
+      "path": "skills/minimal-run-and-audit/SKILL.md",
+      "bytes": 2761,
+      "sha256": "783c886e4ab9f9589a68ad4a97ca968f6ca3a405b60dd65e4790d9ca7260d86e"
+    },
+    {
+      "path": "skills/paper-context-resolver/SKILL.md",
+      "bytes": 2066,
+      "sha256": "a2351c67577fe3a534a33c104af6fc45407a7df51f02893596598304831b1b22"
+    },
+    {
+      "path": "skills/safe-debug/SKILL.md",
+      "bytes": 2086,
+      "sha256": "2c3a51de17d8d37b7c92262527a8a429886942efd9fb0b392dc9b5e742ac0498"
+    }
+  ]
+}

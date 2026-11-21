@@ -1,0 +1,234 @@
+{
+  "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+  "branch": "main",
+  "commit": "4ba94ae2a1c1fbbb14858750dd8764cabf6c28bd",
+  "commit_date_utc": "2026-11-19T10:40:49Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-03-10T07:31:45Z",
+  "pushed_at_utc": "2026-11-19T10:40:49Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 38052,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 28,
+  "retained_files": 40,
+  "retained_bytes": 809702,
+  "skill_entry_files": [
+    "skills/experiment-audit/SKILL.md",
+    "skills/experiment-bridge/SKILL.md",
+    "skills/idea-creator/SKILL.md",
+    "skills/idea-discovery-robot/SKILL.md",
+    "skills/novelty-check/SKILL.md",
+    "skills/paper-writing/SKILL.md",
+    "skills/proof-orchestrator/SKILL.md",
+    "skills/research-refine/SKILL.md",
+    "skills/research-review/SKILL.md",
+    "skills/result-to-claim/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 1151,
+      "sha256": "d3bbfe86e970443cad53e3d4c1e0853726d3f526e54d891c73f7dcb873114e8c"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 703,
+      "sha256": "2105d8087918b1c143c5b971886a28842eb90c023f6e9e07fe4caeda2a07dc6e"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 830,
+      "sha256": "a5b0d35d61c1352bf14b9f6ac3501f0b0c0f5e25e5907601efdcf8af4e80cecc"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 283,
+      "sha256": "e0670a4436402d4fefe33d13b7786d49a9e54f7e2f9703b4b30b24897b1f3b85"
+    },
+    {
+      "path": ".github/agents/aris-reviewer-claude.agent.md",
+      "bytes": 564,
+      "sha256": "cb78b6b1570d3ed3bf9e0b78a12d0b45cd201c7ca0ed0b61a22186c0d44dccc2"
+    },
+    {
+      "path": ".github/agents/aris-reviewer-openai.agent.md",
+      "bytes": 541,
+      "sha256": "c6d983e1e2df98e498cde979211169ac7a3640261bc61d0c64d64403df23e09c"
+    },
+    {
+      "path": ".github/workflows/check-skills-inventory.yml",
+      "bytes": 1062,
+      "sha256": "4bd7a6e6680e849975227a47e9a8ede6dffc5b27f9dc08d44163fb5dd9cb2c37"
+    },
+    {
+      "path": ".github/workflows/lint-skills-helpers.yml",
+      "bytes": 1448,
+      "sha256": "18bff0d74d787c3238c243ffb9893723d3cba53a4f0848f03864221e45cdbddc"
+    },
+    {
+      "path": ".github/workflows/test-install-aris-ps1.yml",
+      "bytes": 822,
+      "sha256": "01d09c4693a379ff56b781e318522e5d48be6148764820109f4820bd7fc3a6dd"
+    },
+    {
+      "path": ".github/workflows/test-suite.yml",
+      "bytes": 1903,
+      "sha256": "08434dedcdc9885d8a936e4c9152ff7efb89e26c62150d47567869f4a415b09a"
+    },
+    {
+      "path": ".github/workflows/verify-codex-policy-audit.yml",
+      "bytes": 1700,
+      "sha256": "54df4c03f213e3f736c44996c475518ae1ac48c03b523bf851e92a65c5295fa2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1110,
+      "sha256": "ab5043f7d74b6c09b068f16eb0e4bd028773881d7fc26a1374b7915e39efb2e0"
+    },
+    {
+      "path": "AGENT_GUIDE.md",
+      "bytes": 21841,
+      "sha256": "bd69ae118166370f261e5619e3f19b9d355f70a7d3647c97ff75f4871cff2e17"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1998,
+      "sha256": "f8a464d769308fed89acf11ba6e2b20552a6e9008c5669ec8522acb0fe296363"
+    },
+    {
+      "path": "CONTRIBUTING_CN.md",
+      "bytes": 1860,
+      "sha256": "46f12ab3121765765167bc66fbea239fbcd30d3b31cbe884290fe6ea17871e47"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 241471,
+      "sha256": "29503dea31423e99845457032bdebf62a3d38ba4ca35731977339c249725e988"
+    },
+    {
+      "path": "README_CN.md",
+      "bytes": 203359,
+      "sha256": "b35cdc86255be8774ca2e4b2e2ec88cf7354ec7209b267c81d79a289dac68b7e"
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "bytes": 12295,
+      "sha256": "50a9d67d000462806d20b3192c2f89416039b1968696270c3dc69554ef947ae6"
+    },
+    {
+      "path": "SETUP_GUIDE_CN.md",
+      "bytes": 11957,
+      "sha256": "feeb7337c913d946f67ba2125b9d9e082f4e5a376118297692b905f0a3ac45a1"
+    },
+    {
+      "path": "agents/aris-fanout-leaf.md",
+      "bytes": 1467,
+      "sha256": "f45c1e1eb4f077e2a717f7fed159e01d7a18373fe7f1a92e598bcb2306f056a2"
+    },
+    {
+      "path": "aris-monitor/README.md",
+      "bytes": 8084,
+      "sha256": "1a5b4749943beefee52ec7b0b2efd43b3312ad22963925a2f31290799b78fb8a"
+    },
+    {
+      "path": "aris-monitor/focus-tty.sh",
+      "bytes": 6072,
+      "sha256": "20b7c520744ebf9a666eb6d44f7620496f1679229492e9ac451cf2201fc9bb3b"
+    },
+    {
+      "path": "aris-monitor/focus.py",
+      "bytes": 4144,
+      "sha256": "1c97005ed5cb8f2a83c37a13d8e282bd385d12a87bd713ea6db2f2ec25940ddb"
+    },
+    {
+      "path": "aris-monitor/run.sh",
+      "bytes": 1795,
+      "sha256": "9d3c8646e311b1989e90142d9b7060f67b7446a9e74365ddf3674be343acd401"
+    },
+    {
+      "path": "aris-monitor/scanner.py",
+      "bytes": 17936,
+      "sha256": "9020cf529449a535db5f317a2ec45be4e8b5cc636a593c0f6bb61a88d317a94e"
+    },
+    {
+      "path": "aris-monitor/ticker.py",
+      "bytes": 2451,
+      "sha256": "5128f37cb2612985694f44329091b74c885272f9cf5f4fd78ca9443c80c8bf90"
+    },
+    {
+      "path": "aris-monitor/widget.py",
+      "bytes": 15287,
+      "sha256": "7badae1229c21fd93eada5a7830a0f673aeda441f953784cddfd076894fc8c8b"
+    },
+    {
+      "path": "skills/experiment-audit/SKILL.md",
+      "bytes": 13750,
+      "sha256": "6a8b6817a30e1bef03ad2bd679155ce39c2b0977bca38874485f7f5c1fd2567c"
+    },
+    {
+      "path": "skills/experiment-bridge/SKILL.md",
+      "bytes": 20094,
+      "sha256": "8afba310ad8a381b3cecfa4549780af30e1cbebaca37c45338ea3232bf188856"
+    },
+    {
+      "path": "skills/idea-creator/SKILL.md",
+      "bytes": 35181,
+      "sha256": "4752ae46d1a67c181838f0dbe15812e36d384751b1e5c9e3d7b8abb608cb58b2"
+    },
+    {
+      "path": "skills/idea-discovery-robot/SKILL.md",
+      "bytes": 15971,
+      "sha256": "fe77e38c3ecc10983e4d0faa8e514f90837c02038d8cdf0d34524416a0d605ee"
+    },
+    {
+      "path": "skills/novelty-check/SKILL.md",
+      "bytes": 8331,
+      "sha256": "a1f257297405c9948f570d51672f50b0176177001e74118c926b149c9ccb9af4"
+    },
+    {
+      "path": "skills/paper-writing/SKILL.md",
+      "bytes": 52667,
+      "sha256": "295bd0b3852635258a60c1917dcca29256c690bb6dde5c6ac49732b905ff8743"
+    },
+    {
+      "path": "skills/proof-orchestrator/SKILL.md",
+      "bytes": 18956,
+      "sha256": "a413ff855b0d297671b443e66e6a0ae64caa0a23ed2cbff5b5037cea4f7c8de5"
+    },
+    {
+      "path": "skills/research-refine/SKILL.md",
+      "bytes": 34664,
+      "sha256": "c58649772c1cca2fc3e9d32622be279b42491991ab96301b30acb3722b45af6b"
+    },
+    {
+      "path": "skills/research-review/SKILL.md",
+      "bytes": 13815,
+      "sha256": "71982b92a7790229076204d7b7264bf5d31e9053169ec140ca0c6cca849ab7ab"
+    },
+    {
+      "path": "skills/result-to-claim/SKILL.md",
+      "bytes": 17854,
+      "sha256": "b12d10bdb51440f65e4112e6643712f172a7e37c1e15066e15d81eaee5838a8f"
+    },
+    {
+      "path": "skills/shared-references/evidence-precheck.md",
+      "bytes": 3248,
+      "sha256": "919a437a2e4a618ff6bcac6c03b7ec12bde3fef33d1a2aea25c9d98fcbd5e2d2"
+    },
+    {
+      "path": "tools/evidence_check.py",
+      "bytes": 9970,
+      "sha256": "2edbd901d760d22e7e43a14e8e88ab0e089303f489055cd9b5e9d1f4dce50382"
+    }
+  ]
+}

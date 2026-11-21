@@ -1,0 +1,632 @@
+{
+  "repository": "meiyou666/research-skills-system",
+  "branch": "main",
+  "commit": "6370a59c728febae3560321af2769681aed3c732",
+  "commit_date_utc": "2026-08-28T05:51:02Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-08-28T01:55:08Z",
+  "pushed_at_utc": "2026-08-28T05:53:00Z",
+  "license_metadata": null,
+  "repository_size_kib": 373,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "status": "downloaded",
+  "source_url": "https://github.com/meiyou666/research-skills-system",
+  "archive_url": "https://codeload.github.com/meiyou666/research-skills-system/tar.gz/6370a59c728f",
+  "archive_sha256": "6f660e8d7f356bff7c14050771afaf878e0d720564f4438b81c627fb9a768a55",
+  "archive_bytes": 332518,
+  "selection_policy": "Text/source files up to 2 MiB each; non-regular files, binaries, and dependency caches omitted. Snapshot is for reading, not installed.",
+  "retained_files": 118,
+  "retained_bytes": 1222466,
+  "skill_entry_files": [
+    "skills/analyze-experiment-results/SKILL.md",
+    "skills/audit-research-evidence/SKILL.md",
+    "skills/collect-research-sources/SKILL.md",
+    "skills/create-publication-figures/SKILL.md",
+    "skills/design-research-experiments/SKILL.md",
+    "skills/formulate-research-hypotheses/SKILL.md",
+    "skills/inspect-gpu-environment/SKILL.md",
+    "skills/no-negative-echo/SKILL.md",
+    "skills/revise-evidence-report/SKILL.md",
+    "skills/search-primary-evidence/SKILL.md",
+    "skills/supervise-experiment-runs/SKILL.md"
+  ],
+  "skipped_files": [
+    {
+      "path": "skills/revise-evidence-report/assets/fit-latex-tables.lua",
+      "bytes": 1627
+    }
+  ],
+  "file_manifest": [
+    {
+      "path": ".gitignore",
+      "bytes": 33,
+      "sha256": "296d3a12dea3ece4b816bcf916694bbf3d4a4b02e0854468fffb37c2e977a406"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14373,
+      "sha256": "5865e8f6b5a99cab32800a16abdf3d865f9fdb1b9b78927b845ccd1e4d966d46"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 8154,
+      "sha256": "5cc4e849968e3bb28a0399a7b8a21a1ca98652c8dd79d2b89201ab038bba4ed0"
+    },
+    {
+      "path": "docs/gpu-experiment-capability-matrix.md",
+      "bytes": 16935,
+      "sha256": "08a183369406d4895641563e22c676b2e68452d31bebdc5cab78dc60f67df576"
+    },
+    {
+      "path": "docs/open-source-skill-landscape.md",
+      "bytes": 120597,
+      "sha256": "cfacce0f265a1c69b00645eeb294bca00b9324ac5140e67194c009683fb7ed14"
+    },
+    {
+      "path": "docs/third-party-search-runtime.md",
+      "bytes": 20454,
+      "sha256": "e3e8b71144e7f4f951ead17f6e4379f645c7f972be9c5b0ce7a0e3024872a09f"
+    },
+    {
+      "path": "skills/analyze-experiment-results/SKILL.md",
+      "bytes": 4199,
+      "sha256": "9724b55eaf502123b8c77a81c8f0f581856b852bc584b0b0e248b2a503c5d00f"
+    },
+    {
+      "path": "skills/analyze-experiment-results/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "1f677189229b05427924403d77ae557168ec6b5c72d5cc8f298a800af360637b"
+    },
+    {
+      "path": "skills/analyze-experiment-results/references/analysis-methods.md",
+      "bytes": 2500,
+      "sha256": "e306e2d5068b787bead2b324119d1e6c84522d38c813a7fb31199e0cb38e848f"
+    },
+    {
+      "path": "skills/analyze-experiment-results/references/analysis-package.md",
+      "bytes": 4991,
+      "sha256": "f2e4fa549acf7a4ac544ddee2e92786c0039ed12b640b40664f80ef8fb4d4847"
+    },
+    {
+      "path": "skills/analyze-experiment-results/references/gpu-analysis.md",
+      "bytes": 3154,
+      "sha256": "93761c195cdd2f5c584e730ad76c2496b8fa87b9033290834179d31620107560"
+    },
+    {
+      "path": "skills/analyze-experiment-results/scripts/self_test.py",
+      "bytes": 19123,
+      "sha256": "45c39a0e0ffbfabfffdf0ac7d171ecdda25ba72984de49943b66e568846b8fcb"
+    },
+    {
+      "path": "skills/analyze-experiment-results/scripts/summarize_measurements.py",
+      "bytes": 32827,
+      "sha256": "af3984571e33f0dfc34b81ab5cb21e34df87d0f36826896aa16a30d5361e287e"
+    },
+    {
+      "path": "skills/analyze-experiment-results/scripts/validate_analysis_package.py",
+      "bytes": 14365,
+      "sha256": "f53d1402454c3575d1481af1089fda59b22054f3705632dd9016472756168841"
+    },
+    {
+      "path": "skills/audit-research-evidence/SKILL.md",
+      "bytes": 2947,
+      "sha256": "d37fe409c146466353c0b27086fb4e79957854221a4383ee2a3c66096958d6be"
+    },
+    {
+      "path": "skills/audit-research-evidence/agents/openai.yaml",
+      "bytes": 244,
+      "sha256": "020c77e83bd14534a47a1fb4fe31609f90640fb730e01cf028249dd096186404"
+    },
+    {
+      "path": "skills/audit-research-evidence/references/evidence-dossier.md",
+      "bytes": 3166,
+      "sha256": "618b7df3688f5652572793e38a4560861567a0a8a6b06c06e63a266e19afc92e"
+    },
+    {
+      "path": "skills/audit-research-evidence/references/source-review.md",
+      "bytes": 2190,
+      "sha256": "55ec830013b48449ab12405c0adbb50407439bc272a0650b0b09845f2054ff23"
+    },
+    {
+      "path": "skills/audit-research-evidence/scripts/validate_evidence_dossier.py",
+      "bytes": 12096,
+      "sha256": "b26c6023ac01dfd31cc78d74fc0ef4483c3e780e3bd424f7a5433a876fd38b20"
+    },
+    {
+      "path": "skills/collect-research-sources/SKILL.md",
+      "bytes": 6259,
+      "sha256": "c2d4d168f0cf9feec85edc6ba4e7fc62c816071a2d45179e4e2a4345cc15dd12"
+    },
+    {
+      "path": "skills/collect-research-sources/agents/openai.yaml",
+      "bytes": 284,
+      "sha256": "7548941b386172a2e0ac7a01a5da0d639e40524028b98ac613d1e8106431d7d5"
+    },
+    {
+      "path": "skills/collect-research-sources/references/campaign-contract.md",
+      "bytes": 7591,
+      "sha256": "f30720ddcfea6fe71e9f8954a9291f816232bf266968b4ffb65ff22d37c6f41c"
+    },
+    {
+      "path": "skills/collect-research-sources/references/connector-catalog.md",
+      "bytes": 10398,
+      "sha256": "dcbdd8ff0947ac35a90ca58315ee667e1090ff68e419b3d47349d8444a83eac1"
+    },
+    {
+      "path": "skills/collect-research-sources/references/connector_profiles.json",
+      "bytes": 8738,
+      "sha256": "fbf40c942dee03ea4a6d7a1390271b00156c6853fd5b6628b7e06f5c221146ae"
+    },
+    {
+      "path": "skills/collect-research-sources/references/minimal-config.json",
+      "bytes": 1040,
+      "sha256": "ee422e1392dd8f2bb691e3d39e8298bbb107bbe26e5c68a1be5fb3a22f521319"
+    },
+    {
+      "path": "skills/collect-research-sources/references/safety-and-compliance.md",
+      "bytes": 3976,
+      "sha256": "e457cb41083c6cc4bdcf2e34494d68168586d3b845bdeb0adce05370f11b312f"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/expand_relations.py",
+      "bytes": 5340,
+      "sha256": "b2038df554bb33e53766f9c002b13d034bbbe9788d32b6a3c6b0d416032c334a"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/online_smoke.py",
+      "bytes": 3898,
+      "sha256": "1c50db521dd376121682ca51fca6dca6dad16af41bff27766f0905c9b5ec9a71"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/run_campaign.py",
+      "bytes": 13352,
+      "sha256": "fe85b1bb2b72747a9cf02a53f915837f8a44f78f0c37038d1ee19bd334df9079"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/self_test.py",
+      "bytes": 40637,
+      "sha256": "f6b4b90669307b2968a4206a4a0e72c9038c725d62eb633513896ac3549beffe"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/__init__.py",
+      "bytes": 240,
+      "sha256": "e568b82c1ead000a5ac3bf7af83c1647a76ec5bd14d5ac50b12835e4a790302d"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/config.py",
+      "bytes": 9501,
+      "sha256": "df5e35cfb25188c62e756c2606205d3a7a6dd43330650236a46dd4a72d01de8e"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/connectors.py",
+      "bytes": 44007,
+      "sha256": "2538eca95b53b5d5a8de5450c6917e038f9ff33c8ff7d22e31291c4455a7b3c8"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/model.py",
+      "bytes": 2137,
+      "sha256": "83eee24698fb4b24454bbd3d1d6be717019670559603ef25ef11b2331016d4f3"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/normalize.py",
+      "bytes": 5821,
+      "sha256": "c0748b5b4e04b8e56453089b504b6870abba93fe7fad6c2ed4fc36f5148838a0"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/page_fetch.py",
+      "bytes": 5677,
+      "sha256": "3f84fc086f0b5c5c006e90b4057d5c446fd9ef2c9af541da7faade0fade4c48a"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/security.py",
+      "bytes": 7904,
+      "sha256": "87b3e713b82c5389712b6f650d549dfe2cef17f02dc4a0b78f277b889d57b4e3"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/source_collector/store.py",
+      "bytes": 44778,
+      "sha256": "8f7c3bc2e5d578d6e150f7da67769034f6ee0ae7389c5d54fe8c28a4de997303"
+    },
+    {
+      "path": "skills/collect-research-sources/scripts/validate_campaign.py",
+      "bytes": 21696,
+      "sha256": "699fcbdb66ef6599aadae9d1ce4d22639234c4a8476f1a037ceec3504786618f"
+    },
+    {
+      "path": "skills/create-publication-figures/SKILL.md",
+      "bytes": 8429,
+      "sha256": "57b26f94538bc3d9ec2858abc6a7528c997c0c3d06c64263e723384979722749"
+    },
+    {
+      "path": "skills/create-publication-figures/agents/openai.yaml",
+      "bytes": 261,
+      "sha256": "272f87f1714e3bb6af71c02e78249f55fa5bc1f1205ad45e162dad0a45df98e8"
+    },
+    {
+      "path": "skills/create-publication-figures/references/figure-spec.md",
+      "bytes": 5430,
+      "sha256": "204ddc182140c860f823dc79661a8de4d89bbe6430a5b1751a9a93cf41a6e85a"
+    },
+    {
+      "path": "skills/create-publication-figures/references/gpu-figure-recipes.md",
+      "bytes": 13816,
+      "sha256": "8f43bd352701300ba5530df5befcc75d676bcd66d923b24a97b8ff6a9afe1c7f"
+    },
+    {
+      "path": "skills/create-publication-figures/references/qa-review.md",
+      "bytes": 3382,
+      "sha256": "cc74c9eb71fe8432db98e914ce03dd1e0564c4b59830d5ce9d12ce99293c1a89"
+    },
+    {
+      "path": "skills/create-publication-figures/references/submission-profiles.md",
+      "bytes": 6733,
+      "sha256": "2ffa65fec1bd20b693e28625e641ad7a87c37967298c0ec1c1a09aff6c919a66"
+    },
+    {
+      "path": "skills/create-publication-figures/references/submission_profiles.json",
+      "bytes": 11671,
+      "sha256": "dfb352131771c98ed1c74aa7133ff20bbb735d32d2ab56b8cabb3642698d048a"
+    },
+    {
+      "path": "skills/create-publication-figures/scripts/render_figure.py",
+      "bytes": 57195,
+      "sha256": "b90b7912fb5429b5de9e3084259ea5934b74f65892964de4146fdcc1ac9db0fb"
+    },
+    {
+      "path": "skills/create-publication-figures/scripts/self_test.py",
+      "bytes": 18193,
+      "sha256": "284adc39c6cef32b9dddd995d7589d5e9eabb87039c6f8663f2f979f69a1c5b2"
+    },
+    {
+      "path": "skills/create-publication-figures/scripts/validate_figure_package.py",
+      "bytes": 32204,
+      "sha256": "1c258b56606edb85a4924480605540b2e349b03a69d0e4083cacfc89607e28e1"
+    },
+    {
+      "path": "skills/design-research-experiments/SKILL.md",
+      "bytes": 4258,
+      "sha256": "9fd602a9485297be46ee36670f5f9e4bae888356db6026045803a6905f3ddaaf"
+    },
+    {
+      "path": "skills/design-research-experiments/agents/openai.yaml",
+      "bytes": 257,
+      "sha256": "6a8d13f58fa000ca7699598d82336ab15d4975274520d971d0e3d49c638b0244"
+    },
+    {
+      "path": "skills/design-research-experiments/references/data-contract.md",
+      "bytes": 1832,
+      "sha256": "91f1bdcb4b0715f3a4bbf367883d8a05286521a18709b81ea8e8c7a428a87b35"
+    },
+    {
+      "path": "skills/design-research-experiments/references/execution-contract.md",
+      "bytes": 2356,
+      "sha256": "2298fbfe68ffaba5ab5110bf2507f465dbab0369272f953ea2ebce4d2c3dffb8"
+    },
+    {
+      "path": "skills/design-research-experiments/references/gpu-measurement.md",
+      "bytes": 5650,
+      "sha256": "427c6040bcf067460d031227a871b21072204edf76cb825dc0053d05599e3ed9"
+    },
+    {
+      "path": "skills/design-research-experiments/references/protocol.md",
+      "bytes": 4894,
+      "sha256": "77bd93dc2deffe3535aa5567ba2eea69f6af21fad2fb1743beddc5359235e69c"
+    },
+    {
+      "path": "skills/design-research-experiments/references/statistical-design.md",
+      "bytes": 2137,
+      "sha256": "021bfd99bb9724cab111dab473ab07e71e7bbba77d216ee6701f34ce947a8f06"
+    },
+    {
+      "path": "skills/design-research-experiments/scripts/validate_experiment_package.py",
+      "bytes": 24116,
+      "sha256": "ff20ec592515023c281bfd6a69507f37c496ab97e4717ff49b65ff104d63a09f"
+    },
+    {
+      "path": "skills/formulate-research-hypotheses/SKILL.md",
+      "bytes": 3524,
+      "sha256": "9701ed5de744f308002c9cc7b18ef8dd39361e1c6782178d6ca3a3c141526bc1"
+    },
+    {
+      "path": "skills/formulate-research-hypotheses/agents/openai.yaml",
+      "bytes": 264,
+      "sha256": "d35719de823a37b750220cabba0345770df43059832d835ba047d0d414218617"
+    },
+    {
+      "path": "skills/formulate-research-hypotheses/references/adversarial-review.md",
+      "bytes": 2464,
+      "sha256": "03b33d9db2a11d150eff2faeee11959f5c92a154918e6df8c768f8762b90f0bd"
+    },
+    {
+      "path": "skills/formulate-research-hypotheses/references/hypothesis-brief.md",
+      "bytes": 4566,
+      "sha256": "fb339aacabb2db3251ab9bbf59ee5247098592b16127d0798459941b13e4b79d"
+    },
+    {
+      "path": "skills/formulate-research-hypotheses/references/research-layers.md",
+      "bytes": 1727,
+      "sha256": "05085eebd6e506c78e4e925dc6d603727b6230e758d4139699f728b54c1f3834"
+    },
+    {
+      "path": "skills/formulate-research-hypotheses/scripts/validate_hypothesis_brief.py",
+      "bytes": 24411,
+      "sha256": "806026f4013526c888b3e0c45d1606555f68aff91e25f25adfc9d77d28665e4c"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/SKILL.md",
+      "bytes": 7279,
+      "sha256": "151feafbd03958c49f33e1233d35f52aa3f4215644f1c84d459a0e4f1df1ae5e"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/agents/openai.yaml",
+      "bytes": 262,
+      "sha256": "412630088a8c9a8b97e2c2b0e2b89e32ee4c3af8dc09ece35f7869f31e7c98eb"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/fixtures/amd-capability.json",
+      "bytes": 3325,
+      "sha256": "c24539fa8a55c4fe277334d07fd8057760051e24331d293f8af97c9574896733"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/fixtures/no-gpu.json",
+      "bytes": 1489,
+      "sha256": "31db240dd5dec50103059e6b79d3380ad8c8d8dfedd7f72686ac9a8c66473587"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/fixtures/nvidia-2gpu.json",
+      "bytes": 3630,
+      "sha256": "168f8ae2aa62f9df56364f3f11f6943d4b51e5e1ae4e695f10617ba0a59e3010"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/fixtures/nvidia-missing-telemetry.json",
+      "bytes": 2515,
+      "sha256": "a67c60dc50faf2fdd4b34f114aca9dc21af05829e16bc99b8614549692516557"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/references/amd-rocm.md",
+      "bytes": 2881,
+      "sha256": "5cb2c091f62f755c6889d4fd34c98809799a527e257d2fcf38a06609bc9e813d"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/references/attestation-contract.md",
+      "bytes": 8493,
+      "sha256": "10e8b821a808521b6e1b714a85996dd751b9fdc130156649a22b3c9750560fb5"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/references/budgets-and-change-authorization.md",
+      "bytes": 3129,
+      "sha256": "a8c87cc91d92c25942e3925670058f42d66e66cb6563518c799aeae92737b184"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/references/nvidia.md",
+      "bytes": 3339,
+      "sha256": "eff6f363e3ab135af022cfb5877b0ec0595c51190d5bce7fa2ca06d8ba71cd02"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/scripts/inspect_gpu_environment.py",
+      "bytes": 61252,
+      "sha256": "e83fd50563cb1f96673dcd9bf67ce09ca2f4c1f18a05f85484f22a475116e777"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/scripts/self_test.py",
+      "bytes": 16031,
+      "sha256": "1daac5b2e79272bd4cdcb791c50d0c24213662b83c355e4f3bb803a53b44d857"
+    },
+    {
+      "path": "skills/inspect-gpu-environment/scripts/validate_attestation.py",
+      "bytes": 23558,
+      "sha256": "25247f3464688c2b4e12c1d3e7d7f633725b203c96d79a4943789133c390f016"
+    },
+    {
+      "path": "skills/no-negative-echo/LICENSE",
+      "bytes": 1062,
+      "sha256": "49f90d79b088ae3836e6c97dc805143015762acc0e6975f75d18c2316dabc221"
+    },
+    {
+      "path": "skills/no-negative-echo/NOTICE.md",
+      "bytes": 958,
+      "sha256": "d3fdb372fbe1f4e6e8163fc5eae7d7730178d69d9ea166afa7504381fb8f941a"
+    },
+    {
+      "path": "skills/no-negative-echo/PROVENANCE.json",
+      "bytes": 1162,
+      "sha256": "45fb6c553669f9459c3ca29cdd7cb14ff8e5551ad2e23e14bccab823a06fac94"
+    },
+    {
+      "path": "skills/no-negative-echo/SKILL.md",
+      "bytes": 3254,
+      "sha256": "82e3157fce686d47d73773720193c02eb2e05ace77c15212f0097531d3b16d8d"
+    },
+    {
+      "path": "skills/no-negative-echo/agents/openai.yaml",
+      "bytes": 233,
+      "sha256": "0b88a5016e172e7238cceb243134a21e59ce0fce8336d84795f4a385a84f3bf9"
+    },
+    {
+      "path": "skills/no-negative-echo/references/high-assurance-finalization.md",
+      "bytes": 3453,
+      "sha256": "9947ad7aa54babbab892829fe854f833de62960551de3a0d9e3c90bfb22c5c42"
+    },
+    {
+      "path": "skills/no-negative-echo/scripts/check_surface.py",
+      "bytes": 10373,
+      "sha256": "d63a03fb1052706e1e5d1b23d413251dff5690e0c3e837c069826de6fe06661b"
+    },
+    {
+      "path": "skills/no-negative-echo/scripts/self_test.py",
+      "bytes": 1461,
+      "sha256": "4443247dd2ee3875042508eae9d98f2fb7901dddaa56b0f613284611a81f0541"
+    },
+    {
+      "path": "skills/revise-evidence-report/SKILL.md",
+      "bytes": 5488,
+      "sha256": "9e795c6f1b22aaf283c7c05643228b1187fc8035fd467aaf255e757eaafab80a"
+    },
+    {
+      "path": "skills/revise-evidence-report/agents/openai.yaml",
+      "bytes": 300,
+      "sha256": "2d6066464afae1b32d8aecd98c1c8c18b511edb25e2ccd4c986d2c73c1f5d1f7"
+    },
+    {
+      "path": "skills/revise-evidence-report/assets/report.css",
+      "bytes": 1705,
+      "sha256": "d0b4d550173c747ba11864cecf3b514356f588bd426284801dde627e7e05180c"
+    },
+    {
+      "path": "skills/revise-evidence-report/references/boundaries-and-inputs.md",
+      "bytes": 2836,
+      "sha256": "79bab67dc930f03dbbb545030fb0206252c4f0dcd765d60029c54b611ca115be"
+    },
+    {
+      "path": "skills/revise-evidence-report/references/delivery-and-qa.md",
+      "bytes": 8380,
+      "sha256": "3595b7fbd54a58a19911f651cf2abaeacff1d9a75888134b4eea0f54202bd097"
+    },
+    {
+      "path": "skills/revise-evidence-report/references/evidence-audit-and-coreview.md",
+      "bytes": 2722,
+      "sha256": "4a6e1da6965341a2bd3b50573cb36d9ee5e1720f76b34dabb11f05a8f7481201"
+    },
+    {
+      "path": "skills/revise-evidence-report/references/figure-integration.md",
+      "bytes": 2203,
+      "sha256": "f079ebc928ea721928b82fef2cd0e8a01b8e18585a5887ae8c8113bcbd1cab3f"
+    },
+    {
+      "path": "skills/revise-evidence-report/references/writing-and-explanation.md",
+      "bytes": 2654,
+      "sha256": "5331639e029c430c88d2e8dded5e270acaad901eb7f8b1dd71f81faf4fb8a2a3"
+    },
+    {
+      "path": "skills/revise-evidence-report/scripts/render_report.py",
+      "bytes": 26921,
+      "sha256": "4805a496d3fd1eba86482b23550d9ac8641715d34bf199270f5d38b4fd7911d6"
+    },
+    {
+      "path": "skills/revise-evidence-report/scripts/self_test.py",
+      "bytes": 15854,
+      "sha256": "11f9245cf3a42be00111cf59d65747d39befc40f5e88210de5c0ce6886610b73"
+    },
+    {
+      "path": "skills/search-primary-evidence/SKILL.md",
+      "bytes": 3454,
+      "sha256": "f388f8bb6c65f1ff8df7ad0cff2457fe29d9cbcbd74cfcbe60112ff071654ac7"
+    },
+    {
+      "path": "skills/search-primary-evidence/agents/openai.yaml",
+      "bytes": 230,
+      "sha256": "034012de2519d979ca4feb03d903051098c4b397ee2fd6fc188b18c9a59750fb"
+    },
+    {
+      "path": "skills/search-primary-evidence/references/search-package.md",
+      "bytes": 2166,
+      "sha256": "2006dbf135f01f2579e02a9fa112f7a228290e18bddf75113b9e6286c0c305c7"
+    },
+    {
+      "path": "skills/search-primary-evidence/references/search-workflow.md",
+      "bytes": 6544,
+      "sha256": "f7f2e583d086032a48f4187a738ae004a86c8e62909fb6fc78f21092507d6cd4"
+    },
+    {
+      "path": "skills/search-primary-evidence/scripts/validate_search_package.py",
+      "bytes": 9488,
+      "sha256": "3450c9b00768563bb4cbe505398d3408fad4436bd5fb215a318982451130a727"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/SKILL.md",
+      "bytes": 8764,
+      "sha256": "e4dfe61d5bea3af965488b131ee3abe5ca788bf6a318ee93072ea961f6be0fc9"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/agents/openai.yaml",
+      "bytes": 262,
+      "sha256": "e30be91fd2d8d95ab7dddcf57c60732f6b2acfe6bf4cc5707e9f60b631759fa1"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/boundaries-and-interfaces.md",
+      "bytes": 3985,
+      "sha256": "39e7998d83c437e2067b1f7eb6021aaec2f1516b1f6c060e984bcd72d146e148"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/environment.md",
+      "bytes": 2843,
+      "sha256": "09d282330398b416e94a4fa9cd6b6aa65ceb434f2cc1728c21456e5c1c512cdf"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/execution-contract.md",
+      "bytes": 7633,
+      "sha256": "8726f2013b97d6197df70d1a246012f3702c011f6bc32c7aba3f9b6458c9a825"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/failure-classification.md",
+      "bytes": 2596,
+      "sha256": "ec2468eecc5f17feea81a5b8dc6745b0d83d8aac867d3538ecbfdcd745b597eb"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/result-bundle.md",
+      "bytes": 2689,
+      "sha256": "5f49d7a8f00b539e7ab41ec90c10f00a3eeca51aab10c650f922ad75d936d594"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/telemetry-sampling.md",
+      "bytes": 5290,
+      "sha256": "729a2b4a0b863e11ef66a4fe31d081f4296ba545a4af421a956df505061a96ad"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/references/transport.md",
+      "bytes": 2960,
+      "sha256": "22331808859e24e457168b2559c2c8282dec6454810e18f6c4c357da8d067902"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/build_result_manifest.py",
+      "bytes": 15019,
+      "sha256": "f5d903c27834170f1bfeaa1d93d7ba0251b3033a15e3bfeeb91262992df11a7d"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/classify_run_failure.py",
+      "bytes": 5688,
+      "sha256": "f9ee472435fb74c45f5443edd16ef7c1afc629893c0ba4422de264e09fe9cf2c"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/collect_local_results.sh",
+      "bytes": 2831,
+      "sha256": "76dfb5988a8d04b084d3a19032c1dd4a3ba2eef144f7f7db57b19cef5a4cfcc7"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/fetch_results.sh",
+      "bytes": 4122,
+      "sha256": "0fedf94f993ae2b39512e2a8a87f2f0b365ecd0c27beff2d2511e69b84db5b4e"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/inspect_server.sh",
+      "bytes": 2825,
+      "sha256": "6f611fb01b57a2b384fc481095dd7be214fc8b2a69b53e544233f3a39eabc136"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/remote_runner.sh",
+      "bytes": 29960,
+      "sha256": "efba9640163735d282f8c19d843bef453cc3ab5b25c6ad0c5016004b2988deb2"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/self_test.py",
+      "bytes": 57015,
+      "sha256": "dcfe109f70cfb9aaa8c84bad9b408b61ceb74372e7e37082dbef0f479b92a00b"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/ssh_session.sh",
+      "bytes": 5982,
+      "sha256": "d328d51c58211bda3629bb9d4c3e4c8fb528c5eff0a523666f05afe03dcca2c1"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/telemetry_sampler.py",
+      "bytes": 30239,
+      "sha256": "7bb980c83672b70a87323cc7f58a51a470674b7cad2990d2e67da99eca971cc2"
+    },
+    {
+      "path": "skills/supervise-experiment-runs/scripts/verify_result_manifest.py",
+      "bytes": 16018,
+      "sha256": "64ab0fa3bae29ed02feecded6a4bce6459a98261235b3b6c6c55ab8a483af816"
+    }
+  ]
+}

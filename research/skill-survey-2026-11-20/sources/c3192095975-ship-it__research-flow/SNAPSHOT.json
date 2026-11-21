@@ -1,0 +1,122 @@
+{
+  "repository": "c3192095975-ship-it/research-flow",
+  "branch": "main",
+  "commit": "08b07894719da2e22b97c6d7384c5067fb9a47e4",
+  "commit_date_utc": "2026-11-20T13:03:39Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-11-20T13:01:56Z",
+  "pushed_at_utc": "2026-11-20T13:04:00Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 0,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "status": "downloaded",
+  "source_url": "https://github.com/c3192095975-ship-it/research-flow",
+  "archive_url": "https://codeload.github.com/c3192095975-ship-it/research-flow/tar.gz/08b07894719d",
+  "archive_sha256": "7f545cbc6bc6c5625699a40ade0e0d4ae30f5c0766e05a6cd9202c9b557174e8",
+  "archive_bytes": 35269,
+  "selection_policy": "Text/source files up to 2 MiB each; non-regular files, binaries, and dependency caches omitted. Snapshot is for reading, not installed.",
+  "retained_files": 19,
+  "retained_bytes": 103796,
+  "skill_entry_files": [
+    "SKILL.md"
+  ],
+  "skipped_files": [],
+  "file_manifest": [
+    {
+      "path": ".gitignore",
+      "bytes": 61,
+      "sha256": "bdeec84bc3cd25f6e705514e83c2a4905aded0d1c19e0acec81f6b351064280a"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 895,
+      "sha256": "0d0e003de530cf38a91c55c15f85c63a379e5df9edb19bfb84eff52d0486a796"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 881,
+      "sha256": "16bd634edbddc5ebb092b169302da424be7d7fc29706785632d0615950346ec1"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "96ed694855f269d9bbe8ddeaa3caf24a92cc78bf80918fbeb95f5b979b9843e0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3959,
+      "sha256": "84a666673a1205d39f7e5f57ae9b3ad2a73f0bcecc2bfcba99deced360d4f219"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19144,
+      "sha256": "fd0ec256897aa7117c5a83eb815575381054070c22fa9c4384b29cfd2fe6f3b4"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "b2f44d3b6e29f8b1b73ea4735f006affc4d198e1fd9c7d50e736159b1ef636c6"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 381,
+      "sha256": "211ec4a8dfcbb06a006eb5a4ffd98e4a394dd7b8b57393d37e6b4e1030472c39"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 2335,
+      "sha256": "fa8e38424286f30def9810e87219ce7b37abde774f3d8ec9dba194bdfd43dabd"
+    },
+    {
+      "path": "docs/user-guide.md",
+      "bytes": 5793,
+      "sha256": "dd57f5d6200f0981a70d2040fd9fb3627a8e2f8a688a4a82df3c58519f6e467a"
+    },
+    {
+      "path": "examples/github-actions-test.yml",
+      "bytes": 389,
+      "sha256": "bd86198b1f886ae755cf66fe21d1f3a7731eb2bbfe9d360bb7766b85efe5e37d"
+    },
+    {
+      "path": "examples/research-flow-overrides.yaml",
+      "bytes": 509,
+      "sha256": "144060922d56c27a9837c6569cab80904d7c8678a40568ef13b6dc67860a53a2"
+    },
+    {
+      "path": "references/activation-order.md",
+      "bytes": 12023,
+      "sha256": "4413e820c7a852a4493aabfb4745f885651c8c7362c66bce80fc730d3e73a1d0"
+    },
+    {
+      "path": "references/adaptation-protocol.md",
+      "bytes": 6766,
+      "sha256": "167131b04468d4c3a71d51caa93c1d6903c765746aad6da651b23bd46f7c3859"
+    },
+    {
+      "path": "references/baseline-protocol.md",
+      "bytes": 3499,
+      "sha256": "cce8e1eb3f57b9b7f95110e969523de299d5c361c4a913e50e0b37482753945a"
+    },
+    {
+      "path": "references/capability-model.md",
+      "bytes": 8876,
+      "sha256": "ca8fdf64c46c64b8ccaad2636f8a74dc6a99adfab222ec4143d824fa91b1891b"
+    },
+    {
+      "path": "references/handoff-schemas.md",
+      "bytes": 5091,
+      "sha256": "d7c0e542b0ede47aa64583bcf1e94fe83cf1cd4267ad82b7bcb89564060685b8"
+    },
+    {
+      "path": "scripts/discover_skills.py",
+      "bytes": 27241,
+      "sha256": "9bfc01f5e9e68ca8e0ac1689228f1bf2e966c2f6a1aa7ba48b97021d83264e35"
+    },
+    {
+      "path": "tests/test_discover_skills.py",
+      "bytes": 4871,
+      "sha256": "137fbdfb97fa07e875f4d8a696179b0fb0c5f5049c39b1e30e28dda9ce499c66"
+    }
+  ]
+}

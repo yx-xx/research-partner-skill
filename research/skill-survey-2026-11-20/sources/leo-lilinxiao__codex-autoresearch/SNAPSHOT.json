@@ -1,0 +1,125 @@
+{
+  "repository": "leo-lilinxiao/codex-autoresearch",
+  "branch": "main",
+  "commit": "0089369d803a2f3fa2a804aaf854c194cbc00241",
+  "commit_date_utc": "2026-11-18T19:14:44Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-03-18T02:20:03Z",
+  "pushed_at_utc": "2026-11-18T19:14:45Z",
+  "license_metadata": "MIT",
+  "repository_size_kib": 3771,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/leo-lilinxiao/codex-autoresearch",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 19,
+  "retained_files": 20,
+  "retained_bytes": 131396,
+  "skill_entry_files": [
+    "SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1029,
+      "sha256": "e8a9868107107c5dfb77294f5762707edc294a8f25c0e9a6079802e61e7f64c4"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "0a8ca5aa51099639d243259ef0d89d36d075c67287104ec14ebffd1b30608bc2"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 527,
+      "sha256": "fee49b8fc91ef9cc2496ad88df2269864f19378cabe6e47eb8c7b337c6a33c16"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3519,
+      "sha256": "318598eff2422baf5a010297320f2cf3c5afe95a54da5642c95086c9e2049613"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "b838ee8ff60300a99748d4375c77b131af4bdf96838c252315b114b9d7c1f211"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10266,
+      "sha256": "c32d6e43b0d91d659cab98ff9de9eb83cc2490a70036abf2288bd769cc16ec15"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2721,
+      "sha256": "6baba18be576bed7fe5787bf5daeb638f04d19c20290d362c4af356c00068cdc"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 301,
+      "sha256": "598880951da7d6ff430f5666b0ab7ec9a75366e2e1dbf06d318396426354aa83"
+    },
+    {
+      "path": "docs/EXAMPLES.md",
+      "bytes": 5055,
+      "sha256": "0320ac453f46fed69f72d93763694a532153a737cd6e59ffd7b878bd1e8faeff"
+    },
+    {
+      "path": "docs/GUIDE.md",
+      "bytes": 10009,
+      "sha256": "47719861515cf3b125f68b1f84c5fc0a94ef15175bf2127969d6277c1c84c6c6"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 2599,
+      "sha256": "930c446dd4c5d6863b549e81aea031d77b6f8c2638374a2e8cbc413c168398dd"
+    },
+    {
+      "path": "docs/i18n/README_DE.md",
+      "bytes": 4490,
+      "sha256": "f7c8b5d19fcc264fb0679e49e072383e63f25f16edfc26e56cf5decf1fe51330"
+    },
+    {
+      "path": "docs/i18n/README_ES.md",
+      "bytes": 4313,
+      "sha256": "e1de85b025544a0b2089bc1e35bb7075b03a487528bd47dad56f550afdc58019"
+    },
+    {
+      "path": "docs/i18n/README_FR.md",
+      "bytes": 4582,
+      "sha256": "9eb43f252f5452b9e14656feb29278a3fad9aa8b5fc1aeefd2fa6ee736ad7848"
+    },
+    {
+      "path": "docs/i18n/README_JA.md",
+      "bytes": 4759,
+      "sha256": "5c85fa90dda3390c51506ba82321d78ae3303268ed42e5e1da37b3ac564b8d7f"
+    },
+    {
+      "path": "docs/i18n/README_KO.md",
+      "bytes": 4471,
+      "sha256": "d4a9b48b933e2e2d1fcdb1b962e399e8e50dc8e70311c71098d9b3d57896dcf1"
+    },
+    {
+      "path": "docs/i18n/README_PT.md",
+      "bytes": 4284,
+      "sha256": "0c49597acd0d449dbcf72830c12ce3eb8f18a12af1972deee148fca6834826e5"
+    },
+    {
+      "path": "docs/i18n/README_RU.md",
+      "bytes": 6642,
+      "sha256": "1132765aa1155c19fced20c836f0e3f31d6ea5e7d339586c50a82568fecfb94f"
+    },
+    {
+      "path": "docs/i18n/README_ZH.md",
+      "bytes": 4407,
+      "sha256": "802ae594c62e3dd920bdf9e8621c378fcd727c4830fccb641eb099c1c0fc377d"
+    },
+    {
+      "path": "scripts/autoresearch.py",
+      "bytes": 56296,
+      "sha256": "add2679db8c47f7448ffd2c30c7b47f2a7cfa8d005f93eee0e9686ed2639d1aa"
+    }
+  ]
+}

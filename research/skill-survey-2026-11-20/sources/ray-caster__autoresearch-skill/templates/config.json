@@ -1,0 +1,29 @@
+{
+  "goal": "One sentence: what the score measures and what 'better' means.",
+  "editable": ["src/strategy.py"],
+  "eval_cmd": "uv run --python 3.12 evaluate.py",
+  "holdout_cmd": "uv run --python 3.12 evaluate.py --holdout",
+  "direction": "min",
+  "target": null,
+  "min_delta": "auto",
+  "noise_runs": 3,
+  "eval_timeout_s": 300,
+  "max_rounds": 100,
+  "deadline": "07:00",
+  "history_rows": 30,
+  "max_agent_failures": 5,
+  "failure_backoff_s": 900,
+  "review": {"at_start": true, "after_reverts": 6, "model": "opus"},
+  "sharpe": null,
+  "agent": {
+    "cmd": null,
+    "claude": "claude",
+    "model": "sonnet",
+    "permission_mode": "dontAsk",
+    "allowed_tools": "Read,Edit",
+    "lean": true,
+    "extra_args": ["--permission-prompts", "none"],
+    "max_turns": 40,
+    "timeout_s": 900
+  }
+}

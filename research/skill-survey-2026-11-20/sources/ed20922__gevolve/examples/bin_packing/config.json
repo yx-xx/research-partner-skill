@@ -1,0 +1,76 @@
+{
+  "id": "5a0929a577044fe18b66502ac9c4110a",
+  "nom": "bin_packing",
+  "cree": "2026-11-18T09:17:29",
+  "programme": "programme.py",
+  "evaluateur": "evaluate.py",
+  "interpreteur": "python3",
+  "fichiers_figes": [
+    "benchmark",
+    "RECHERCHE.md",
+    "CONTEXTE.md",
+    "FICHE.md",
+    "OBJECTIF.md",
+    "evaluate.py",
+    "executeur.py"
+  ],
+  "plafond": 12,
+  "par_generation": 4,
+  "timeout_s": 600,
+  "n_min": 300,
+  "n_min_validation": 200,
+  "marge_se": 1.0,
+  "imports_permis": [
+    "math",
+    "statistics",
+    "itertools",
+    "functools",
+    "collections",
+    "bisect",
+    "heapq"
+  ],
+  "verification_statique": true,
+  "succes_test": {
+    "z": 1.645,
+    "seuil": 0.0,
+    "battre_initial": true
+  },
+  "cible_validation": null,
+  "arret_stagnation": 12,
+  "base_complete": true,
+  "generalisation": {
+    "cles": [
+      "mois"
+    ],
+    "part_min": 0.6,
+    "n_min": 20
+  },
+  "diagnostic_n_min": 30,
+  "temoin": {
+    "sans_objet": "données synthétiques tirées d'une graine : aucune source en direct, rien à relever"
+  },
+  "contexte": "requis",
+  "fin_train": "2024-03-31",
+  "recherche": "requis",
+  "voie": "evolution",
+  "patrons": {
+    "n_min_total": 300,
+    "n_min_case": 30,
+    "permutations": 300,
+    "candidats_max": 5,
+    "plancher": 0.05,
+    "alpha": 0.05,
+    "part_mois": 0.6,
+    "concentration_max": 0.5,
+    "part_budget_max": 0.3333333333333333,
+    "niveaux_max": 24
+  },
+  "pistes": {
+    "max": 6,
+    "arret": 8
+  },
+  "determinisme": true,
+  "informations": "requis",
+  "univers": null,
+  "verrou": null
+}

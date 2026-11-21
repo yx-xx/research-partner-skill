@@ -1,0 +1,524 @@
+{
+  "observed_on": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "scope": "Source-and-documentation fit assessment; downloaded source records do not imply full line-by-line review. No end-to-end comparative execution or installation was performed.",
+  "source_of_truth": "For downloaded files, GitHub contents API bytes and Git blob SHA; website renderings can be cached. Branch names are mutable.",
+  "remote_sources": [
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/engineering/robotics-ai-coding-flow/SKILL.md",
+      "sha256": "502099ff3acef01e50419d111ee502bce6aefcf1c24e8fab6d63b875e746e38c",
+      "bytes": 3341,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/engineering/robotics-ai-coding-flow/SKILL.md",
+      "git_blob_sha": "37cd6a25a91c083d0bc4fefc17078287277bee34"
+    },
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/evaluation/experiment-dossier-builder/SKILL.md",
+      "sha256": "5fc7136b62e48e7fda058433554c371fc9755ffd39e4f66b7e30521bc6bd3a5f",
+      "bytes": 5441,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/evaluation/experiment-dossier-builder/SKILL.md",
+      "git_blob_sha": "42dfd190b0890177f932a66ee5c5a0d01e394247"
+    },
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/evaluation/experiment-dossier-builder/references/dossier-contract.md",
+      "sha256": "443db07455b76a5c1d02d060d51f32df4c5b2e883bd20ea07148acecc8b1d75d",
+      "bytes": 2965,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/evaluation/experiment-dossier-builder/references/dossier-contract.md",
+      "git_blob_sha": "8a911c31a17b5431fc20765ab7b1ca457021787c"
+    },
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/evaluation/paper-code-consistency-auditor/SKILL.md",
+      "sha256": "029a407a194467ed9278312cbfd3bde30cdc56d2909d628cdd0e962156310eab",
+      "bytes": 4924,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/evaluation/paper-code-consistency-auditor/SKILL.md",
+      "git_blob_sha": "a98367921303bb6592fd5e85a3929386de34b164"
+    },
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/evaluation/paper-code-consistency-auditor/references/consistency-contract.md",
+      "sha256": "4749502e36fa931e90eedc1ea07181f6f29849031d9e07b24c54e65695647e87",
+      "bytes": 2976,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/evaluation/paper-code-consistency-auditor/references/consistency-contract.md",
+      "git_blob_sha": "9da9561a65144a66b4f3cbf1cec5dcd52c2a9b8c"
+    },
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/ideation/research-idea-rubric/SKILL.md",
+      "sha256": "510c5a42b3b0b7677d08fd8b6a98d7766faf19cf55012856c4d777e00d986e45",
+      "bytes": 3113,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/ideation/research-idea-rubric/SKILL.md",
+      "git_blob_sha": "1d2bb4012cad925910c1bf45757c05fef85c7c89"
+    },
+    {
+      "repository": "UCL-ERL/skills",
+      "branch": "main",
+      "path": "skills/research/evidence-matrix-builder/SKILL.md",
+      "sha256": "96d657a715445e199c0c5d7ecaac4764a9508ccf94c8f874e44247f533eb33ce",
+      "bytes": 2652,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/UCL-ERL/skills/blob/main/skills/research/evidence-matrix-builder/SKILL.md",
+      "git_blob_sha": "29e5b16bba853a08582118caef00d03d4297fb39"
+    },
+    {
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "path": "18-multimodal/cosmos-policy/SKILL.md",
+      "sha256": "31d6b4701fae46b0b9e9b281378eefbe0f4c37b5973dae56ee25a3b67f63d0b6",
+      "bytes": 14606,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/cosmos-policy/SKILL.md",
+      "git_blob_sha": "4f79afb30fc6d24c2991e1b11d9206c2216b670b"
+    },
+    {
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "path": "18-multimodal/openpi/SKILL.md",
+      "sha256": "60af709a253bd745330e43067b22667b932a393e65a3cde6660a25d0ffbe4742",
+      "bytes": 14242,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/openpi/SKILL.md",
+      "git_blob_sha": "705328851021ff3ba23fb32b0bd6fca54b560ef7"
+    },
+    {
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "path": "18-multimodal/openvla-oft/SKILL.md",
+      "sha256": "07492556c7479f18d353c80a4f92450fbe301811e664fc45d0070fcdd9587c9e",
+      "bytes": 14858,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/openvla-oft/SKILL.md",
+      "git_blob_sha": "508f8e7bf03179125dd1f51f221508db0dd2d482"
+    },
+    {
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "path": "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+      "sha256": "96733e6d758642d792ed15b7c08eb90548d4775099368cd72a8312127f2fe911",
+      "bytes": 37635,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/20-ml-paper-writing/ml-paper-writing/SKILL.md",
+      "git_blob_sha": "2090941c1d1e6b619e5ab32147741546c8dbdb09"
+    },
+    {
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "path": "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+      "sha256": "8422a1a6dc0a88d05f02b9fbe0f8c2ae06a77024856d18125efa13d19d855d46",
+      "bytes": 19150,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/21-research-ideation/brainstorming-research-ideas/SKILL.md",
+      "git_blob_sha": "f5427a507c009fe0a91e51e213b340987334adb4"
+    },
+    {
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+      "sha256": "ec111f9236d7f9d72c895cebbf0f534ac93f4249172607559ad4bf92aefc5310",
+      "bytes": 21962,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/21-research-ideation/creative-thinking-for-research/SKILL.md",
+      "git_blob_sha": "a76b01c979bcaf6fd77e97826ac14444547c809d"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/citation-management/SKILL.md",
+      "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+      "bytes": 16630,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/citation-management/SKILL.md",
+      "git_blob_sha": "b63b589d4d423969a63e032e62c2b74969147c1c"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/experimental-design/SKILL.md",
+      "sha256": "db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248",
+      "bytes": 16328,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/experimental-design/SKILL.md",
+      "git_blob_sha": "ee14f9ed795c791ac80e3ea946858d97d09c3e50"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/experimental-design/inventory.json",
+      "sha256": "b4d096b208134792a5f86f4dba807631ac72a40c19ec9a0f7210621c197483f3",
+      "bytes": 476,
+      "record_kind": "GitHub contents API directory inventory",
+      "api_url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/contents/skills/experimental-design?ref=main"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/experimental-design/scripts/doe_designs.py",
+      "sha256": "916996b5e6a5dbb9a408aa1e755a95800af70231e46d12c8c5efddb9e3e30683",
+      "bytes": 9575,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/experimental-design/scripts/doe_designs.py",
+      "git_blob_sha": "4b8033c43cc5c885d7102a896f21dd0ae5ed808e",
+      "structural_check": "AST parsed; source not executed",
+      "top_level_functions": [
+        "_factor_names",
+        "_ranges",
+        "_decode_two_level",
+        "_randomize",
+        "full_factorial",
+        "two_level_factorial",
+        "fractional_factorial",
+        "plackett_burman",
+        "central_composite",
+        "box_behnken",
+        "latin_hypercube"
+      ]
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/experimental-design/scripts/inventory.json",
+      "sha256": "66d9a3dbeb30b449f9530b4d164e0ef5090b367ee39d27c07c7d4127b007fbb3",
+      "bytes": 322,
+      "record_kind": "GitHub contents API directory inventory",
+      "api_url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/contents/skills/experimental-design/scripts?ref=main"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/experimental-design/scripts/randomization.py",
+      "sha256": "c7c2eab469618a4b27548058b924ec3f4aafaf635d3797af920b9058e700bce4",
+      "bytes": 9592,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/experimental-design/scripts/randomization.py",
+      "git_blob_sha": "b4ef4355289ef556fcde40a703eb383597564b78",
+      "structural_check": "AST parsed; source not executed",
+      "top_level_functions": [
+        "_count",
+        "_labels",
+        "_normalize_ratio",
+        "simple_randomization",
+        "block_randomization",
+        "stratified_block_randomization",
+        "cluster_randomization",
+        "assign_factorial_runs",
+        "arm_balance"
+      ]
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/paper-lookup/SKILL.md",
+      "sha256": "fac99456ad404ff9a0d3043709b956b5d6383838ae8e8394f274a5693d8bd294",
+      "bytes": 26136,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/paper-lookup/SKILL.md",
+      "git_blob_sha": "d0b277b07be6f2688fcc2bacee1b58c971ece2f7"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/scientific-critical-thinking/SKILL.md",
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "bytes": 13146,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-critical-thinking/SKILL.md",
+      "git_blob_sha": "2a2fc151b5b13e4e11ece7410f21a14d5b25e30d"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/scientific-visualization/SKILL.md",
+      "sha256": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3",
+      "bytes": 15478,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md",
+      "git_blob_sha": "44ea38c24fb5015535254bfd9b5ae9a856195408"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/scientific-visualization/scripts/image_metadata.py",
+      "sha256": "45f79cefd99b8e5dabcbfd1a29b7346363f383411cc43540bf9f73e67fed634e",
+      "bytes": 26596,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/scripts/image_metadata.py",
+      "git_blob_sha": "1e818a12beb2dfccd1b39c602baa27ee7a6cf694",
+      "structural_check": "AST parsed; source not executed",
+      "top_level_functions": [
+        "_finite_number",
+        "_dpi_pair",
+        "_length_to_inches",
+        "_base_metadata",
+        "inspect_raster",
+        "inspect_svg",
+        "_pdf_font_report",
+        "inspect_pdf",
+        "inspect_eps",
+        "inspect_file",
+        "_normalize_formats",
+        "_check",
+        "screen_metadata",
+        "build_parser",
+        "main"
+      ]
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/statistical-analysis/SKILL.md",
+      "sha256": "e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997",
+      "bytes": 23585,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/statistical-analysis/SKILL.md",
+      "git_blob_sha": "4ea7453a12e63f0dbc31d7a47ed41fe3ff4c4c1a"
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/statistical-analysis/scripts/assumption_checks.py",
+      "sha256": "3e37a4e04407b5f040f103962ed0e73935d114d3892ee45b5a06a1da42c10341",
+      "bytes": 18387,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/statistical-analysis/scripts/assumption_checks.py",
+      "git_blob_sha": "a55993050ec75027fc7e9b465b4c0b718548b198",
+      "structural_check": "AST parsed; source not executed",
+      "top_level_functions": [
+        "_alpha",
+        "_array",
+        "_clean",
+        "_groups",
+        "_finish_plot",
+        "check_normality",
+        "check_normality_per_group",
+        "check_homogeneity_of_variance",
+        "check_linearity",
+        "detect_outliers",
+        "check_regression_diagnostics",
+        "comprehensive_assumption_check"
+      ]
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "path": "skills/statistical-analysis/scripts/inventory.json",
+      "sha256": "71af845081a40b7a111400cac2750915b63d1a312098e50b94f4af884807c4ae",
+      "bytes": 193,
+      "record_kind": "GitHub contents API directory inventory",
+      "api_url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/contents/skills/statistical-analysis/scripts?ref=main"
+    },
+    {
+      "repository": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "path": "README.md",
+      "sha256": "76056211051cd4f702c755b6e4d691fe273b276763933f0e3ffcbef834b5a58c",
+      "bytes": 39994,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/codex/README.md",
+      "git_blob_sha": "4cbd98e42dc47b6f3c79e84759684380f901f9d8"
+    },
+    {
+      "repository": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "path": "skills/citation-verification/SKILL.md",
+      "sha256": "62e7eaed943d3773896f0e9af58913ec7950b34b8c939f3e8e984427a77a91ab",
+      "bytes": 7975,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/codex/skills/citation-verification/SKILL.md",
+      "git_blob_sha": "9828b9e172357c05f248543972f5950c3c6fcabd"
+    },
+    {
+      "repository": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "path": "skills/citation-verification/scripts/inventory.json",
+      "sha256": "c47699f6d73fe8c26e90387803bb0581756e3d9f09f7318983cb61622299f759",
+      "bytes": 728,
+      "record_kind": "GitHub contents API directory inventory",
+      "api_url": "https://api.github.com/repos/Galaxy-Dawn/claude-scholar/contents/skills/citation-verification/scripts?ref=codex"
+    },
+    {
+      "repository": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "path": "skills/research-ideation/SKILL.md",
+      "sha256": "8fd82b93e2bfc83dda4fffe036a219848141b41cc2d90520f0eca93ccabc4437",
+      "bytes": 9743,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/codex/skills/research-ideation/SKILL.md",
+      "git_blob_sha": "c389b2d2717207b99646f880db033d103d8512c1"
+    },
+    {
+      "repository": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "path": "skills/results-analysis/SKILL.md",
+      "sha256": "2232f74d141fad4a3e23635be0109217713d34bf0cb7be8d120e6296f4b79782",
+      "bytes": 9498,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/codex/skills/results-analysis/SKILL.md",
+      "git_blob_sha": "22e34019d8bef9bc8d1a0f86528f61c0288e3cb1"
+    },
+    {
+      "repository": "TheSyBuilder/research-skills",
+      "branch": "main",
+      "path": "research-idea-finder/SKILL.md",
+      "sha256": "59da3e3a7bca5383a6b8f6f4467525d5b3f2e23b585c55f5e61572d7906e1185",
+      "bytes": 25648,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/TheSyBuilder/research-skills/blob/main/research-idea-finder/SKILL.md",
+      "git_blob_sha": "c20f1580d25cc15f1155d508c2db12037cba6c24"
+    },
+    {
+      "repository": "VincenzoImp/academic-research-skills",
+      "branch": "main",
+      "path": "skills/develop-contribution/SKILL.md",
+      "sha256": "596afc1e1f8103ef65766cd79262a75ccce585adb9ec3c487065d0b8077b3fdb",
+      "bytes": 3595,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/VincenzoImp/academic-research-skills/blob/main/skills/develop-contribution/SKILL.md",
+      "git_blob_sha": "40a19ea65b77b7021a11dcba8f8d448598ac49e3"
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "path": "docs/SKILLS_CATALOG.md",
+      "sha256": "4a9f8b723d97ef9e17f6c88549977c5b5095447b03559b3aea0f281278190ce4",
+      "bytes": 22010,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/docs/SKILLS_CATALOG.md",
+      "git_blob_sha": "595425e32da6874f27e3dcbc721aa6e83ce2a0d7"
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "path": "skills/idea-discovery-robot/SKILL.md",
+      "sha256": "fe77e38c3ecc10983e4d0faa8e514f90837c02038d8cdf0d34524416a0d605ee",
+      "bytes": 15971,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/idea-discovery-robot/SKILL.md",
+      "git_blob_sha": "9777d26bfd9ccba77069c5f056e119736da4b90b"
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "path": "skills/research-refine/SKILL.md",
+      "sha256": "c58649772c1cca2fc3e9d32622be279b42491991ab96301b30acb3722b45af6b",
+      "bytes": 34664,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-refine/SKILL.md",
+      "git_blob_sha": "7dad903c270314e96da3ea46ea262651357e9b27"
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "path": "skills/result-to-claim/SKILL.md",
+      "sha256": "b12d10bdb51440f65e4112e6643712f172a7e37c1e15066e15d81eaee5838a8f",
+      "bytes": 17854,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/result-to-claim/SKILL.md",
+      "git_blob_sha": "e04782419994b21e571abf4c6642e160447be7c1"
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "path": "tools/evidence_check.py",
+      "sha256": "2edbd901d760d22e7e43a14e8e88ab0e089303f489055cd9b5e9d1f4dce50382",
+      "bytes": 9970,
+      "record_kind": "downloaded source",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/tools/evidence_check.py",
+      "git_blob_sha": "34d508ca2316fd7f9ca9b7fb8a4fc1c73786f0f2",
+      "structural_check": "AST parsed; source not executed",
+      "top_level_functions": [
+        "_dec",
+        "_pure_number",
+        "_value_in_text",
+        "_resolve_sources",
+        "check_claim",
+        "check_batch",
+        "main"
+      ]
+    }
+  ],
+  "local_baselines": [
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/SKILL.md",
+      "sha256": "1e822dc8a3f3bdfcd45842feef93a389b589b4e65687e658c5a7b41bb3ec7551",
+      "bytes": 8006
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/实验与分析.md",
+      "sha256": "99987971aa64797223d6ec3d51970dc0849c26368c3ae3e0bbd36f15302e2ebf",
+      "bytes": 9287
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/数据工具与动作语义.md",
+      "sha256": "e9e969e16e9a911bfba3a87dac1f27addd12ce4768620a3999f5d35f646a122d",
+      "bytes": 2095
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/研究推进流程.md",
+      "sha256": "cfaf5f2ac2253cc192607a958eec52c64f4421b7f685050133b935f495768389",
+      "bytes": 12237
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/论文写作与投稿.md",
+      "sha256": "12ee81ff88f999f302f6e7b7de24fb7b079546b6fc40a9e4cc88cc66c0080477",
+      "bytes": 8220
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/选题与查新.md",
+      "sha256": "623a7b0fae5ec1f3d1b718f497fc9f0a609940b9411ba00ae1647b9c2f4ff9d0",
+      "bytes": 6176
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/长期接续与多项目.md",
+      "sha256": "d703548fa714fef7c840b805bc13d71c12879303e5a0a9db001b521b12ed9ffb",
+      "bytes": 4799
+    },
+    {
+      "path": "/home/pc108/source/research-partner-skill/research-partner/references/顶刊顶会标准.md",
+      "sha256": "d90bdeea10043bd66d6e1843bfe4bbdd243dd3f702ef9b5d4b6208bcac1234bd",
+      "bytes": 6250
+    },
+    {
+      "path": "/home/pc108/.codex/skills/academic-research-suite/SKILL.md",
+      "sha256": "52c9b464fa1e4b7a8b6342b36f7eb4123c5df90b051da47c96ee55119f478b25",
+      "bytes": 36839
+    },
+    {
+      "path": "/home/pc108/.codex/skills/paper-lookup/SKILL.md",
+      "sha256": "a9d574f9a72200ac8eddd215214daa857e49f4b0d61664d52b8c0eb022e2cfe2",
+      "bytes": 24784
+    },
+    {
+      "path": "/home/pc108/.codex/skills/brainstorming-research-ideas/SKILL.md",
+      "sha256": "8422a1a6dc0a88d05f02b9fbe0f8c2ae06a77024856d18125efa13d19d855d46",
+      "bytes": 19150
+    },
+    {
+      "path": "/home/pc108/.codex/skills/hypothesis-generation/SKILL.md",
+      "sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+      "bytes": 16622
+    },
+    {
+      "path": "/home/pc108/.codex/skills/academic-research-suite/manifest.json",
+      "sha256": "ae07c73553ccc40107c09c2131910491f1f7001df9a259d4f304ea3864d8bebd",
+      "bytes": 23065
+    }
+  ],
+  "installed_ars_adapter": {
+    "version": "3.22.0",
+    "upstream_commit": "3c546bc08c56f79e0068f1ea4f0acedf5bf69b5e"
+  }
+}

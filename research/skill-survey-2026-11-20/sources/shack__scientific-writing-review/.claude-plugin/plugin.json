@@ -1,0 +1,14 @@
+{
+  "name": "scientific-writing-review",
+  "displayName": "Scientific writing review",
+  "description": "Reviews how a thesis or research paper is written before it is submitted: structure, clarity for the intended reader of each part, writing and technical presentation. Writes a short, prioritized review and a separate list of corrections. It does not judge the research itself.",
+  "license": "MIT",
+  "keywords": [
+    "thesis",
+    "paper",
+    "academic writing",
+    "scientific writing",
+    "review",
+    "proofreading"
+  ]
+}

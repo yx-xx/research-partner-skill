@@ -1,0 +1,183 @@
+{
+  "repository": "Imbad0202/academic-research-skills",
+  "branch": "main",
+  "commit": "bd57330f63f4b089dde8fdef9bf5f009ecc89f0c",
+  "commit_date_utc": "2026-11-20T05:20:41Z",
+  "commit_subject": "",
+  "created_at_utc": "2026-02-26T06:31:01Z",
+  "pushed_at_utc": "2026-11-20T05:20:43Z",
+  "license_metadata": "NOASSERTION",
+  "repository_size_kib": 25665,
+  "observed_on": "2026-11-20",
+  "observation_timezone": "Asia/Shanghai",
+  "archive_recovery_stop": "ReadError",
+  "status": "selected_sources",
+  "source_url": "https://github.com/Imbad0202/academic-research-skills",
+  "selection_policy": "Complete source members recovered from a partial archive; selected missing files fetched by immutable raw URL. This is a reading subset, not a complete checkout.",
+  "recovered_files": 25,
+  "retained_files": 31,
+  "retained_bytes": 528164,
+  "skill_entry_files": [
+    "academic-paper/SKILL.md",
+    "academic-paper-reviewer/SKILL.md",
+    "academic-pipeline/SKILL.md",
+    "deep-research/SKILL.md"
+  ],
+  "file_manifest": [
+    {
+      "path": ".claude/CHANGELOG.md",
+      "bytes": 18984,
+      "sha256": "31f99f1d783e3cf5a9524dc20d69e96dd6b0c809aafd413b46e6d355c68acd98"
+    },
+    {
+      "path": ".claude/CLAUDE.md",
+      "bytes": 97439,
+      "sha256": "1471a4f84f986acfd1309902a18a65324150db0e9883d4d7b13b8842742c7698"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 752,
+      "sha256": "211e4c3b7acedc6d05f82f141574440cb4e5be97f37663b4b54dfb96b1b35891"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 1119,
+      "sha256": "26549fc0335f1d0cd8c6068b20248eae792eb640ae9ad607fb9779811ee2fb4f"
+    },
+    {
+      "path": ".command-invariants.toml",
+      "bytes": 1108,
+      "sha256": "bda3caa1875429a75d04679f8649b5f57106b83f7609ab7bdd6545db30b7c03e"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 381,
+      "sha256": "e527abe459847500cdaaa76e8ba8914cfbf60af2c21abfc477be88f9fb75e015"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 29,
+      "sha256": "4a6aab449f7f9a44c2e8c2a5228acb29f9c961b1d17f45af4a238fe9217bad3b"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "bytes": 2653,
+      "sha256": "71178dbbcb465473b9ae76da20620403a0f69caa11cfd5aa5c49864db381f657"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1969,
+      "sha256": "89b9b1ed73402d6d76ea1e0066e31ad8210aea9aa91245d0103ff7a638e80b20"
+    },
+    {
+      "path": ".github/workflows/changelog-covers-merges.yml",
+      "bytes": 1572,
+      "sha256": "cf91f00e81c7d82842da7589e16c76a12ee33ff862ccce01be6b3ac2b91ee014"
+    },
+    {
+      "path": ".github/workflows/command-invariants.yml",
+      "bytes": 2049,
+      "sha256": "f15900dc2307d90e60727d00698594e543f30f5850d985b232e812fcc5436ea4"
+    },
+    {
+      "path": ".github/workflows/defer-label-gate.yml",
+      "bytes": 2071,
+      "sha256": "46aaa825c29507ff723abe884478f6ea0513f69ef263de2c57047f5d97109a5a"
+    },
+    {
+      "path": ".github/workflows/eval-harness.yml",
+      "bytes": 7926,
+      "sha256": "698b0bdc0f2692d8e5dece516b914c4d46c9d8f330995faee3f4b3e45ef1f20e"
+    },
+    {
+      "path": ".github/workflows/freshness-check.yml",
+      "bytes": 1103,
+      "sha256": "252410a973f82d0766878fd105934574d52532a5fbd6c4b61f45046d0d043f54"
+    },
+    {
+      "path": ".github/workflows/harness-retirement-monthly.yml",
+      "bytes": 1728,
+      "sha256": "6c0a7eeb1a3a179de985970fbb52dcab1b773b8f5091cf37716a218b48dbf9ef"
+    },
+    {
+      "path": ".github/workflows/platform-port-reminder.yml",
+      "bytes": 6258,
+      "sha256": "5272e986a283e02c5c1174af9266f1e4b7843eda41c11f617b1b68141603f386"
+    },
+    {
+      "path": ".github/workflows/pr-closes-issue.yml",
+      "bytes": 2169,
+      "sha256": "bc7978e87a033ea0a36c315b7a29513f353b6c2da8368b370577f8a4844e3c88"
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "bytes": 1855,
+      "sha256": "d087d25bf486708d8f4b504353ec3419f1e0d677a7ad4c79003e0f9910158522"
+    },
+    {
+      "path": ".github/workflows/release-cooldown.yml",
+      "bytes": 4828,
+      "sha256": "e5dbabb84fb8631d1f937908ede6a3a75ace72494055c84fa8784c6079d291bd"
+    },
+    {
+      "path": ".github/workflows/repository-hygiene.yml",
+      "bytes": 1973,
+      "sha256": "590ad8d67a9dac7e93943a83d92ca67bfd354081a718a6bf75b3b7064973d11a"
+    },
+    {
+      "path": ".github/workflows/spec-consistency.yml",
+      "bytes": 49916,
+      "sha256": "01ba5e657ac2cc34f7b1d27538bb5f739a3d934873b74aff7c1a7b6e2b28ab0a"
+    },
+    {
+      "path": ".github/workflows/tag-version-match.yml",
+      "bytes": 1386,
+      "sha256": "5c48ff4348b3afc9d5907694e588fe1ad595146f7dc102bbbb251f311218a051"
+    },
+    {
+      "path": ".github/workflows/test-count-monotonic.yml",
+      "bytes": 5850,
+      "sha256": "1c0540e95a709e1ab42080882a72f78b23ec9ecf9d4925aafd9fd9c58c7f0a6e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 945,
+      "sha256": "d2714a9a2996d0e847590ff77a71f276b5f50b94f88677f48ce74239d9cae21f"
+    },
+    {
+      "path": ".gitleaks.toml",
+      "bytes": 3244,
+      "sha256": "b7ad2efcc4d515a88ccca3b5e71e619acc69a8f6667d0e64a54e533af90f47ac"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 19584,
+      "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 52260,
+      "sha256": "aee6d09ba4a2da3d28dff81fb49bf1e7713e8e33e53a35b3bd973b0db3f15fda"
+    },
+    {
+      "path": "academic-paper/SKILL.md",
+      "bytes": 69160,
+      "sha256": "1ec96c8b8db42e8481ece4004b4e03527116f89948a994a4befb50f6542a5917"
+    },
+    {
+      "path": "academic-paper-reviewer/SKILL.md",
+      "bytes": 55732,
+      "sha256": "f65faaf1414f95c729307af7604ef253bb93ccf80484af61bc9f390b68141bd6"
+    },
+    {
+      "path": "academic-pipeline/SKILL.md",
+      "bytes": 59581,
+      "sha256": "cca9a5d29e1a0825e008bdf609c2230e9fcc8c87891681eeb77bfba32b247cf6"
+    },
+    {
+      "path": "deep-research/SKILL.md",
+      "bytes": 52540,
+      "sha256": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948"
+    }
+  ]
+}

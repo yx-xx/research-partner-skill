@@ -1,0 +1,81 @@
+name: Validate skills
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  merge_group:
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  spec:
+    name: Spec, catalog and brand checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: step-security/harden-runner@1d88384fd173af6ecb012dfd0264a306b711241a # v2.22.4
+        with:
+          egress-policy: audit
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          enable-cache: true
+      - name: Install tooling
+        run: uv sync --locked
+      - name: Repository skill policy (tools/validate.py)
+        run: uv run tools/validate.py --quiet
+      - name: Claim audit (SKILL.md promises match script code)
+        run: |
+          uv run tools/claim_audit.py
+          uv run tools/check_skill_count.py
+      - name: Agent Skills reference validator (skills-ref)
+        run: |
+          uv tool install skills-ref==0.1.1
+          fail=0
+          for d in skills/*/; do agentskills validate "$d" >/dev/null || { echo "::error file=${d}SKILL.md::skills-ref validation failed"; agentskills validate "$d" || true; fail=1; }; done
+          exit $fail
+      - name: Generated files are current
+        run: uv run tools/build_catalog.py --check
+      - name: Brand guard
+        run: uv run tools/brand_guard.py
+      - name: Import pipeline is reproducible (idempotent against pinned upstreams)
+        run: |
+          uv run tools/import_upstream.py
+          uv run tools/build_catalog.py
+          git diff --exit-code --stat -- skills third_party catalog THIRD_PARTY_NOTICES.md
+
+  harness-compat:
+    name: Harness compatibility
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: step-security/harden-runner@1d88384fd173af6ecb012dfd0264a306b711241a # v2.22.4
+        with:
+          egress-policy: audit
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Claude Code marketplace manifest
+        run: npx -y @anthropic-ai/claude-code@2.1.286 plugin validate .
+      - name: skills.sh / Vercel skills CLI discovers every skill
+        env:
+          DISABLE_TELEMETRY: "1"
+        run: |
+          expected=$(find skills -mindepth 2 -maxdepth 2 -name SKILL.md | wc -l)
+          found=$(npx -y skills@1.7.0 add ./ --list 2>&1 | sed 's/\x1b\[[0-9;]*m//g' | grep -o 'Found [0-9]* skills' | grep -o '[0-9]*')
+          echo "expected=$expected found=$found"
+          test "$found" = "$expected"

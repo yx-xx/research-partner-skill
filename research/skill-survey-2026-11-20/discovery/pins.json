@@ -1,0 +1,152 @@
+{
+  "Imbad0202/academic-research-skills@main": {
+    "commit": "bd57330f63f4b089dde8fdef9bf5f009ecc89f0c",
+    "commit_date_utc": "2026-11-20T05:20:41Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "Galaxy-Dawn/claude-scholar@main": {
+    "commit": "d394fb599ed9e6ea2212a9e6daa864345fe97a26",
+    "commit_date_utc": "2026-10-19T10:08:11Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "K-Dense-AI/claude-scientific-writer@main": {
+    "commit": "9820740d252800ecf0b8fc066ffb5bf9659f4a51",
+    "commit_date_utc": "2026-11-07T19:12:23Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "K-Dense-AI/scientific-agent-skills@main": {
+    "commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+    "commit_date_utc": "2026-11-16T09:19:24Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "K-Dense-AI/science-superpowers@main": {
+    "commit": "0374bdf82c23",
+    "commit_date_utc": "2026-09-13T14:59:27Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "EvoScientist/EvoSkills@main": {
+    "commit": "85ad685d1df5ed1d7fe641564d04bb8a3dec8f28",
+    "commit_date_utc": "2026-11-13T17:25:42Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "Orchestra-Research/AI-Research-SKILLs@main": {
+    "commit": "773a52944ba4",
+    "commit_date_utc": "2026-06-16T01:36:40Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "TheSyBuilder/research-skills@main": {
+    "commit": "b514e0e58cee",
+    "commit_date_utc": "2026-11-17T07:33:33Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "Norman-bury/research-writing-skill@main": {
+    "commit": "6f7959554b46",
+    "commit_date_utc": "2026-06-10T04:06:19Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "VincenzoImp/academic-research-skills@main": {
+    "commit": "28a4f18e43ae",
+    "commit_date_utc": "2026-07-24T14:34:26Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "lllllllama/RigorPilot-Skills@main": {
+    "commit": "fb3ccdf5aa64",
+    "commit_date_utc": "2026-09-23T14:14:05Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "google-deepmind/science-skills@main": {
+    "commit": "370f8f33e5bb",
+    "commit_date_utc": "2026-11-10T18:45:29Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "meiyou666/research-skills-system@main": {
+    "commit": "6370a59c728f",
+    "commit_date_utc": "2026-08-28T05:51:02Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "WUBING2023/PaperSpine@main": {
+    "commit": "8e1f105b4299",
+    "commit_date_utc": "2026-11-20T12:16:33Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "UCL-ERL/skills@main": {
+    "commit": "9d50603850b6",
+    "commit_date_utc": "2026-09-15T20:50:32Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "wanshuiyin/Auto-claude-code-research-in-sleep@main": {
+    "commit": "4ba94ae2a1c1",
+    "commit_date_utc": "2026-11-19T10:40:49Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "lhtrongai/research-direction-check@main": {
+    "commit": "ca7a6f02accf",
+    "commit_date_utc": "2026-11-14T16:44:45Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "leo-lilinxiao/codex-autoresearch@main": {
+    "commit": "0089369d803a",
+    "commit_date_utc": "2026-11-18T19:14:44Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "c3192095975-ship-it/research-flow@main": {
+    "commit": "08b07894719d",
+    "commit_date_utc": "2026-11-20T13:03:39Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "ray-caster/autoresearch-skill@main": {
+    "commit": "999c06b10d79",
+    "commit_date_utc": "2026-11-17T10:26:59Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "dahliasan/researchskills@main": {
+    "commit": "2c8d6e6aa1da",
+    "commit_date_utc": "2026-11-20T12:37:43Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "javimarlop/scientific-paper-skill@main": {
+    "commit": "773f54851641",
+    "commit_date_utc": "2026-11-20T10:53:53Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "scanady/ds-mlops@main": {
+    "commit": "e1b4653eab2e",
+    "commit_date_utc": "2026-11-20T02:58:15Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "YufanDu-bjtu/paper-easy-reader@main": {
+    "commit": "7f66f55b56a4",
+    "commit_date_utc": "2026-11-20T10:06:06Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "w1-23/scientific-figure@main": {
+    "commit": "3f91dfdd2639",
+    "commit_date_utc": "2026-11-20T13:10:59Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "ed20922/gevolve@main": {
+    "commit": "6713615163da",
+    "commit_date_utc": "2026-11-18T15:37:18Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "Valdemar-Yu/mil-paper-advisor@main": {
+    "commit": "a978d8ca29e3",
+    "commit_date_utc": "2026-11-20T08:57:58Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "Galaxy-Dawn/claude-scholar@codex": {
+    "commit": "b672e80951a2",
+    "commit_date_utc": "2026-09-23T07:02:54Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "onescience-ai/OneSkills@master": {
+    "commit": "5d9186275963",
+    "commit_date_utc": "2026-11-20T07:17:09Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  },
+  "shack/scientific-writing-review@main": {
+    "commit": "3bd2fa21fa3b",
+    "commit_date_utc": "2026-11-20T09:05:22Z",
+    "pin_source": "GitHub commit API response; full SHA recovered from archive PAX header when available"
+  }
+}

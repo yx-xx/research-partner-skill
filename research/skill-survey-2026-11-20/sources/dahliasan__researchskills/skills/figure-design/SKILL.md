@@ -1,0 +1,305 @@
+---
+name: figure-design
+description: >-
+  Plan, create, revise, and audit scientific figures from verified data and
+  manuscript claims. Use for chart selection, multi-panel figure architecture,
+  maps, statistical graphics, legends, annotations, colour and accessibility,
+  journal sizing, source-data traceability, and figure-caption coordination.
+  Does not invent data, choose an analysis after seeing a preferred visual, or
+  treat visual polish as evidence.
+metadata:
+  version: 0.3.0
+---
+
+# Figure design
+
+Turn verified scientific results into accurate, readable figures.
+
+## Scope
+
+This skill owns visual design and figure-level quality control. It does not own:
+
+- statistical analysis or result selection
+- manuscript argument or prose
+- data cleaning without an authoritative specification
+- literature discovery
+- image manipulation that changes scientific content
+
+Use companion workflows when available:
+
+- `research-project-ops` for result IDs, source data, generating code, and output manifests
+- `research-mode` for unresolved study or analytical choices
+- `manuscript-writing` for the claim, figure order, and caption role
+- `ggplot-maps` for R/ggplot2 + `sf` map stacks, polar CRS, basemaps, and `ggsave` recipes
+- a chart, GIS, notebook, or graphics tool for rendering
+
+## Router
+
+| Mode | Use when | Output |
+|---|---|---|
+| `plan` | A result needs a visual | Figure brief and panel plan |
+| `create` | Verified data and claim are available | Reproducible draft figure and caption inputs |
+| `revise` | An existing figure needs improvement | Revised figure plus material changes |
+| `audit` | Checking scientific and visual integrity | Prioritised figure QA report |
+| `journal-adapt` | Resizing or reformatting for a venue | Venue-compliant export without changed meaning |
+
+## Evidence gate
+
+Before designing, locate:
+
+- the question or claim the figure must support
+- authoritative source data
+- result IDs or analysis output
+- units, sample, groups, and uncertainty definition
+- generating code or workflow when available
+- intended manuscript section and figure order
+- target medium, dimensions, and file format when known
+
+Keep these statuses visible:
+
+- `verified source data`
+- `project result`
+- `derived for display`
+- `manual annotation`
+- `[TBC]`
+
+If a visual choice would require a new analysis, transformation, exclusion, or
+aggregation, stop and route that decision to the analysis owner.
+
+## Integrity gate
+
+Never:
+
+- alter values or omit inconvenient observations for visual effect
+- truncate an axis in a way that exaggerates a pattern without clear justification
+- connect observations that are not ordered or meaningfully continuous (for
+  example, do not join sparse multi-year survey points across long unmonitored
+  gaps or across a change in survey method, which implies linear
+  interpolation; use unjoined points with faint horizontal gridlines instead)
+- show uncertainty without defining it
+- imply paired, temporal, spatial, or causal structure that the design does not support
+- use area, volume, or colour intensity inconsistently with the encoded values
+- hide overplotting, missingness, exclusions, or small samples when material
+- export only a raster image when editable or reproducible source is required
+
+## Workflow
+
+1. Identify mode, audience, medium, and venue constraints.
+2. Load the verified claim, result, source data, and current figure if present.
+3. Complete the figure brief.
+4. Select the visual form from the analytical question and data structure.
+5. Plan panels and shared visual encodings before styling.
+6. Build or revise the figure reproducibly where practical.
+7. Check scientific integrity, legibility, accessibility, and manuscript fit.
+8. Test the final-size export rather than only the working-size view.
+9. Save or report source data, code, export, caption inputs, and unresolved items.
+
+## Publication result exports
+
+For research result figures and tables, default to publication-ready artifacts:
+
+- Export figures and maps as PDF only. Generate PNG, SVG or other companion formats only when explicitly requested or required by the target venue. Raster data may be embedded in a PDF; preserve its original source separately.
+- Include core figure elements: data marks, axes and units, legends, colour bars, essential panel identifiers, facet/group labels, and necessary statistical annotations.
+- Keep titles, subtitles, captions, interpretive prose, source notes and method explanations outside the figure canvas. Store caption inputs alongside manuscript text or figure documentation. Preserve required attribution outside the canvas unless its licence explicitly requires otherwise.
+- Export result tables as clean, machine-readable CSV by default; use another format when requested or required. Retain units and clear column names; avoid screenshots and decorative table headings or caption rows.
+- Keep final result folders limited to selected maps, key figures and tables. Store analysis inputs, curve data, metadata and provenance separately; retain maintained generating code in the source tree. Do not create redundant HTML reports, duplicate code snapshots or multi-format exports by default.
+- When cleaning existing exports, first establish which results are current. Preserve authoritative numerical data and unique provenance, then remove superseded and reproducible renderings. Update generators and readers so removed artifacts do not reappear.
+- Check the exported PDF at final dimensions for clipping, typography and legibility, and verify plotted values against the underlying results. Report exports and checks actually completed.
+
+These defaults apply to publication result artifacts. Presentation and web work may use titles or other formats when their brief calls for them. Explicit user or journal requirements take precedence; do not turn stylistic preferences into universal scientific validity tests.
+
+## Publication sizing and typography
+
+Treat typography, point sizes and stroke widths as separate settings. When the
+request concerns lettering, preserve the existing layout and dimensions unless
+there is a demonstrated fit problem. If resizing is needed, explicitly retune
+points and strokes so they do not dominate the panels. A journal column width is
+a placement specification, not a universal maximum for all figures or venues.
+
+Design at the intended final physical size, not a large working canvas that will
+later be reduced. Text shrinks with the figure: 11 pt on a 20-inch canvas becomes
+about 3.9 pt at 180 mm width. Increasing raster DPI does not fix this.
+
+For an unspecified journal, start around 180 mm for a multi-panel figure, with
+7–8 pt axes, ticks, legends and facet labels and 8 pt bold panel identifiers.
+These are working defaults, not universal journal rules. Prefer fewer panels or
+split figures over shrinking labels to fit. Check annotations and custom legends
+as well as theme text. Inspect the complete exported figure at final size for
+clipping, overlapping labels, line weights and readable symbols.
+
+Read [references/publication-sizing.md](references/publication-sizing.md) for
+journal examples and R export settings. Reuse the recorded guidance for routine
+work; verify the target journal at submission or when its rules are uncertain.
+Do not apply Nature's limits to every Nature Portfolio journal or confuse
+manuscript body-text requirements with figure lettering.
+
+## Figure brief
+
+Record:
+
+| Field | Question |
+|---|---|
+| Purpose | Why must this figure exist? |
+| Question | What exact question does it answer? |
+| Claim | What result should the reader understand? |
+| Evidence | Which result IDs and source data support it? |
+| Boundary | What must the figure not imply? |
+| Audience | Specialist, broad scientific, policy, or public? |
+| Medium | Manuscript, presentation, poster, web, or report? |
+| Constraints | Size, panels, colours, format, resolution, or journal rules? |
+
+Use [assets/figure-brief.md](assets/figure-brief.md) when the project has no
+existing figure specification.
+
+## Choose the visual form
+
+Choose based on the comparison, not habit.
+
+| Need | Common starting point |
+|---|---|
+| Compare distributions | dot, interval, box, violin, or raincloud plot |
+| Show estimates and uncertainty | coefficient or forest plot |
+| Show change through time | line or point-interval plot |
+| Show association | scatterplot with justified model summary |
+| Show composition | aligned bars or small multiples; avoid hard-to-compare angles |
+| Show spatial pattern | map with projection, scale, extent, and uncertainty considered |
+| Show model performance | observed-predicted, calibration, residual, or validation plot |
+| Show many repeated units | small multiples or transparent individual trajectories |
+| Explain a process | schematic that clearly separates evidence from conceptual elements |
+
+Read [references/design-guidance.md](references/design-guidance.md) when
+selecting a chart, designing multiple panels, or resolving accessibility issues.
+
+## Multi-panel contract
+
+Every panel should contribute a necessary step in the figure's argument.
+
+Check:
+
+- panels follow the reading order
+- repeated encodings mean the same thing
+- shared axes are genuinely comparable
+- panel labels are unambiguous
+- legends are shared where possible
+- redundant panels are removed
+- detailed diagnostics move to supplementary material when they do not support the main claim
+- the complete figure has one primary takeaway
+
+Do not combine panels merely because they were produced by the same analysis.
+
+## Statistical display
+
+- Show raw observations when they are informative and legible.
+- Define whether intervals are SD, SE, confidence, credible, prediction, or another quantity.
+- Keep denominators and analytical units visible where needed.
+- Distinguish observed data from fitted values and projections.
+- Show transformations or non-linear scales clearly.
+- Use consistent precision between the figure, caption, table, and prose.
+- Avoid significance symbols as the only description of evidence.
+
+## Maps
+
+For spatial figures, verify:
+
+- coordinate reference system and projection
+- geographic extent and inset context
+- scale bar and north arrow only where useful
+- land, coast, bathymetry, or boundaries have a documented source
+- colour scales match the data type and scientific question
+- missing, unsampled, masked, and zero values are visually distinct
+- spatial resolution is not presented as biological precision
+- sensitive locations are generalised when required
+
+## Colour and accessibility
+
+- Do not rely on colour alone to distinguish important groups.
+- Use colourblind-safe, perceptually ordered palettes.
+- Use a diverging palette only around a meaningful midpoint.
+- Keep categorical colours stable across figures.
+- Check grayscale and common colour-vision deficiencies when relevant.
+- Maintain sufficient contrast for text, lines, and symbols.
+- Avoid decorative gradients, shadows, and three-dimensional effects.
+
+## Labels and annotations
+
+- Use units on axes or directly in labels.
+- Prefer direct labels when they reduce legend lookup.
+- Define abbreviations.
+- Annotate only values or events needed to interpret the result.
+- Separate statistical annotations from interpretive claims.
+- Keep type size readable at final dimensions.
+- Use consistent terminology with the manuscript.
+
+## Captions
+
+Write captions to publication standard: self-contained, short, and led by the
+result. A reader should grasp the finding from the figure and caption alone.
+
+1. **Title sentence states the finding**, not the chart type. Write "Fishes and
+   turtles use more threat-exposed areas than the global ocean", not "Bar chart
+   of differences by taxon". Check every number and pattern it names against the
+   plotted data.
+2. **Setup in one or two sentences:** what was measured, on what sample, and
+   against what baseline or comparison. Leave methods detail to Methods.
+3. **Panels:** say what each panel, row or column holds, briefly.
+4. **Encodings:** define each colour, symbol, line, interval and unit, plus the
+   sample size and abbreviations. Use the exact terms printed on the figure.
+5. State what the data show; leave implications to the Discussion.
+
+Avoid walking the reader through the layout ("Within each panel, rows are…
+Light stripes alternate…"). Describe only what is needed to read the result.
+Cut source paths and script names; keep required data attribution.
+
+The caption may be drafted by either skill, but the figure and caption must be
+checked together.
+
+## Audit
+
+Classify findings:
+
+- `BLOCKER`: data mismatch, misleading encoding, missing provenance, or scientifically wrong label
+- `MAJOR`: unclear claim, unsuitable chart, hidden uncertainty, illegible final size, or inconsistent panels
+- `MINOR`: local label, spacing, legend, or ordering problem
+- `EDITORIAL`: cosmetic preference with no material effect
+
+Check:
+
+1. figure values match authoritative outputs
+2. encodings match the variable types and comparisons
+3. uncertainty, sample, units, and transformations are defined
+4. axes, legends, labels, and annotations are accurate
+5. palettes and symbols remain accessible
+6. panels form one coherent argument
+7. final-size export is legible
+8. figure, caption, Results prose, and tables agree
+9. source data and generating code are recoverable
+
+## Output contract
+
+For planning:
+
+1. figure brief
+2. recommended visual form and reason
+3. panel plan
+4. source-data and analysis requirements
+5. unresolved scientific decisions
+
+For creating or revising:
+
+1. figure or exact generating changes
+2. source-data and code paths
+3. caption inputs
+4. material scientific or accessibility issues
+
+For audit:
+
+```markdown
+## Readiness
+READY | READY WITH GAPS | NOT READY
+
+## Findings
+- [severity] panel or location: issue and required action
+
+## Highest-value next action
+...
+```
